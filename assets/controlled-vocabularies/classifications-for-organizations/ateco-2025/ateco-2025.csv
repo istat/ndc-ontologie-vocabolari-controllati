@@ -285,7 +285,7 @@ C;ATTIVITÀ MANIFATTURIERE;
 10.62.0;Produzione di amidi e di prodotti amidacei;Manufacture of starches and starch products
 10.62.00;Produzione di amidi e di prodotti amidacei;Manufacture of starches and starch products
 10.7;PRODUZIONE DI PRODOTTI DA FORNO E FARINACEI;Manufacture of bakery and farinaceous products
-10.71;"Produzione di pane; produzione di prodotti di pasticceria freschi";"Manufacture of bread; manufacture of fresh pastry goods and cakes"
+10.71;Produzione di pane; produzione di prodotti di pasticceria freschi;Manufacture of bread; manufacture of fresh pastry goods and cakes
 10.71.1;Produzione di pane e prodotti di panetteria simili;Manufacture of bread and similar products
 10.71.10;Produzione di pane e prodotti di panetteria simili;Manufacture of bread and similar products
 10.71.2;Produzione di prodotti di pasticceria freschi;Manufacture of fresh pastry goods and cakes
@@ -429,7 +429,7 @@ C;ATTIVITÀ MANIFATTURIERE;
 14.29.0;Fabbricazione di altri articoli di abbigliamento e accessori n.c.a.;Manufacture of other wearing apparel and accessories n.e.c.
 14.29.00;Fabbricazione di altri articoli di abbigliamento e accessori n.c.a.;Manufacture of other wearing apparel and accessories n.e.c.
 15;Fabbricazione di pelli e cuoi e articoli in pelle e simili di altri materiali;Manufacture of leather and related products of other materials
-15.1;"Concia, tintura e rifinizione di pelli, cuoi e pellicce; fabbricazione di articoli da viaggio, borse, pelletteria e selleria";"Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness"
+15.1;Concia, tintura e rifinizione di pelli, cuoi e pellicce; fabbricazione di articoli da viaggio, borse, pelletteria e selleria;Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness
 15.11;Concia, tintura e rifinizione di pelli, cuoi e pellicce;Tanning, dressing, dyeing of leather and fur
 15.11.0;Concia, tintura e rifinizione di pelli, cuoi e pellicce;Tanning, dressing, dyeing of leather and fur
 15.11.00;Concia, tintura e rifinizione di pelli, cuoi e pellicce;Tanning, dressing, dyeing of leather and fur
@@ -442,8 +442,8 @@ C;ATTIVITÀ MANIFATTURIERE;
 15.20.10;Fabbricazione di calzature, escluse parti in cuoio per calzature;Manufacture of footwear, other than leather parts of footwear
 15.20.2;Fabbricazione di parti in cuoio per calzature;
 15.20.20;Fabbricazione di parti in cuoio per calzature;
-16;"Produzione e lavorazione del legno e dei prodotti a base di legno e sughero, esclusi i mobili; fabbricazione di articoli in paglia e materiale da intreccio";"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
-16.1;"Taglio e piallatura del legno; lavorazione e finitura del legno";"Sawmilling and planing of wood; processing and finishing of wood"
+16;Produzione e lavorazione del legno e dei prodotti a base di legno e sughero, esclusi i mobili; fabbricazione di articoli in paglia e materiale da intreccio;Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials
+16.1;Taglio e piallatura del legno; lavorazione e finitura del legno;Sawmilling and planing of wood; processing and finishing of wood
 16.11;TAGLIO E PIALLATURA DEL LEGNO;Sawmilling and planing of wood
 16.11.0;TAGLIO E PIALLATURA DEL LEGNO;Sawmilling and planing of wood
 16.11.00;TAGLIO E PIALLATURA DEL LEGNO;Sawmilling and planing of wood
@@ -834,7 +834,7 @@ C;ATTIVITÀ MANIFATTURIERE;
 25.40;Fucinatura e formatura dei metalli e metallurgia delle polveri;Forging and shaping metal and powder metallurgy
 25.40.0;Fucinatura e formatura dei metalli e metallurgia delle polveri;Forging and shaping metal and powder metallurgy
 25.40.00;Fucinatura e formatura dei metalli e metallurgia delle polveri;Forging and shaping metal and powder metallurgy
-25.5;"TRATTAMENTO E RIVESTIMENTO DEI METALLI; LAVORI DI MECCANICA GENERALE";"Treatment and coating of metals; machining"
+25.5;TRATTAMENTO E RIVESTIMENTO DEI METALLI; LAVORI DI MECCANICA GENERALE;Treatment and coating of metals; machining
 25.51;Rivestimento dei metalli;Coating of metals
 25.51.0;Rivestimento dei metalli;Coating of metals
 25.51.00;Rivestimento dei metalli;Coating of metals
@@ -1079,10 +1079,10 @@ C;ATTIVITÀ MANIFATTURIERE;
 29.10;FABBRICAZIONE DI AUTOVEICOLI;Manufacture of motor vehicles
 29.10.0;FABBRICAZIONE DI AUTOVEICOLI;Manufacture of motor vehicles
 29.10.00;FABBRICAZIONE DI AUTOVEICOLI;Manufacture of motor vehicles
-29.2;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"
-29.20;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"
-29.20.0;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"
-29.20.00;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers"
+29.2;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers
+29.20;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers
+29.20.0;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers
+29.20.00;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers
 29.3;Fabbricazione di parti e accessori per autoveicoli;Manufacture of motor vehicle parts and accessories
 29.31;Fabbricazione di apparecchiature elettriche ed elettroniche per autoveicoli;Manufacture of electrical and electronic equipment for motor vehicles
 29.31.0;Fabbricazione di apparecchiature elettriche ed elettroniche per autoveicoli;Manufacture of electrical and electronic equipment for motor vehicles
@@ -1327,7 +1327,7 @@ D;FORNITURA DI ENERGIA ELETTRICA, GAS, VAPORE E ARIA CONDIZIONATA;
 35.40;Attività di servizi di intermediazione per l'energia elettrica e il gas naturale;Activities of brokers and agents for electric power and natural gas
 35.40.0;Attività di servizi di intermediazione per l'energia elettrica e il gas naturale;Activities of brokers and agents for electric power and natural gas
 35.40.00;Attività di servizi di intermediazione per l'energia elettrica e il gas naturale;Activities of brokers and agents for electric power and natural gas
-E;"FORNITURA DI ACQUA; GESTIONE DI RETI FOGNARIE, ATTIVITÀ DI TRATTAMENTO DEI RIFIUTI E RISANAMENTO";"WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES"
+E;FORNITURA DI ACQUA; GESTIONE DI RETI FOGNARIE, ATTIVITÀ DI TRATTAMENTO DEI RIFIUTI E RISANAMENTO;WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES
 36;RACCOLTA, TRATTAMENTO E FORNITURA DI ACQUA;Water collection, treatment and supply
 36.0;RACCOLTA, TRATTAMENTO E FORNITURA DI ACQUA;Water collection, treatment and supply
 36.00;RACCOLTA, TRATTAMENTO E FORNITURA DI ACQUA;Water collection, treatment and supply
@@ -2489,9 +2489,9 @@ N;ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE;
 69.10.20;Attività notarili;Notarial activities
 69.10.3;Attività di supporto alle attività legali, giuridiche e notarili;Support activities for legal activities
 69.10.30;Attività di supporto alle attività legali, giuridiche e notarili;Support activities for legal activities
-69.2;"Attività di contabilità, controllo e revisione contabile; consulenza fiscale";"Accounting, bookkeeping and auditing activities; tax consultancy"
-69.20;"Attività di contabilità, controllo e revisione contabile; consulenza fiscale";"Accounting, bookkeeping and auditing activities; tax consultancy"
-69.20.0;"Attività di contabilità, controllo e revisione contabile; consulenza fiscale";"Accounting, bookkeeping and auditing activities; tax consultancy"
+69.2;Attività di contabilità, controllo e revisione contabile; consulenza fiscale;Accounting, bookkeeping and auditing activities; tax consultancy
+69.20;Attività di contabilità, controllo e revisione contabile; consulenza fiscale;Accounting, bookkeeping and auditing activities; tax consultancy
+69.20.0;Attività di contabilità, controllo e revisione contabile; consulenza fiscale;Accounting, bookkeeping and auditing activities; tax consultancy
 69.20.01;Attività di commercialisti;Activities provided by accountants
 69.20.02;Attività di revisori legali in ambito contabile;Activities provided by accounting auditors
 69.20.03;Attività di esperti contabili;Activities provided by accounting experts
@@ -2510,7 +2510,7 @@ N;ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE;
 70.20.01;Attività di consulenza in materia di logistica;Logistics management consulting activities
 70.20.02;Attività di certificazione di processi;Certification of processes
 70.20.09;Consulenza imprenditoriale e altre attività di consulenza gestionale n.c.a.;Business and other management consultancy activities n.e.c.
-71;"Attività di architettura e ingegneria; collaudi e analisi tecniche";"Architectural and engineering activities; technical testing and analysis"
+71;Attività di architettura e ingegneria; collaudi e analisi tecniche;Architectural and engineering activities; technical testing and analysis
 71.1;Attività di architettura, di ingegneria e altre consulenze tecniche connesse;Architectural and engineering activities and related technical consultancy
 71.11;Attività di architettura;Architectural activities
 71.11.0;Attività di architettura;Architectural activities
@@ -2790,8 +2790,8 @@ O;ATTIVITÀ AMMINISTRATIVE E DI SERVIZI DI SUPPORTO;ADMINISTRATIVE AND SUPPORT S
 82.99.9;Altri servizi vari di supporto alle imprese n.c.a.;Other various business support service activities n.e.c.
 82.99.91;Rilevamento del consumo di calore e acqua calda;Reading of consumption of heat and hot water
 82.99.99;Tutti gli altri servizi vari di supporto alle imprese n.c.a.;All other various business support service activities n.e.c.
-P;"AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA";
-84;"AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA";
+P;AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA;
+84;AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA;
 84.1;Amministrazione dello Stato e delle politiche economiche, sociali e ambientali della comunità;Administration of the State and the economic, social and environmental policies of the community
 84.11;Attività generali di amministrazione pubblica;General public administration activities
 84.11.1;Attività degli organi legislativi ed esecutivi e delle amministrazioni centrali e locali;Activities of executive, legislative and fiscal administration of central, regional and local bodies
