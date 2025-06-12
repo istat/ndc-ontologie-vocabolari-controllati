@@ -1,5 +1,5 @@
 @prefix gsim: <http://www.datiopen.istat.it/Ontologie/meta/gsim/> .
-@prefix : <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/> .
+@prefix : <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/> .
 @prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix clvapit: <https://w3id.org/italia/onto/CLV/> .
@@ -318,7 +318,7 @@ ndc:keyConcept a rdfs:Property .
 
 :A a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "A";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -332,7 +332,7 @@ ndc:keyConcept a rdfs:Property .
   skos:hasTopConcept :A, :B, :C, :D, :E, :F, :G, :H, :I, :J, :K, :L, :M, :N, :O, :P,
     :Q, :R, :S, :T, :U, :V .
 
-<https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>
+<https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>
   skos:narrower :A, :B, :C, :D, :E, :F, :G, :H, :I, :J, :K, :L, :M, :N, :O, :P, :Q,
     :R, :S, :T, :U, :V .
 
@@ -378,7 +378,7 @@ ndc:keyConcept a rdfs:Property .
 
 :B a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "B";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -393,7 +393,7 @@ ndc:keyConcept a rdfs:Property .
 
 :C a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "C";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "ATTIVITÀ MANIFATTURIERE"@it;
@@ -404,7 +404,7 @@ ndc:keyConcept a rdfs:Property .
 
 :D a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "D";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -418,7 +418,7 @@ ndc:keyConcept a rdfs:Property .
 
 :E a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "E";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -433,7 +433,7 @@ ndc:keyConcept a rdfs:Property .
 
 :F a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "F";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -449,7 +449,7 @@ ndc:keyConcept a rdfs:Property .
 
 :G a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "G";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -465,7 +465,7 @@ ndc:keyConcept a rdfs:Property .
 
 :H a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "H";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -482,7 +482,7 @@ ndc:keyConcept a rdfs:Property .
 
 :I a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "I";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -496,7 +496,7 @@ ndc:keyConcept a rdfs:Property .
 
 :J a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "J";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -514,7 +514,7 @@ ndc:keyConcept a rdfs:Property .
 
 :K a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "K";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -530,7 +530,7 @@ ndc:keyConcept a rdfs:Property .
 
 :L a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "L";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -542,7 +542,7 @@ ndc:keyConcept a rdfs:Property .
 
 :M a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "M";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """È prevista una regola specifica per la classificazione delle attività di fornitura di servizi di alloggio (o affitto) in case e appartamenti all'interno delle divisioni 55 o 68 basata sulla durata del servizio offerto. In particolare: la fornitura di servizi di alloggio (o affitto) in case e appartamenti per un periodo superiore a un anno deve essere classificata nella classe 68.20; la fornitura di servizi di alloggio (o affitto) in case e appartamenti a turisti per un periodo inferiore a un anno deve essere classificata nella classe 55.20; la fornitura di servizi di alloggio (affitto) in case e appartamenti a lavoratori e studenti (per motivi non-holiday o non di vacanza) per un periodo inferiore a un anno deve essere classificata nella classe 55.90.Sono escluse le seguenti attività:
@@ -554,7 +554,7 @@ ndc:keyConcept a rdfs:Property .
 
 :N a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "N";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE"@it;
@@ -564,7 +564,7 @@ ndc:keyConcept a rdfs:Property .
 
 :O a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "O";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "ATTIVITÀ AMMINISTRATIVE E DI SERVIZI DI SUPPORTO"@it, "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES"@en;
@@ -574,7 +574,7 @@ ndc:keyConcept a rdfs:Property .
 
 :P a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "P";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA"@it;
@@ -584,7 +584,7 @@ ndc:keyConcept a rdfs:Property .
 
 :Q a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "Q";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """In questa sezione sono classificate anche le attività di istituti omnicomprensivi cioè attività di strutture che offrono programmi educativi afferenti a diversi livelli di istruzione. Per determinare l'attività economica principale svolta da tali unità si ricorre solitamente a criteri alternativi al valore aggiunto (cfr. linee guida introduttive della classificazione NACE/ATECO o linee guida tecnico-metodologiche della classificazione NACE/ATECO), in particolare al numero di studenti iscritti in ognuno dei livelli considerati.Sono escluse le seguenti attività:
@@ -596,7 +596,7 @@ ndc:keyConcept a rdfs:Property .
 
 :R a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "R";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Questa sezione include discipline, servizi e attività svolte in ambito sanitario o comunque finalizzate a sostenere e tutelare la salute umana nei processi di prevenzione, cura integrata, riabilitazione.Sono escluse le seguenti attività:
@@ -609,7 +609,7 @@ ndc:keyConcept a rdfs:Property .
 
 :S a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "S";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "ATTIVITÀ ARTISTICHE, SPORTIVE E DI DIVERTIMENTO"@it, "ARTS, SPORTS AND RECREATION"@en;
@@ -619,7 +619,7 @@ ndc:keyConcept a rdfs:Property .
 
 :T a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "T";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "ALTRE ATTIVITÀ DI SERVIZI"@it;
@@ -629,7 +629,7 @@ ndc:keyConcept a rdfs:Property .
 
 :U a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "U";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "ATTIVITÀ DI FAMIGLIE E CONVIVENZE COME DATORI DI LAVORO PER PERSONALE DOMESTICO E PRODUZIONE DI BENI E SERVIZI INDIFFERENZIATI PER USO PROPRIO DA PARTE DI FAMIGLIE E CONVIVENZE"@it,
@@ -638,7 +638,7 @@ ndc:keyConcept a rdfs:Property .
 
 :V a skos:Concept, covapit:PrivateOrgActivityType;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>;
-  skos:broader <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
+  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025/>;
   skos:notation "V";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:prefLabel "ATTIVITÀ DI ORGANIZZAZIONI E ORGANISMI EXTRATERRITORIALI"@it, "ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"@en;
