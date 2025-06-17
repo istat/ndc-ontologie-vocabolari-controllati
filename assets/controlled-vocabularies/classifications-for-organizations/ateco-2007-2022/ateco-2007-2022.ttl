@@ -147,7 +147,7 @@ vcard:hasEmail a owl:ObjectProperty .
 
 clvapit:hasRankOrder a owl:AnnotationProperty .
 
-ndc:keyConcept a rdfs:Property .
+ndc:keyConcept a rdf:Property .
 
 
 ####inizio metadati####
