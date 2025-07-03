@@ -200,7 +200,7 @@ B;ATTIVITÀ ESTRATTIVE;MINING AND QUARRYING;BERGBAU UND GEWINNUNG VON STEINEN UN
 08.12;Estrazione di ghiaia, sabbia, argilla e caolino;Operation of gravel and sand pits and mining of clay and kaolin;Gewinnung von Kies und Sand, Ton und Kaolin
 08.12.0;Estrazione di ghiaia, sabbia, argilla e caolino;Operation of gravel and sand pits and mining of clay and kaolin;Gewinnung von Kies und Sand, Ton und Kaolin
 08.12.00;Estrazione di ghiaia, sabbia, argilla e caolino;Operation of gravel and sand pits and mining of clay and kaolin;Gewinnung von Kies und Sand, Ton und Kaolin
-08.9;Attività estrattive n.c.a.;Mining and quarrying n.e.c.;"Sonstiger Bergbau; Gewinnung von Steinen und Erden a. n. g."
+08.9;Attività estrattive n.c.a.;Mining and quarrying n.e.c.;Sonstiger Bergbau; Gewinnung von Steinen und Erden a. n. g.
 08.91;Estrazione di minerali per l'industria chimica e per la produzione di fertilizzanti;Mining of chemical and fertiliser minerals;Bergbau auf chemische und Düngemittelminerale
 08.91.0;Estrazione di minerali per l'industria chimica e per la produzione di fertilizzanti;Mining of chemical and fertiliser minerals;Bergbau auf chemische und Düngemittelminerale
 08.91.00;Estrazione di minerali per l'industria chimica e per la produzione di fertilizzanti;Mining of chemical and fertiliser minerals;Bergbau auf chemische und Düngemittelminerale
@@ -285,7 +285,7 @@ C;ATTIVITÀ MANIFATTURIERE;MANUFACTURING;VERARBEITENDES GEWERBE/HERSTELLUNG VON 
 10.62.0;Produzione di amidi e di prodotti amidacei;Manufacture of starches and starch products;Herstellung von Stärke und Stärkeerzeugnissen
 10.62.00;Produzione di amidi e di prodotti amidacei;Manufacture of starches and starch products;Herstellung von Stärke und Stärkeerzeugnissen
 10.7;Produzione di prodotti da forno e farinacei;Manufacture of bakery and farinaceous products;Herstellung von Back- und Teigwaren
-10.71;"Produzione di pane; produzione di prodotti di pasticceria freschi";"Manufacture of bread; manufacture of fresh pastry goods and cakes";Herstellung von Backwaren, ohne Dauerbackwaren
+10.71;Produzione di pane; produzione di prodotti di pasticceria freschi;Manufacture of bread; manufacture of fresh pastry goods and cakes;Herstellung von Backwaren, ohne Dauerbackwaren
 10.71.1;Produzione di pane e prodotti di panetteria simili;Manufacture of bread and similar products;Herstellung von Brot und ähnlichen Backwaren
 10.71.10;Produzione di pane e prodotti di panetteria simili;Manufacture of bread and similar products;Herstellung von Brot und ähnlichen Backwaren
 10.71.2;Produzione di prodotti di pasticceria freschi;Manufacture of fresh pastry goods and cakes;Herstellung von frischen Feinbackwaren
@@ -429,7 +429,7 @@ C;ATTIVITÀ MANIFATTURIERE;MANUFACTURING;VERARBEITENDES GEWERBE/HERSTELLUNG VON 
 14.29.0;Fabbricazione di altri articoli di abbigliamento e accessori n.c.a.;Manufacture of other wearing apparel and accessories n.e.c.;Herstellung von sonstiger Bekleidung und Bekleidungszubehör a. n. g.
 14.29.00;Fabbricazione di altri articoli di abbigliamento e accessori n.c.a.;Manufacture of other wearing apparel and accessories n.e.c.;Herstellung von sonstiger Bekleidung und Bekleidungszubehör a. n. g.
 15;Fabbricazione di pelli e cuoi e articoli in pelle e simili di altri materiali;Manufacture of leather and related products of other materials;Herstellung von Leder, Lederwaren und ähnlichen Produkten aus anderen Materialen
-15.1;"Concia, tintura e rifinizione di pelli, cuoi e pellicce; fabbricazione di articoli da viaggio, borse, pelletteria e selleria";"Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness";"Gerben, Färben, Zurichten von Leder und Fellen; Herstellung von Reisegepäck, Handtaschen, Sattlerwaren und Geschirren"
+15.1;Concia, tintura e rifinizione di pelli, cuoi e pellicce; fabbricazione di articoli da viaggio, borse, pelletteria e selleria;Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness;Gerben, Färben, Zurichten von Leder und Fellen; Herstellung von Reisegepäck, Handtaschen, Sattlerwaren und Geschirren
 15.11;Concia, tintura e rifinizione di pelli, cuoi e pellicce;Tanning, dressing, dyeing of leather and fur;Gerben, Färben, Zurichten von Leder und Fellen
 15.11.0;Concia, tintura e rifinizione di pelli, cuoi e pellicce;Tanning, dressing, dyeing of leather and fur;Gerben, Färben, Zurichten von Leder und Fellen
 15.11.00;Concia, tintura e rifinizione di pelli, cuoi e pellicce;Tanning, dressing, dyeing of leather and fur;Gerben, Färben, Zurichten von Leder und Fellen
@@ -442,8 +442,8 @@ C;ATTIVITÀ MANIFATTURIERE;MANUFACTURING;VERARBEITENDES GEWERBE/HERSTELLUNG VON 
 15.20.10;Fabbricazione di calzature, escluse parti in cuoio per calzature;Manufacture of footwear, other than leather parts of footwear;Herstellung von Schuhen, ohne Schuhteile aus Leder
 15.20.2;Fabbricazione di parti in cuoio per calzature;Manufacture of leather parts of footwear;Herstellung von Schuhteilen aus Leder
 15.20.20;Fabbricazione di parti in cuoio per calzature;Manufacture of leather parts of footwear;Herstellung von Schuhteilen aus Leder
-16;"Produzione e lavorazione del legno e dei prodotti a base di legno e sughero, esclusi i mobili; fabbricazione di articoli in paglia e materiale da intreccio";"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials";Herstellung von Holz-, Flecht-, Korb- und Korkwaren, ohne Möbel
-16.1;"Taglio e piallatura del legno; lavorazione e finitura del legno";"Sawmilling and planing of wood; processing and finishing of wood";"Säge- und Hobelwerke; Bearbeitung und Veredlung von Holz"
+16;Produzione e lavorazione del legno e dei prodotti a base di legno e sughero, esclusi i mobili; fabbricazione di articoli in paglia e materiale da intreccio;Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials;Herstellung von Holz-, Flecht-, Korb- und Korkwaren, ohne Möbel
+16.1;Taglio e piallatura del legno; lavorazione e finitura del legno;Sawmilling and planing of wood; processing and finishing of wood;Säge- und Hobelwerke; Bearbeitung und Veredlung von Holz
 16.11;Taglio e piallatura del legno;Sawmilling and planing of wood;Säge- und Hobelwerke
 16.11.0;Taglio e piallatura del legno;Sawmilling and planing of wood;Säge- und Hobelwerke
 16.11.00;Taglio e piallatura del legno;Sawmilling and planing of wood;Säge- und Hobelwerke
@@ -506,7 +506,7 @@ C;ATTIVITÀ MANIFATTURIERE;MANUFACTURING;VERARBEITENDES GEWERBE/HERSTELLUNG VON 
 17.25;Fabbricazione di altri articoli di carta e cartone;Manufacture of other articles of paper and paperboard;Herstellung von sonstigen Waren aus Papier, Karton und Pappe
 17.25.0;Fabbricazione di altri articoli di carta e cartone;Manufacture of other articles of paper and paperboard;Herstellung von sonstigen Waren aus Papier, Karton und Pappe
 17.25.00;Fabbricazione di altri articoli di carta e cartone;Manufacture of other articles of paper and paperboard;Herstellung von sonstigen Waren aus Papier, Karton und Pappe
-18;Stampa e riproduzione di supporti registrati;Printing and reproduction of recorded media;"Herstellung von Druckerzeugnissen; Vervielfältigung von bespielten Ton-, Bild- und Datenträgern"
+18;Stampa e riproduzione di supporti registrati;Printing and reproduction of recorded media;Herstellung von Druckerzeugnissen; Vervielfältigung von bespielten Ton-, Bild- und Datenträgern
 18.1;Stampa e servizi connessi alla stampa;Printing and service activities related to printing;Herstellung von Druckerzeugnissen
 18.11;Stampa di giornali;Printing of newspapers;Drucken von Zeitungen
 18.11.0;Stampa di giornali;Printing of newspapers;Drucken von Zeitungen
@@ -834,7 +834,7 @@ C;ATTIVITÀ MANIFATTURIERE;MANUFACTURING;VERARBEITENDES GEWERBE/HERSTELLUNG VON 
 25.40;Fucinatura e formatura dei metalli e metallurgia delle polveri;Forging and shaping metal and powder metallurgy;Herstellung von Schmiede-, Press-, Zieh- und Stanzteilen und pulvermetallurgischen Erzeugnissen
 25.40.0;Fucinatura e formatura dei metalli e metallurgia delle polveri;Forging and shaping metal and powder metallurgy;Herstellung von Schmiede-, Press-, Zieh- und Stanzteilen und pulvermetallurgischen Erzeugnissen
 25.40.00;Fucinatura e formatura dei metalli e metallurgia delle polveri;Forging and shaping metal and powder metallurgy;Herstellung von Schmiede-, Press-, Zieh- und Stanzteilen und pulvermetallurgischen Erzeugnissen
-25.5;"Trattamento e rivestimento dei metalli; lavori di meccanica generale";"Treatment and coating of metals; machining";"Oberflächenveredlung und Wärmebehandlung; Metallbearbeitung"
+25.5;Trattamento e rivestimento dei metalli; lavori di meccanica generale;Treatment and coating of metals; machining;Oberflächenveredlung und Wärmebehandlung; Metallbearbeitung
 25.51;Rivestimento dei metalli;Coating of metals;Beschichten von Metallen
 25.51.0;Rivestimento dei metalli;Coating of metals;Beschichten von Metallen
 25.51.00;Rivestimento dei metalli;Coating of metals;Beschichten von Metallen
@@ -1079,10 +1079,10 @@ C;ATTIVITÀ MANIFATTURIERE;MANUFACTURING;VERARBEITENDES GEWERBE/HERSTELLUNG VON 
 29.10;Fabbricazione di autoveicoli;Manufacture of motor vehicles;Herstellung von Kraftwagen und Kraftwagenmotoren
 29.10.0;Fabbricazione di autoveicoli;Manufacture of motor vehicles;Herstellung von Kraftwagen und Kraftwagenmotoren
 29.10.00;Fabbricazione di autoveicoli;Manufacture of motor vehicles;Herstellung von Kraftwagen und Kraftwagenmotoren
-29.2;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers";Herstellung von Karosserien, Aufbauten und Anhängern
-29.20;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers";Herstellung von Karosserien, Aufbauten und Anhängern
-29.20.0;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers";Herstellung von Karosserien, Aufbauten und Anhängern
-29.20.00;"Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi";"Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers";Herstellung von Karosserien, Aufbauten und Anhängern
+29.2;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers;Herstellung von Karosserien, Aufbauten und Anhängern
+29.20;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers;Herstellung von Karosserien, Aufbauten und Anhängern
+29.20.0;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers;Herstellung von Karosserien, Aufbauten und Anhängern
+29.20.00;Fabbricazione di carrozzerie per autoveicoli; fabbricazione di rimorchi e semirimorchi;Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers;Herstellung von Karosserien, Aufbauten und Anhängern
 29.3;Fabbricazione di parti e accessori per autoveicoli;Manufacture of motor vehicle parts and accessories;Herstellung von Teilen und Zubehör für Kraftwagen
 29.31;Fabbricazione di apparecchiature elettriche ed elettroniche per autoveicoli;Manufacture of electrical and electronic equipment for motor vehicles;Herstellung elektrischer und elektronischer Ausrüstungsgegenstände für Kraftwagen
 29.31.0;Fabbricazione di apparecchiature elettriche ed elettroniche per autoveicoli;Manufacture of electrical and electronic equipment for motor vehicles;Herstellung elektrischer und elektronischer Ausrüstungsgegenstände für Kraftwagen
@@ -1327,7 +1327,7 @@ D;FORNITURA DI ENERGIA ELETTRICA, GAS, VAPORE E ARIA CONDIZIONATA;ELECTRICITY, G
 35.40;Attività di servizi di intermediazione per l'energia elettrica e il gas naturale;Activities of brokers and agents for electric power and natural gas;Tätigkeiten von Strom- und Erdgasmaklerinnen und -maklern
 35.40.0;Attività di servizi di intermediazione per l'energia elettrica e il gas naturale;Activities of brokers and agents for electric power and natural gas;Tätigkeiten von Strom- und Erdgasmaklerinnen und -maklern
 35.40.00;Attività di servizi di intermediazione per l'energia elettrica e il gas naturale;Activities of brokers and agents for electric power and natural gas;Tätigkeiten von Strom- und Erdgasmaklerinnen und -maklern
-E;"FORNITURA DI ACQUA; GESTIONE DI RETI FOGNARIE, ATTIVITÀ DI TRATTAMENTO DEI RIFIUTI E RISANAMENTO";"WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES";"WASSERVERSORGUNG; ABWASSER- UND ABFALLENTSORGUNG UND BESEITIGUNG VON UMWELTVERSCHMUTZUNGEN"
+E;FORNITURA DI ACQUA; GESTIONE DI RETI FOGNARIE, ATTIVITÀ DI TRATTAMENTO DEI RIFIUTI E RISANAMENTO;WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES;WASSERVERSORGUNG; ABWASSER- UND ABFALLENTSORGUNG UND BESEITIGUNG VON UMWELTVERSCHMUTZUNGEN
 36;Raccolta, trattamento e fornitura di acqua;Water collection, treatment and supply;Wasserversorgung
 36.0;Raccolta, trattamento e fornitura di acqua;Water collection, treatment and supply;Wasserversorgung
 36.00;Raccolta, trattamento e fornitura di acqua;Water collection, treatment and supply;Wasserversorgung
@@ -2219,7 +2219,7 @@ I;ATTIVITÀ DEI SERVIZI DI ALLOGGIO E DI RISTORAZIONE;ACCOMMODATION AND FOOD SER
 55.90.0;Altri servizi di alloggio;Other accommodation;Sonstige Beherbergungsstätten
 55.90.00;Altri servizi di alloggio;Other accommodation;Sonstige Beherbergungsstätten
 56;Attività di servizi di ristorazione;Food and beverage service activities;Gastronomie
-56.1;Attività di ristoranti e di servizi di ristorazione mobile;Restaurants and mobile food service activities;"Restaurants, Gaststätten, Imbissstuben, Cafés, Eissalons u. Ä.; mobile Gastronomie"
+56.1;Attività di ristoranti e di servizi di ristorazione mobile;Restaurants and mobile food service activities;Restaurants, Gaststätten, Imbissstuben, Cafés, Eissalons u. Ä.; mobile Gastronomie
 56.11;Attività di ristoranti;Restaurant activities;Restaurants, Gaststätten, Imbissstuben, Cafés, Eissalons u. Ä.
 56.11.1;Attività di ristoranti, escluse gelaterie e pasticcerie;Restaurants, other than ice cream parlours and pastry shops;Restaurants, Gaststätten, Imbissstuben, Cafés u. Ä., ohne Eissalons und Konditoreien
 56.11.11;Attività di ristoranti con servizio al tavolo, escluse gelaterie e pasticcerie;Table-service restaurants, other than ice cream parlours and pastry shops;Restaurants, Gaststätten, Imbissstuben, Cafés u. Ä. mit Bedienung am Tisch, ohne Eissalons und Konditoreien
@@ -2280,7 +2280,7 @@ J;ATTIVITÀ EDITORIALI, TRASMISSIONI RADIOFONICHE E PRODUZIONE E DISTRIBUZIONE D
 58.29;Edizione di altri software;Other software publishing;Verlegen von sonstiger Software
 58.29.0;Edizione di altri software;Other software publishing;Verlegen von sonstiger Software
 58.29.00;Edizione di altri software;Other software publishing;Verlegen von sonstiger Software
-59;Attività di produzione, post-produzione e distribuzione cinematografica, di video e programmi televisivi, di registrazioni musicali e sonore;Motion picture, video and television programme production, sound recording and music publishing activities;"Herstellung, Verleih und Vertrieb von Filmen und Fernsehprogrammen; Kinos; Tonstudios und Verlegen von Musik"
+59;Attività di produzione, post-produzione e distribuzione cinematografica, di video e programmi televisivi, di registrazioni musicali e sonore;Motion picture, video and television programme production, sound recording and music publishing activities;Herstellung, Verleih und Vertrieb von Filmen und Fernsehprogrammen; Kinos; Tonstudios und Verlegen von Musik
 59.1;Attività di produzione, post-produzione e distribuzione cinematografica, di video e programmi televisivi;Motion picture, video and television programme activities;Herstellung von Filmen und Fernsehprogrammen, deren Verleih und Vertrieb, Kinos
 59.11;Attività di produzione cinematografica, di video e programmi televisivi;Motion picture, video and television programme production activities;Herstellung von Filmen, Videofilmen und Fernsehprogrammen
 59.11.0;Attività di produzione cinematografica, di video e programmi televisivi;Motion picture, video and television programme production activities;Herstellung von Filmen, Videofilmen und Fernsehprogrammen
@@ -2294,10 +2294,10 @@ J;ATTIVITÀ EDITORIALI, TRASMISSIONI RADIOFONICHE E PRODUZIONE E DISTRIBUZIONE D
 59.14;Attività di proiezione cinematografica;Motion picture projection activities;Kinos
 59.14.0;Attività di proiezione cinematografica;Motion picture projection activities;Kinos
 59.14.00;Attività di proiezione cinematografica;Motion picture projection activities;Kinos
-59.2;Attività di registrazione sonora e dell'editoria musicale;Sound recording and music publishing activities;"Tonstudios; Herstellung von Hörfunkbeiträgen; Verlegen von bespielten Tonträgern und Musikalien"
-59.20;Attività di registrazione sonora e dell'editoria musicale;Sound recording and music publishing activities;"Tonstudios; Herstellung von Hörfunkbeiträgen; Verlegen von bespielten Tonträgern und Musikalien"
-59.20.1;Attività di registrazione sonora;Sound recording activities;"Tonstudios; Herstellung von Hörfunkbeiträgen"
-59.20.10;Attività di registrazione sonora;Sound recording activities;"Tonstudios; Herstellung von Hörfunkbeiträgen"
+59.2;Attività di registrazione sonora e dell'editoria musicale;Sound recording and music publishing activities;Tonstudios; Herstellung von Hörfunkbeiträgen; Verlegen von bespielten Tonträgern und Musikalien
+59.20;Attività di registrazione sonora e dell'editoria musicale;Sound recording and music publishing activities;Tonstudios; Herstellung von Hörfunkbeiträgen; Verlegen von bespielten Tonträgern und Musikalien
+59.20.1;Attività di registrazione sonora;Sound recording activities;Tonstudios; Herstellung von Hörfunkbeiträgen
+59.20.10;Attività di registrazione sonora;Sound recording activities;Tonstudios; Herstellung von Hörfunkbeiträgen
 59.20.2;Editoria musicale;Music publishing activities;Verlegen von bespielten Tonträgern und Musikalien
 59.20.20;Editoria musicale;Music publishing activities;Verlegen von bespielten Tonträgern und Musikalien
 60;Attività di programmazione, trasmissione, agenzie di stampa e altre attività di distribuzione di contenuti;Programming, broadcasting, news agency and other content distribution activities;Rundfunkveranstalter, Nachrichtenagenturen und sonstige Verbreitung von Medieninhalten
@@ -2462,9 +2462,9 @@ M;ATTIVITÀ IMMOBILIARI;REAL ESTATE ACTIVITIES;GRUNDSTÜCKS- UND WOHNUNGSWESEN
 68.11;Compravendita di beni immobili effettuata su beni propri;Buying and selling of own real estate;Kauf und Verkauf von eigenen Grundstücken, Gebäuden und Wohnungen
 68.11.0;Compravendita di beni immobili effettuata su beni propri;Buying and selling of own real estate;Kauf und Verkauf von eigenen Grundstücken, Gebäuden und Wohnungen
 68.11.00;Compravendita di beni immobili effettuata su beni propri;Buying and selling of own real estate;Kauf und Verkauf von eigenen Grundstücken, Gebäuden und Wohnungen
-68.12;Sviluppo di progetti immobiliari;Development of building projects;"Erschließung von Grundstücken; Bauträger"
-68.12.0;Sviluppo di progetti immobiliari;Development of building projects;"Erschließung von Grundstücken; Bauträger"
-68.12.00;Sviluppo di progetti immobiliari;Development of building projects;"Erschließung von Grundstücken; Bauträger"
+68.12;Sviluppo di progetti immobiliari;Development of building projects;Erschließung von Grundstücken; Bauträger
+68.12.0;Sviluppo di progetti immobiliari;Development of building projects;Erschließung von Grundstücken; Bauträger
+68.12.00;Sviluppo di progetti immobiliari;Development of building projects;Erschließung von Grundstücken; Bauträger
 68.2;Affitto e gestione di beni immobili propri o in locazione;Rental and operating of own or leased real estate;Vermietung, Verpachtung von eigenen oder geleasten Grundstücken, Gebäuden und Wohnungen
 68.20;Affitto e gestione di beni immobili propri o in locazione;Rental and operating of own or leased real estate;Vermietung, Verpachtung von eigenen oder geleasten Grundstücken, Gebäuden und Wohnungen
 68.20.0;Affitto e gestione di beni immobili propri o in locazione;Rental and operating of own or leased real estate;Vermietung, Verpachtung von eigenen oder geleasten Grundstücken, Gebäuden und Wohnungen
@@ -2489,9 +2489,9 @@ N;ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE;PROFESSIONAL, SCIENTIFIC AND 
 69.10.20;Attività notarili;Notarial activities;Tätigkeiten der Notariatskanzleien
 69.10.3;Attività di supporto alle attività legali, giuridiche e notarili;Support activities for legal activities;Erbringung von unterstützenden Dienstleistungen für die Rechtsberatung
 69.10.30;Attività di supporto alle attività legali, giuridiche e notarili;Support activities for legal activities;Erbringung von unterstützenden Dienstleistungen für die Rechtsberatung
-69.2;"Attività di contabilità, controllo e revisione contabile; consulenza fiscale";"Accounting, bookkeeping and auditing activities; tax consultancy";"Wirtschaftsprüfung und Steuerberatung; Buchführung"
-69.20;"Attività di contabilità, controllo e revisione contabile; consulenza fiscale";"Accounting, bookkeeping and auditing activities; tax consultancy";"Wirtschaftsprüfung und Steuerberatung; Buchführung"
-69.20.0;"Attività di contabilità, controllo e revisione contabile; consulenza fiscale";"Accounting, bookkeeping and auditing activities; tax consultancy";"Wirtschaftsprüfung und Steuerberatung; Buchführung"
+69.2;Attività di contabilità, controllo e revisione contabile; consulenza fiscale;Accounting, bookkeeping and auditing activities; tax consultancy;Wirtschaftsprüfung und Steuerberatung; Buchführung
+69.20;Attività di contabilità, controllo e revisione contabile; consulenza fiscale;Accounting, bookkeeping and auditing activities; tax consultancy;Wirtschaftsprüfung und Steuerberatung; Buchführung
+69.20.0;Attività di contabilità, controllo e revisione contabile; consulenza fiscale;Accounting, bookkeeping and auditing activities; tax consultancy;Wirtschaftsprüfung und Steuerberatung; Buchführung
 69.20.01;Attività di commercialisti;Activities provided by accountants;Wirtschaftsprüfung
 69.20.02;Attività di revisori legali in ambito contabile;Activities provided by accounting auditors;Rechnungsprüfung
 69.20.03;Attività di esperti contabili;Activities provided by accounting experts;Steuerberatung
@@ -2499,7 +2499,7 @@ N;ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE;PROFESSIONAL, SCIENTIFIC AND 
 69.20.05;Attività di altri soggetti simili in materia di contabilità delle retribuzioni e buste paga;Activities provided by other similar consultants in the field of payroll accounting;Ähnliche Tätigkeiten im Bereich der Lohnbuchhaltung und -abrechnung
 69.20.06;Attività di altri consulenti, periti e altri soggetti simili in ambito tributario e contabile;Activities provided by accounting consultants and other similar consultants;Tätigkeiten von anderen Beratern, Sachverständigen und ähnlichen Berufsbildern im Bereich Steuerwesen und Buchführung
 69.20.07;Attività di centri di assistenza fiscale;Activities provided by tax assistance centres;Tätigkeit der Steuerbeistandszentren (Caf)
-70;Attività di sedi centrali e consulenza gestionale;Activities of head offices and management consultancy;"Verwaltung und Führung von Unternehmen und Betrieben; Unternehmensberatung"
+70;Attività di sedi centrali e consulenza gestionale;Activities of head offices and management consultancy;Verwaltung und Führung von Unternehmen und Betrieben; Unternehmensberatung
 70.1;Attività di sedi centrali;Activities of head offices;Verwaltung und Führung von Unternehmen und Betrieben
 70.10;Attività di sedi centrali;Activities of head offices;Verwaltung und Führung von Unternehmen und Betrieben
 70.10.0;Attività di sedi centrali;Activities of head offices;Verwaltung und Führung von Unternehmen und Betrieben
@@ -2510,7 +2510,7 @@ N;ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE;PROFESSIONAL, SCIENTIFIC AND 
 70.20.01;Attività di consulenza in materia di logistica;Logistics management consulting activities;Beratung im Bereich Logistik
 70.20.02;Attività di certificazione di processi;Certification of processes;Zertifizierung von Prozessen
 70.20.09;Consulenza imprenditoriale e altre attività di consulenza gestionale n.c.a.;Business and other management consultancy activities n.e.c.;Unternehmensberatung a. n. g.
-71;"Attività di architettura e ingegneria; collaudi e analisi tecniche";"Architectural and engineering activities; technical testing and analysis";"Tätigkeiten von Architektur- und Ingenieurbüros; technische, physikalische und chemische Untersuchung"
+71;Attività di architettura e ingegneria; collaudi e analisi tecniche;Architectural and engineering activities; technical testing and analysis;Tätigkeiten von Architektur- und Ingenieurbüros; technische, physikalische und chemische Untersuchung
 71.1;Attività di architettura, di ingegneria e altre consulenze tecniche connesse;Architectural and engineering activities and related technical consultancy;Tätigkeiten von Architektur- und Ingenieurbüros
 71.11;Attività di architettura;Architectural activities;Tätigkeiten von Architekturbüros
 71.11.0;Attività di architettura;Architectural activities;Tätigkeiten von Architekturbüros
@@ -2662,12 +2662,9 @@ O;ATTIVITÀ AMMINISTRATIVE E DI SERVIZI DI SUPPORTO;ADMINISTRATIVE AND SUPPORT S
 77.32;Noleggio e leasing operativo di macchine e attrezzature per lavori edili e di ingegneria civile;Rental and leasing of construction and civil engineering machinery and equipment;Vermietung von Baumaschinen und -geräten
 77.32.0;Noleggio e leasing operativo di macchine e attrezzature per lavori edili e di ingegneria civile;Rental and leasing of construction and civil engineering machinery and equipment;Vermietung von Baumaschinen und -geräten
 77.32.00;Noleggio e leasing operativo di macchine e attrezzature per lavori edili e di ingegneria civile;Rental and leasing of construction and civil engineering machinery and equipment;Vermietung von Baumaschinen und -geräten
-77.33;Noleggio e leasing operativo di macchine, attrezzature e computer per ufficio;Rental and leasing of office machinery, equipment and computers;"Vermietung von Büromaschinen, Datenverarbeitungsgeräten und
--einrichtungen"
-77.33.0;Noleggio e leasing operativo di macchine, attrezzature e computer per ufficio;Rental and leasing of office machinery, equipment and computers;"Vermietung von Büromaschinen, Datenverarbeitungsgeräten und
--einrichtungen"
-77.33.00;Noleggio e leasing operativo di macchine, attrezzature e computer per ufficio;Rental and leasing of office machinery, equipment and computers;"Vermietung von Büromaschinen, Datenverarbeitungsgeräten und
--einrichtungen"
+77.33;Noleggio e leasing operativo di macchine, attrezzature e computer per ufficio;Rental and leasing of office machinery, equipment and computers;Vermietung von Büromaschinen, Datenverarbeitungsgeräten und -einrichtungen
+77.33.0;Noleggio e leasing operativo di macchine, attrezzature e computer per ufficio;Rental and leasing of office machinery, equipment and computers;Vermietung von Büromaschinen, Datenverarbeitungsgeräten und -einrichtungen
+77.33.00;Noleggio e leasing operativo di macchine, attrezzature e computer per ufficio;Rental and leasing of office machinery, equipment and computers;Vermietung von Büromaschinen, Datenverarbeitungsgeräten und -einrichtungen
 77.34;Noleggio e leasing operativo di mezzi di trasporto marittimi, fluviali e lacustri;Rental and leasing of water transport equipment;Vermietung von Wasserfahrzeugen
 77.34.0;Noleggio e leasing operativo di mezzi di trasporto marittimi, fluviali e lacustri;Rental and leasing of water transport equipment;Vermietung von Wasserfahrzeugen
 77.34.00;Noleggio e leasing operativo di mezzi di trasporto marittimi, fluviali e lacustri;Rental and leasing of water transport equipment;Vermietung von Wasserfahrzeugen
@@ -2730,7 +2727,7 @@ O;ATTIVITÀ AMMINISTRATIVE E DI SERVIZI DI SUPPORTO;ADMINISTRATIVE AND SUPPORT S
 80.09;Attività di vigilanza n.c.a.;Security activities n.e.c.;Sicherheitsdienste a. n. g.
 80.09.0;Attività di vigilanza n.c.a.;Security activities n.e.c.;Sicherheitsdienste a. n. g.
 80.09.00;Attività di vigilanza n.c.a.;Security activities n.e.c.;Sicherheitsdienste a. n. g.
-81;Attività di servizi per edifici e per la cura del paesaggio;Services to buildings and landscape activities;"Gebäudebetreuung; Garten- und Landschaftsbau"
+81;Attività di servizi per edifici e per la cura del paesaggio;Services to buildings and landscape activities;Gebäudebetreuung; Garten- und Landschaftsbau
 81.1;Attività di servizi integrati agli edifici;Combined facilities support activities;Hausmeisterdienste
 81.10;Attività di servizi integrati agli edifici;Combined facilities support activities;Hausmeisterdienste
 81.10.0;Attività di servizi integrati agli edifici;Combined facilities support activities;Hausmeisterdienste
@@ -2793,8 +2790,8 @@ O;ATTIVITÀ AMMINISTRATIVE E DI SERVIZI DI SUPPORTO;ADMINISTRATIVE AND SUPPORT S
 82.99.9;Altri servizi vari di supporto alle imprese n.c.a.;Other various business support service activities n.e.c.;Erbringung aller weiteren wirtschaftlichen Dienstleistungen für Unternehmen und Privatpersonen a. n. g.
 82.99.91;Rilevamento del consumo di calore e acqua calda;Reading of consumption of heat and hot water;Erhebung des Wärme- und Warmwasserverbrauchs
 82.99.99;Tutti gli altri servizi vari di supporto alle imprese n.c.a.;All other various business support service activities n.e.c.;Erbringung aller anderen wirtschaftlichen Dienstleistungen für Unternehmen und Privatpersonen a. n. g.
-P;"AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA";"PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY";"ÖFFENTLICHE VERWALTUNG, VERTEIDIGUNG; SOZIALVERSICHERUNG"
-84;"Amministrazione pubblica e difesa; assicurazione sociale obbligatoria";"Public administration and defence; compulsory social security";"Öffentliche Verwaltung, Verteidigung; Sozialversicherung"
+P;AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA;PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY;ÖFFENTLICHE VERWALTUNG, VERTEIDIGUNG; SOZIALVERSICHERUNG
+84;Amministrazione pubblica e difesa; assicurazione sociale obbligatoria;Public administration and defence; compulsory social security;Öffentliche Verwaltung, Verteidigung; Sozialversicherung
 84.1;Amministrazione dello Stato e delle politiche economiche, sociali e ambientali della comunità;Administration of the State and the economic, social and environmental policies of the community;Öffentliche Verwaltung
 84.11;Attività generali di amministrazione pubblica;General public administration activities;Allgemeine öffentliche Verwaltung
 84.11.1;Attività degli organi legislativi ed esecutivi e delle amministrazioni centrali e locali;Activities of executive, legislative and fiscal administration of central, regional and local bodies;Tätigkeit der gesetzgebenden und ausführenden Organe und der zentralen und örtlichen Verwaltungen
@@ -3108,7 +3105,7 @@ T;ALTRE ATTIVITÀ DI SERVIZI;OTHER SERVICE ACTIVITIES;ERBRINGUNG VON SONSTIGEN D
 94.20;Attività dei sindacati di lavoratori;Activities of trade unions;Arbeitnehmervereinigungen
 94.20.0;Attività dei sindacati di lavoratori;Activities of trade unions;Arbeitnehmervereinigungen
 94.20.00;Attività dei sindacati di lavoratori;Activities of trade unions;Arbeitnehmervereinigungen
-94.9;Attività di altre organizzazioni associative;Activities of other membership organisations;"Kirchliche Vereinigungen; politische Parteien sowie sonstige Interessenvertretungen und Vereinigungen"
+94.9;Attività di altre organizzazioni associative;Activities of other membership organisations;Kirchliche Vereinigungen; politische Parteien sowie sonstige Interessenvertretungen und Vereinigungen
 94.91;Attività delle organizzazioni religiose;Activities of religious organisations;Kirchliche und sonstige religiöse Vereinigungen
 94.91.0;Attività delle organizzazioni religiose;Activities of religious organisations;Kirchliche und sonstige religiöse Vereinigungen
 94.91.00;Attività delle organizzazioni religiose;Activities of religious organisations;Kirchliche und sonstige religiöse Vereinigungen
