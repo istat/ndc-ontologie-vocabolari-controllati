@@ -81,9 +81,9 @@ A;AGRICOLTURA, SILVICOLTURA E PESCA;AGRICULTURE, FORESTRY AND FISHING;LAND- UND 
 01.45;Allevamento di ovini e caprini;Raising of sheep and goats;Haltung von Schafen und Ziegen
 01.45.0;Allevamento di ovini e caprini;Raising of sheep and goats;Haltung von Schafen und Ziegen
 01.45.00;Allevamento di ovini e caprini;Raising of sheep and goats;Haltung von Schafen und Ziegen
-01.46;Allevamento di suini;Raising of swine and pigs;Haltung von Schweinen
-01.46.0;Allevamento di suini;Raising of swine and pigs;Haltung von Schweinen
-01.46.00;Allevamento di suini;Raising of swine and pigs;Haltung von Schweinen
+01.46;Allevamento di suini;Raising of swine/pigs;Haltung von Schweinen
+01.46.0;Allevamento di suini;Raising of swine/pigs;Haltung von Schweinen
+01.46.00;Allevamento di suini;Raising of swine/pigs;Haltung von Schweinen
 01.47;Allevamento di pollame;Raising of poultry;Haltung von Geflügel
 01.47.0;Allevamento di pollame;Raising of poultry;Haltung von Geflügel
 01.47.00;Allevamento di pollame;Raising of poultry;Haltung von Geflügel
@@ -2222,7 +2222,7 @@ I;ATTIVITÀ DEI SERVIZI DI ALLOGGIO E DI RISTORAZIONE;ACCOMMODATION AND FOOD SER
 56.1;Attività di ristoranti e di servizi di ristorazione mobile;Restaurants and mobile food service activities;"Restaurants, Gaststätten, Imbissstuben, Cafés, Eissalons u. Ä.; mobile Gastronomie"
 56.11;Attività di ristoranti;Restaurant activities;Restaurants, Gaststätten, Imbissstuben, Cafés, Eissalons u. Ä.
 56.11.1;Attività di ristoranti, escluse gelaterie e pasticcerie;Restaurants, other than ice cream parlours and pastry shops;Restaurants, Gaststätten, Imbissstuben, Cafés u. Ä., ohne Eissalons und Konditoreien
-56.11.11;Attività di ristoranti con servizio al tavolo, escluse gelaterie e pasticcerie ;Table-service restaurants, other than ice cream parlours and pastry shops;Restaurants, Gaststätten, Imbissstuben, Cafés u. Ä. mit Bedienung am Tisch, ohne Eissalons und Konditoreien
+56.11.11;Attività di ristoranti con servizio al tavolo, escluse gelaterie e pasticcerie;Table-service restaurants, other than ice cream parlours and pastry shops;Restaurants, Gaststätten, Imbissstuben, Cafés u. Ä. mit Bedienung am Tisch, ohne Eissalons und Konditoreien
 56.11.12;Attività di ristoranti senza servizio al tavolo o da asporto, escluse gelaterie e pasticcerie;Self-service or takeaway restaurants, other than ice cream parlours and pastry shops;Restaurants, Gaststätten, Imbissstuben, Cafés u. Ä. ohne Bedienung am Tisch oder zum Mitnehmen, ohne Eissalons und Konditoreien
 56.11.2;Attività di gelaterie e pasticcerie;Ice cream parlours and pastry shops;Eissalons und Konditoreien
 56.11.21;Attività di gelaterie con servizio al tavolo;Table-service ice cream parlours;Eissalons mit Bedienung am Tisch
