@@ -219,11 +219,11 @@ ndc:keyConcept a rdf:Property .
 	skos:notation "ATECO 2025" ;
 	skos:prefLabel "Classificazione Ateco 2025"@it ;
 	dct:issued "2025-01-01"^^xsd:date ;
-	dct:description """Classificazione statistica delle attività economiche finalizzata all’elaborazione di statistiche ufficiali, aventi per oggetto i fenomeni relativi alla partecipazione delle relative unità produttive ai processi economici. La classificazione è direttamente derivata da NACE Rev. 2.1 (Regolamento UE 2023/137). La classificazione ATECO 2025 comprende 1.290 sottocategorie, 920 categorie, raggruppate in 651 classi, 272 gruppi, 87 divisioni, 22 sezioni. 
+	dct:description """Classificazione statistica delle attività economiche finalizzata all’elaborazione di statistiche ufficiali, aventi per oggetto i fenomeni relativi alla partecipazione delle relative unità produttive ai processi economici. La classificazione è direttamente derivata da NACE Rev. 2.1 (Regolamento delegato (Ue) 2023/137 della Commissione che modifica il Regolamento (CE) n. 1893/2006 del Parlamento europeo e del Consiglio; rettifica n. 2024/90720). La classificazione ATECO 2025 comprende 1.290 sottocategorie, 920 categorie, raggruppate in 651 classi, 272 gruppi, 87 divisioni, 22 sezioni.
     La struttura delle versioni precedenti è:
     - Ateco 2007 1° rilascio: 996 categorie, raggruppate in 615 classi, 272 gruppi, 88 divisioni, 21 sezioni; negli anni la classificazione ha subito due aggiornamenti, uno nel 2021 l'altro nel 2022;
     - Ateco 2002: 883 categorie, raggruppate in 514 classi, 224 gruppi, 62 divisioni, 17 sezioni, 16 sottosezioni;
-    - Ateco 1991: 874 categorie, raggruppate in 512 classi, 222 gruppi, 60 divisioni, 17 sezioni, 16 sottosezioni. E' la classificazione di riferimento per il Registro Imprese"""@it ;
+    - Ateco 1991: 874 categorie, raggruppate in 512 classi, 222 gruppi, 60 divisioni, 17 sezioni, 16 sottosezioni."""@it ;
 	rdfs:comment  "Classificazione ISTAT Ateco 2025. Utilizzata per catalogare le attività economiche, è la classificazione di riferimento per il Registro Imprese"@it ;
 	dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
 	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
