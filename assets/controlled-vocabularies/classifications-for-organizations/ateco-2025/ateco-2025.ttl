@@ -216,18 +216,18 @@ ndc:keyConcept a rdf:Property .
 <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025>
 	a skos:ConceptScheme , skos:Collection , adms:Asset , prov:Entity , dcatapit:Dataset ;
 	rdfs:label "Classificazione Ateco 2025"  ;
-	skos:notation "ATECO 2025" ;
+	skos:notation "Ateco 2025" ;
 	skos:prefLabel "Classificazione Ateco 2025"@it ;
 	dct:issued "2025-01-01"^^xsd:date ;
-	dct:description """Classificazione statistica delle attività economiche finalizzata all’elaborazione di statistiche ufficiali, aventi per oggetto i fenomeni relativi alla partecipazione delle relative unità produttive ai processi economici. La classificazione è direttamente derivata da NACE Rev. 2.1 (Regolamento delegato (Ue) 2023/137 della Commissione che modifica il Regolamento (CE) n. 1893/2006 del Parlamento europeo e del Consiglio; rettifica n. 2024/90720). La classificazione ATECO 2025 comprende 1.290 sottocategorie, 920 categorie, raggruppate in 651 classi, 272 gruppi, 87 divisioni, 22 sezioni.
+	dct:description """Classificazione statistica delle attività economiche finalizzata all’elaborazione di statistiche ufficiali, aventi per oggetto i fenomeni relativi alla partecipazione delle unità produttive ai processi economici. La classificazione è direttamente derivata da NACE Rev. 2.1 (Regolamento delegato (Ue) 2023/137 della Commissione che modifica il Regolamento (CE) n. 1893/2006 del Parlamento europeo e del Consiglio; rettifica n. 2024/90720). La classificazione Ateco 2025 comprende 1.290 sottocategorie, 920 categorie, raggruppate in 651 classi, 272 gruppi, 87 divisioni, 22 sezioni.
     La struttura delle versioni precedenti è:
     - Ateco 2007 1° rilascio: 996 categorie, raggruppate in 615 classi, 272 gruppi, 88 divisioni, 21 sezioni; negli anni la classificazione ha subito due aggiornamenti, uno nel 2021 l'altro nel 2022;
     - Ateco 2002: 883 categorie, raggruppate in 514 classi, 224 gruppi, 62 divisioni, 17 sezioni, 16 sottosezioni;
     - Ateco 1991: 874 categorie, raggruppate in 512 classi, 222 gruppi, 60 divisioni, 17 sezioni, 16 sottosezioni."""@it ;
-	rdfs:comment  "Classificazione ISTAT Ateco 2025. Utilizzata per catalogare le attività economiche, è la classificazione di riferimento per il Registro Imprese"@it ;
+	rdfs:comment  "Classificazione delle attività economiche ISTAT Ateco 2025."@it ;
 	dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
 	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-	xkos:belongsTo <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022> ;
+	## xkos:belongsTo <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022> ;
 	dct:title "Ateco 2025 - Classificazione delle attività economiche"@it ;
 	rdfs:isDefinedBy <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2025> ;
 	dct:identifier "ISTAT:D.7" ;
@@ -235,10 +235,10 @@ ndc:keyConcept a rdf:Property .
 	dct:publisher <https://w3id.org/italia/data/public-organization/ISTAT> ;
 	dcat:distribution <https://w3id.org/italia/data/distribution/Ateco2025-RDF-Turtle> ,  <https://w3id.org/italia/data/distribution/Ateco2025-CSV> ,
 	<https://w3id.org/italia/data/distribution/Ateco2025-XLSX>  ;
-	dct:modified "2025-07-03"^^xsd:date ;
+	dct:modified "2025-07-24"^^xsd:date ;
 	prov:wasDerivedFrom <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/ateco> ;
 	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
-	dcat:keyword "ATECO"@it , "Attività Economica"@it , "classificazione"@it , "Ateco2025"@it ;
+	dcat:keyword "Ateco"@it , "Attività Economica"@it , "classificazione"@it , "Ateco2025"@it ;
 	dct:type <http://purl.org/adms/assettype/Taxonomy> ;
 	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
 	dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ;
