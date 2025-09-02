@@ -240,7 +240,7 @@ ndc:keyConcept a rdf:Property .
    ##xkos:levels rdf:Node1 ;
     xkos:numberOfLevels "6" ;
 	prov:wasGeneratedBy <https://w3id.org/italia/data/activity/GenerationAteco2007-2022> ;
-	xkos:supersedes <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2002/ateco> .
+   ##xkos:supersedes <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ateco> .
 
 	
 	
