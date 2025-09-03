@@ -211,7 +211,7 @@ ndc:keyConcept a rdf:Property .
 	a skos:ConceptScheme , skos:Collection , adms:Asset , prov:Entity , dcatapit:Dataset ;
 	rdfs:label "Classificazione Ateco 2007 - Aggiornamento 2022"  ;
 	skos:notation "Classificazione Ateco 2007 - Aggiornamento 2022" ;
-	skos:prefLabel "Classificazione Ateco 2007 - Aggiornamento 2022"@it ;
+	skos:prefLabel "Classificazione Ateco 2007 - Aggiornamento 2022\"@it";
 	dct:issued "2025-01-01"^^xsd:date ;
 	dct:description "Classificazione delle attività economiche, adottata dall'Istat a partire dal 1° gennaio 2008. L'Ateco 2007 è la versione nazionale della classificazione Nace Rev. 2 definita in ambito europeo che, a sua volta, deriva da quella definita a livello Onu (Isic Rev. 4). La classificazione Ateco 2007 presenta le varie attività economiche raggruppate, dal generale al particolare, in sezioni (21), divisioni (88), gruppi (272), classi (615), categorie (996) e sottocategorie (1.224). Diversamente dalle precedenti versioni della classificazione, non sono più presenti le sottosezioni precedentemente individuate dalle due lettere."@it ;
 	rdfs:comment  "Classificazione ISTAT Ateco 2007 - Aggiornamento 2022."@it ;
