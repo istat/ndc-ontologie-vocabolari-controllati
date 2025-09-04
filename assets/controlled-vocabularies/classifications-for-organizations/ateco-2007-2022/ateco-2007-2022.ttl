@@ -150,57 +150,7 @@ clvapit:hasRankOrder a owl:AnnotationProperty .
 ndc:keyConcept a rdf:Property .
 
 
-####inizio metadati####
-
-<https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ateco-collection>
-  a skos:Concept, prov:Collection;
-  skos:prefLabel "Classificazione Ateco";
-  dct:title "Ateco";
-  prov:hadMember <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2002/ateco>,
-    <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007>,
-	<https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>;
-  rdfs:label "Ateco" .
-
-<https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2002/ateco>
-  a skos:ConceptScheme, prov:Entity, prov:Collection;
-  skos:prefLabel "ATECO 2002";
-  dct:title "Ateco 2002";
-  dct:modified "2003-01-01\"^^http://www.w3.org/2001/XMLSchema#date";
-  dct:issued "2003-01-01\"^^http://www.w3.org/2001/XMLSchema#date";
-  prov:wasInvalidatedBy <http://dati.gov.it/data/activity/GenerationAteco2007>;
-  rdfs:label "Ateco2002";
-  skos:definition "Versione 2002 della classificazione Ateco" .
-
-<https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007>
-   a skos:ConceptScheme, skos:Collection, adms:Asset, prov:Entity;
-  skos:prefLabel "Classificazione Ateco 2007 - Aggiornamento 2021\"@it";
-  skos:notation "ATECO 2007";
-  dct:issued "2008-01-01\"^^http://www.w3.org/2001/XMLSchema#date";
-  rdfs:label "Classificazione Ateco 2007 - Aggiornamento 2021" .
-
-
-<https://w3id.org/italia/data/activity/GenerationNace2006_r2/> a prov:Activity;
-  dct:description "Attività di generazione della classificazione NACE 2006 Revision 2";
-  prov:wasAssociatedWith <http://dbpedia.org/resource/Eurostat>;
-  rdfs:label "Generazione NACE 2006 Revision 2" .
-
-<https://w3id.org/italia/data/activity/GenerationAteco2007-2022> a prov:Activity;
-  dct:description "Attività di generazione della classificazione Ateco2007 - aggiornamento 2022";
-  prov:wasInfluencedBy <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/Nace2006_r2/>;
-  prov:wasAssociatedWith <https://w3id.org/italia/data/public-organization/ISTAT>,
-    <https://w3id.org/italia/data/classification-system/ISTATClassificationSystem>;
-  rdfs:label "Generazione Ateco2007 - aggiornamento 2022" .
-
-<https://w3id.org/italia/data/classification-system/ISTATClassificationSystem> a prov:SoftwareAgent;
-  dct:description "Il Sistema informativo delle classificazioni ufficiali offre un'interfaccia web per la navigazione e il download delle classificazioni ufficiali dell'Istat.";
-  rdfs:label "Sistema delle Classificazioni Ufficiali ISTAT" .
-
-<https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/Nace2006_r2/>
-		a  prov:Entity ;
-		rdfs:label "NACE 2006 Revision 2" ;
-		dct:description "Sistema di classificazione generale utilizzato per sistematizzare ed uniformare le definizioni delle attività economico/industriali nei diversi Stati membri dell'Unione Europea" ;
-		prov:wasGeneratedBy <https://w3id.org/italia/data/activity/GenerationNace2006_r2/> ;
-		rdfs:seeAlso <http://dbpedia.org/resource/Statistical_Classification_of_Economic_Activities_in_the_European_Community> .
+####inizio metadati (storico)####
 
 
 #####################################
@@ -211,13 +161,13 @@ ndc:keyConcept a rdf:Property .
 	a skos:ConceptScheme , skos:Collection , adms:Asset , prov:Entity , dcatapit:Dataset ;
 	rdfs:label "Classificazione Ateco 2007 - Aggiornamento 2022"  ;
 	skos:notation "Classificazione Ateco 2007 - Aggiornamento 2022" ;
-	skos:prefLabel "Classificazione Ateco 2007 - Aggiornamento 2022\"@it";
+	skos:prefLabel "Classificazione Ateco 2007 - Aggiornamento 2022"@it;
 	dct:issued "2025-01-01"^^xsd:date ;
 	dct:description "Classificazione delle attività economiche, adottata dall'Istat a partire dal 1° gennaio 2008. L'Ateco 2007 è la versione nazionale della classificazione Nace Rev. 2 definita in ambito europeo che, a sua volta, deriva da quella definita a livello Onu (Isic Rev. 4). La classificazione Ateco 2007 presenta le varie attività economiche raggruppate, dal generale al particolare, in sezioni (21), divisioni (88), gruppi (272), classi (615), categorie (996) e sottocategorie (1.224). Diversamente dalle precedenti versioni della classificazione, non sono più presenti le sottosezioni precedentemente individuate dalle due lettere."@it ;
-	rdfs:comment  "Classificazione ISTAT Ateco 2007 - Aggiornamento 2022."@it ;
+	rdfs:comment  "Classificazione ISTAT Ateco 2007 - Aggiornamento 2022."@it , ""@en;
 	dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
 	dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
-	xkos:belongsTo <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007> ;
+  # xkos:belongsTo <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007> ;
 	dct:title "Ateco 2007 - Classificazione delle attività economiche - Aggiornamento 2022"@it ;
 	rdfs:isDefinedBy <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022> ;
 	dct:identifier "ISTAT:D.8" ;
@@ -225,9 +175,9 @@ ndc:keyConcept a rdf:Property .
 	dct:publisher <https://w3id.org/italia/data/public-organization/ISTAT> ;
 	dcat:distribution <https://w3id.org/italia/data/distribution/Ateco2007-2022-RDF-Turtle> ,  <https://w3id.org/italia/data/distribution/Ateco2007-2022-CSV> ,
 	<https://w3id.org/italia/data/distribution/Ateco2007-2022-XLSX>  ;
-	dct:modified "2025-08-16"^^xsd:date ;
-	prov:wasDerivedFrom <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007> ;
-	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
+	dct:modified "2025-08-17"^^xsd:date ;
+  # prov:wasDerivedFrom <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007> ;
+  #	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
 	dcat:keyword "ATECO"@it , "Attività Economica"@it , "Classificazione"@it , "Ateco2007"@it ;
 	dct:type <http://purl.org/adms/assettype/Taxonomy> ;
 	dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
@@ -239,8 +189,9 @@ ndc:keyConcept a rdf:Property .
 
    ##xkos:levels rdf:Node1 ;
     xkos:numberOfLevels "6" ;
-	prov:wasGeneratedBy <https://w3id.org/italia/data/activity/GenerationAteco2007-2022> ;
-	xkos:supersedes <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2002/ateco> .
+	# prov:wasGeneratedBy <https://w3id.org/italia/data/activity/GenerationAteco2007-2022> ;
+	# xkos:supersedes <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2002/ateco> 
+	.
 
 	
 	
