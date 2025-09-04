@@ -268,25 +268,7 @@ ndc:keyConcept a rdf:Property .
   skos:definition "Nella sezione sono incluse le attività produttive che utilizzano le risorse di origine vegetale ed animale. La sezione include attività dell'agricoltura, della zootecnia, della silvicoltura, della cattura di animali in aree di allevamento o ripopolamento o nei loro habitat naturali."@it, ""@en;
   skos:narrower :01, :02, :03 .
 
-:B a skos:Concept, covapit:PrivateOrgActivityType;
-  skos:prefLabel "ESTRAZIONE DI MINERALI DA CAVE E MINIERE"@it, ""@en;
-  skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/>;
-  skos:notation "B";
-  clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note """Sono escluse le seguenti attività:
-- lavorazione dei materiali estratti, cfr. sezione C (Attività manifatturiera)
- - impiego dei materiali estratti senza un'ulteriore trasformazione a scopo di costruzione, cfr. sezione F (Costruzioni)
- - imbottigliamento di acque naturali di fonte e di acque minerali alle sorgenti e ai pozzi, cfr. 11.07
- - frantumazione, macinazione o altro trattamento di terre, rocce e minerali non effettuati in connessione con l'estrazione e lo scavo, cfr. 23.7
- - raccolta, depurazione e distribuzione di acqua, cfr. 36.00
- - preparazione di un sito per le attività minerarie, cfr. 43.12
- - indagini geofisiche, geologiche e sismiche, cfr. 71.12""";
-  skos:definition """L'estrazione da cave e miniere include l'estrazione dei minerali che si presentano in natura allo stato solido (carbone e minerali), liquido (petrolio) o gassoso (gas naturale). L'estrazione può essere effettuata utilizzando diversi metodi, quali l'impiego di miniere sotterranee o a cielo aperto, di pozzi, estrazioni marine eccetera.
-Questa sezione include attività supplementari mirate alla preparazione dei materiali grezzi per la commercializzazione, per esempio, la frantumazione, la macinazione, il lavaggio, l'essiccazione, la cernita, la concentrazione di minerali, la liquefazione del gas naturale e l'agglomerazione dei combustibili solidi. Queste operazioni vengono spesso effettuate dalle unità che hanno estratto le risorse e/o da altre unità situate in prossimità delle stesse.
-Le attività estrattive sono classificate in divisioni, gruppi e classi in base al principale minerale prodotto. Le divisioni 05, 06 riguardano l'estrazione di combustibili fossili (carbone, lignite, petrolio, gas); le divisioni 07, 08 riguardano i minerali metalliferi, minerali vari e prodotti di cava.
-Alcune operazioni tecniche di questa sezione, in particolare legate all'estrazione di idrocarburi, possono anche essere effettuate da unità specializzate per conto terzi, come i servizi industriali che rientrano nella divisione 09. h"""@it, ""@en;
-  skos:narrower :05, :06, :07, :08, :09 .
+
 
 :C a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ MANIFATTURIERE"@it, ""@en;
