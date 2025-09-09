@@ -181,8 +181,8 @@ ndc:keyConcept a rdf:Property .
 <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>
    a skos:ConceptScheme, skos:Collection, adms:Asset, prov:Entity;
   skos:prefLabel "Classificazione Ateco 2007 - Aggiornamento 2022";
-  skos:notation "ATECO 2007";
-  dct:issued "2022-04-01\"^^http://www.w3.org/2001/XMLSchema#date";
+  skos:notation "Classificazione Ateco 2007 - Aggiornamento 2022";
+  dct:issued "2025-01-01"^^xsd:date;
   rdfs:label "Classificazione Ateco 2007 - Aggiornamento 2022" .
 
 <https://w3id.org/italia/data/activity/GenerationNace2006_r2_1/> a prov:Activity;
