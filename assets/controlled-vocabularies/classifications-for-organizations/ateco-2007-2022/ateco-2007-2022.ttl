@@ -152,6 +152,44 @@ ndc:keyConcept a rdf:Property .
 
 ####inizio metadati####
 
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ateco-collection>
+  a skos:Concept, prov:Collection;
+  skos:prefLabel "Classificazione Ateco";
+  dct:title "Ateco";
+  prov:hadMember <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2002/ateco>,
+    <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007>,
+	<https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>;
+  rdfs:label "Ateco" .
+
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2002/ateco>
+  a skos:ConceptScheme, prov:Entity, prov:Collection;
+  skos:prefLabel "ATECO 2002";
+  dct:title "Ateco 2002";
+  dct:modified "2003-01-01\"^^http://www.w3.org/2001/XMLSchema#date";
+  dct:issued "2003-01-01\"^^http://www.w3.org/2001/XMLSchema#date";
+  prov:wasInvalidatedBy <http://dati.gov.it/data/activity/GenerationAteco2007>;
+  rdfs:label "Ateco2002";
+  skos:definition "Versione 2002 della classificazione Ateco" .
+
+<https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007>
+   a skos:ConceptScheme, skos:Collection, adms:Asset, prov:Entity;
+  skos:prefLabel "Classificazione Ateco 2007 - Aggiornamento 2021";
+  skos:notation "ATECO 2007";
+  dct:issued "2008-01-01\"^^http://www.w3.org/2001/XMLSchema#date";
+  rdfs:label "Classificazione Ateco 2007 - Aggiornamento 2021" .
+
+
+<https://w3id.org/italia/data/activity/GenerationNace2006_r2_1/> a prov:Activity;
+  dct:description "Attività di generazione della classificazione NACE 2006 Revision 2 Update 1";
+  prov:wasAssociatedWith <https://showvoc.op.europa.eu/#/datasets/ESTAT_Statistical_Classification_of_Economic_Activities_in_the_European_Community_Rev._2.1._%28NACE_2.1%29/data>;
+  rdfs:label "Generazione NACE 2006 Revision 2 Update 1" .
+
+
+<https://w3id.org/italia/data/classification-system/ISTATClassificationSystem> a prov:SoftwareAgent;
+  dct:description "Il Sistema informativo delle classificazioni ufficiali offre un'interfaccia web per la navigazione e il download delle classificazioni ufficiali dell'Istat.";
+  rdfs:label "Sistema delle Classificazioni Ufficiali ISTAT" .
+
+
 #####################################
 #####################################
 #Dataset of the controlled vocabulary
