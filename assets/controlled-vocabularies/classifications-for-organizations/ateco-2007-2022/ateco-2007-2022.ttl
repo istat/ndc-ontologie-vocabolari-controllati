@@ -302,7 +302,7 @@ ndc:keyConcept a rdf:Property .
   skos:narrower :01, :02, :03 .
 
 :B a skos:Concept, covapit:PrivateOrgActivityType;
-  skos:prefLabel ""@en, "ESTRAZIONE DI MINERALI DA CAVE E MINIERE"@it ;
+  skos:prefLabel " "@en, "ESTRAZIONE DI MINERALI DA CAVE E MINIERE"@it ;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/>;
   skos:notation "B";
