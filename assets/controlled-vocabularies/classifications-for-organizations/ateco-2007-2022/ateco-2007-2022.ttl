@@ -212,7 +212,7 @@ ndc:keyConcept a rdf:Property .
 	dct:publisher <https://w3id.org/italia/data/public-organization/ISTAT> ;
 	dcat:distribution <https://w3id.org/italia/data/distribution/Ateco2007-2022-RDF-Turtle> ,  <https://w3id.org/italia/data/distribution/Ateco2007-2022-CSV> ,
 	<https://w3id.org/italia/data/distribution/Ateco2007-2022-XLSX>  ;
-	dct:modified "2025-09-10"^^xsd:date ;
+	dct:modified "2025-09-12"^^xsd:date ;
     prov:wasDerivedFrom <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007> ;
 	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
 	dcat:keyword "ATECO" , "Attività Economica" , "Classificazione" , "Ateco2007" ;
@@ -302,7 +302,7 @@ ndc:keyConcept a rdf:Property .
   skos:narrower :01, :02, :03 .
 
 :B a skos:Concept, covapit:PrivateOrgActivityType;
-  skos:prefLabel " "@en, "ESTRAZIONE DI MINERALI DA CAVE E MINIERE"@it ;
+  skos:prefLabel "ESTRAZIONE DI MINERALI DA CAVE E MINIERE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/>;
   skos:notation "B";
@@ -539,7 +539,7 @@ Questa sezione include anche l'istruzione impartita a scopi principalmente sport
   skos:narrower :94, :95, :96 .
 
 :T a skos:Concept, covapit:PrivateOrgActivityType;
-  skos:prefLabel "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS- AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"@en , "ATTIVITÀ DI FAMIGLIE E CONVIVENZE COME DATORI DI LAVORO PER PERSONALE DOMESTICO; PRODUZIONE DI BENI E SERVIZI INDIFFERENZIATI PER USO PROPRIO DA PARTE DI FAMIGLIE E CONVIVENZE"@it;
+  skos:prefLabel "ATTIVITÀ DI FAMIGLIE E CONVIVENZE COME DATORI DI LAVORO PER PERSONALE DOMESTICO; PRODUZIONE DI BENI E SERVIZI INDIFFERENZIATI PER USO PROPRIO DA PARTE DI FAMIGLIE E CONVIVENZE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/>;
   skos:notation "T";
@@ -548,7 +548,7 @@ Questa sezione include anche l'istruzione impartita a scopi principalmente sport
   skos:narrower :97, :98 .
 
 :U a skos:Concept, covapit:PrivateOrgActivityType;
-  skos:prefLabel "ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"@en , "ORGANIZZAZIONI ED ORGANISMI EXTRATERRITORIALI"@it;
+  skos:prefLabel "ORGANIZZAZIONI ED ORGANISMI EXTRATERRITORIALI";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022>;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/classifications-for-organizations/ateco-2007-2022/>;
   skos:notation "U";
