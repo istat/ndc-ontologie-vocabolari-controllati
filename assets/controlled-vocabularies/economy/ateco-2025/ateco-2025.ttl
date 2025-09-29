@@ -235,7 +235,7 @@ ndc:keyConcept a rdf:Property .
 	dct:publisher <https://w3id.org/italia/data/public-organization/ISTAT> ;
 	dcat:distribution <https://w3id.org/italia/data/distribution/Ateco2025-RDF-Turtle> ,  <https://w3id.org/italia/data/distribution/Ateco2025-CSV> ,
 	<https://w3id.org/italia/data/distribution/Ateco2025-XLSX>  ;
-	dct:modified "2025-09-16"^^xsd:date ;
+	dct:modified "2025-09-29"^^xsd:date ;
 	prov:wasDerivedFrom <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/ateco> ;
 	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
 	dcat:keyword "Ateco" , "Attività Economica" , "classificazione" , "Ateco2025" ;
@@ -316,7 +316,6 @@ ndc:keyConcept a rdf:Property .
 :A a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "AGRICULTURE, FORESTRY AND FISHING"@en, "LAND- UND FORSTWIRTSCHAFT, FISCHEREI"@de, "AGRICOLTURA, SILVICOLTURA E PESCA"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "A";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -327,7 +326,6 @@ ndc:keyConcept a rdf:Property .
 :B a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "MINING AND QUARRYING"@en, "BERGBAU UND GEWINNUNG VON STEINEN UND ERDEN"@de, "ATTIVITÀ ESTRATTIVE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "B";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -341,7 +339,6 @@ ndc:keyConcept a rdf:Property .
 :C a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "MANUFACTURING"@en, "VERARBEITENDES GEWERBE/HERSTELLUNG VON WAREN"@de, "ATTIVITÀ MANIFATTURIERE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "C";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "This section includes the physical, mechanical, chemical or biological transformation of materials, substances, or components into new products, although this cannot be used as the single universal criterion for defining manufacturing (see remark on processing of waste below). The materials, substances, or components undergoing transformation are either raw materials or products of agriculture, forestry, fishing, mining or quarrying as well as products of other manufacturing activities. Substantial alteration, renovation or reconstruction of goods is generally considered to be manufacturing. The output of a manufacturing process may be finished in the sense that it is ready for use or consumption, or it may be semi-finished in the sense that it is to become an input for further manufacturing. For example, the output of alumina refining is the input used in the primary production of aluminium; primary aluminium is the input to aluminium wire drawing; aluminium wire is the input for the manufacture of fabricated wire products. Manufacture of specialised components and parts of, and accessories and attachments to machinery and equipment is, as a general rule, classified in the same class as the manufacture of the machinery and equipment for which the parts and accessories are intended. Manufacture of unspecialised components and parts of machinery and equipment (for example engines, pistons, electric motors, electrical assemblies, valves, gears, roller bearings), is classified in the appropriate class of manufacturing, without regard to the machinery and equipment in which these items may be included. Making specialised components and accessories by moulding or extruding plastics materials is usually included in group 22.2. Assembly of the component parts of manufactured products is considered manufacturing. This includes the assembly of manufactured products from either self-produced or purchased components. The recovery of waste, in other words, the processing of waste into secondary raw materials is classified in group 38.2 (NOTE: secondary raw materials are materials and products which can be used as raw materials by simple re-use, or via recycling and recovery). While this may involve physical, mechanical, biological or chemical transformations, this is not considered to be a part of manufacturing activities. The primary purpose of these activities is considered to be the treatment or processing of waste and they are therefore classified in section E. However, the manufacture of new products from secondary raw materials is classified in manufacturing, even if these processes use waste as an input (for example the production of silver from film waste is considered to be a manufacturing process). Specialised maintenance and repair of industrial, commercial and similar machinery and equipment is, in general, classified in division 33. However, the repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles is classified in division 95. The installation of machinery and equipment, when carried out as a specialised activity, is classified in class 33.20. Maintenance, repair and installation of equipment that forms an integral part of buildings or similar structures (for example maintenance, repair and installation of escalators or of air-conditioning systems, is classified as construction in section F, if carried out at the construction site). This section also contains the activities of Factoryless Goods producers (FGPs) in manufacturing (see NACE/ATECO introductory guidelines). As a general rule, the activities in the manufacturing section involve the transformation of materials into new, rebuilt and remanufactured products. Their output is a new product. As clarification, the following activities are considered manufacturing in NACE/ATECO: fresh fish processing (oyster shucking, fish filleting), not done on a fishing boat, see 10.20 milk pasteurising and bottling, see 10.51 leather converting, see 15.11 wood preserving, see 16.12 printing and related activities, excluding published goods, see 18.1 tyre retreading, see 22.11 ready-mixed concrete production, see 23.63 galvanising, electroplating, plating etc., and other metallic or non-metallic coating of metals, see 25.51 heat treatment of metals, see 25.52 refilling of ink cartridges, see 26.20 refilling or recharging of fire extinguishers, see 28.29 rebuilding or remanufacture of machinery (e.g. automobile engines), see 29.10 assembly provided by a seller or blending of several products to be sold. If assembly is provided by a contractor, this activity should be classified in manufacturing. Conversely, there are activities that, although sometimes involving transformation processes, are classified in other sections of NACE/ATECO; in other words, they are not considered as manufacturing. They include: logging, classified in section A beneficiating of agricultural products, classified in section A preparation of food for immediate consumption on the premises, classified in division 56 beneficiating of ores and other minerals, classified in section B production of gaseous fuels for energy supply through a permanent network, classified in section D production of compost from organic waste, classified in section E assembly provided as part of a delivery or by a seller; however, if assembly is the main activity provided by a contractor, it is classified in manufacturing. activities of breaking bulk and redistribution in smaller lots, including packaging, repackaging, or bottling products (e.g. as liquors or chemicals); sorting and reselling of scrap; mixing paints to customer order; cutting metals to customer order; treatment not resulting in a different good, classified in section G publishing and the combined activities of publishing and printing, classified in section J"@en, "Questa sezione include la trasformazione fisica, meccanica, chimica o biologica di materiali, sostanze o componenti in nuovi prodotti, sebbene questo non sia l'unico criterio con cui è possibile definire le attività manifatturiere (cfr. nota sul trattamento dei rifiuti di sotto riportata). I materiali, le sostanze o i componenti che possono essere trasformati sono materie prime o prodotti dell'agricoltura, della silvicoltura, della pesca, dell'estrazione mineraria o di altre attività manifatturiere. La modifica, la rigenerazione o la ricostruzione sostanziale dei prodotti sono in genere considerate attività manifatturiere. Il nuovo prodotto trasformato (cioè l'output di un processo manifatturiero) può essere finito, quindi pronto per l'utilizzo o per il consumo, oppure può trattarsi di un prodotto semilavorato destinato a un'ulteriore attività manifatturiera (cioè utilizzato come input per un'ulteriore attività manifatturiera). Ad esempio il prodotto della raffinazione di allumina viene utilizzato per la produzione di alluminio primario; l'alluminio primario viene utilizzato per la trafilatura dell'alluminio in fili e i fili di alluminio sono utilizzati per la fabbricazione di prodotti in fili di alluminio. La fabbricazione di componenti e parti specialistiche, nonché di accessori e parti di macchinari e apparecchiature è di norma classificata nella stessa classe della fabbricazione dei macchinari e delle apparecchiature cui i componenti, le parti e gli accessori sono destinati. La fabbricazione di elementi (componenti e parti di macchinari e apparecchiature) non specialistici, ad esempio motori, pistoni, motori elettrici, gruppi elettrici, valvole, ingranaggi, cuscinetti a rulli, è classificata nella classe di produzione appropriata, a prescindere dai macchinari e dalle attrezzature in cui queste parti possono essere incluse. La fabbricazione di componenti e accessori specialistici tramite stampaggio o estrusione di materie plastiche è solitamente inclusa nel gruppo 22.2. L'assemblaggio di parti che compongono i prodotti fabbricati rientra tra le attività manifatturiere. È incluso sia l'assemblaggio di parti che compongono prodotti fabbricati in proprio sia l'assemblaggio di parti che compongono prodotti acquistati. Il recupero di rifiuti, cioè la trasformazione di materiali di scarto in materie prime secondarie, è classificato all'interno del gruppo 38.2 (NOTA: le materie prime secondarie sono materiali e prodotti che derivano dal semplice riutilizzo o da un processo di riciclo e di recupero di rifiuti che possono essere utilizzati come materie prime). Sebbene possa implicare trasformazioni fisiche, meccaniche, biologiche o chimiche, questo processo non è considerato una attività manifatturiera. Lo scopo primario di queste operazioni è il trattamento o la lavorazione dei rifiuti, e sono quindi classificate nella sezione E. Tuttavia, la fabbricazione di nuovi prodotti a partire da materie prime secondarie è classificata come attività manifatturiera, anche se questi processi utilizzano i rifiuti come input. Ad esempio, la produzione di argento dalle pellicole di scarto è considerata un processo manifatturiero. In generale le attività di manutenzione specializzata e di riparazione di macchine e attrezzature industriali, commerciali e simili sono classificate nella divisione 33. Tuttavia, le attività di riparazione e manutenzione di computer, beni per uso personale e per la casa, autoveicoli e motocicli sono classificate nella divisione 95. L'installazione di macchinari e apparecchiature, se effettuata come attività specializzata, è classificata nella classe 33.20. La manutenzione, la riparazione e l'installazione di attrezzature che costituiscono parte integrante di edifici o strutture simili, ad esempio la manutenzione, la riparazione e l'installazione di scale mobili o di impianti di condizionamento dell'aria, sono classificate come attività di costruzione nella sezione F, se sono eseguite in cantiere. Questa sezione include anche le attività dei c.d. Factoryless Goods producers (FGP) nella manifattura (cfr. linee guida introduttive della classificazione NACE/ATECO o linee guida tecnico-metodologiche della classificazione NACE/ATECO). Come regola generale, le attività della sezione dedicata alla manifattura (sezione C) implicano la trasformazione di materiali in prodotti nuovi, ricostruiti e rigenerati. Il loro output è un prodotto nuovo. A titolo di chiarimento, le seguenti attività sono considerate manifatturiere nella classificazione NACE/ATECO: lavorazione di pesce fresco (sgusciatura delle ostriche, filettatura del pesce) non effettuata su navi adibite alla pesca (pescherecci), cfr. 10.20 pastorizzazione e imbottigliamento di latte, cfr. 10.51 trasformazione di pelli grezze in pelli finite, cfr. 15.11 conservazione del legno, cfr. 16.12 stampa e attività connesse (escluse le pubblicazioni), cfr. 18.1 rigenerazione di pneumatici, cfr. 22.11 produzione di calcestruzzo pronto per l'uso, cfr. 23.63 galvanizzazione, galvanotecnica, placcatura e altre attività di rivestimento metallico o non metallico di metalli, cfr. 25.51 trattamento termico dei metalli, cfr. 25.52 ricarica di cartucce di inchiostro, cfr. 26.20 riempimento o ricarica di estintori, cfr. 28.29 ricostruzione o rifabbricazione di macchinari, ad esempio motori per autoveicoli, cfr. 29.10 operazioni di assemblaggio o di miscelazione di prodotti connesse ad attività di commercio, ma svolte da unità terze in outsourcing (queste attività devono essere classificate come attività manifatturiere) Di contro, vi sono attività che, pur comportando talvolta processi di trasformazione, sono classificate in altre sezioni della classificazione NACE/ATECO; in altre parole, non sono considerate attività manifatturiere. Tra queste, è possibile annoverare: utilizzo di aree forestali, cfr. sezione A prima lavorazione di prodotti agricoli, cfr. sezione A preparazione di alimenti per il consumo immediato sul posto, cfr. divisione 56 arricchimento di minerali, cfr. sezione B produzione di combustibili gassosi per la fornitura di energia attraverso una rete permanente, cfr. sezione D produzione di compost da rifiuti organici, cfr. sezione E operazioni di assemblaggio connesse a servizi di consegna o ad attività di commercio quando svolte in proprio (quando invece svolte da unità terze in outsourcing devono essere classificate come attività manifatturiere) attività per la suddivisione di grosse partite di merci e la loro ridistribuzione in partite più piccole, incluse le operazioni di imballaggio, riconfezionamento o imbottigliamento di prodotti, ad esempio liquori o prodotti chimici; la cernita e la rivendita di cascami; la mescolatura di vernici e il taglio di metalli secondo le specifiche del cliente; servizi di trattamento che non determinano la produzione di una versione modificata dello stesso prodotto, cfr. sezione G attività editoriali e attività editoriali combinate con attività di stampa, cfr. sezione J"@it;
@@ -351,7 +348,6 @@ ndc:keyConcept a rdf:Property .
 :D a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY"@en, "ENERGIEVERSORGUNG"@de, "FORNITURA DI ENERGIA ELETTRICA, GAS, VAPORE E ARIA CONDIZIONATA"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "D";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -364,7 +360,6 @@ ndc:keyConcept a rdf:Property .
 :E a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES"@en, "WASSERVERSORGUNG; ABWASSER- UND ABFALLENTSORGUNG UND BESEITIGUNG VON UMWELTVERSCHMUTZUNGEN"@de, "FORNITURA DI ACQUA; GESTIONE DI RETI FOGNARIE, ATTIVITÀ DI TRATTAMENTO DEI RIFIUTI E RISANAMENTO"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "E";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -377,7 +372,6 @@ ndc:keyConcept a rdf:Property .
 :F a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "CONSTRUCTION"@en, "BAUGEWERBE/BAU"@de, "COSTRUZIONI"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "F";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -392,7 +386,6 @@ ndc:keyConcept a rdf:Property .
 :G a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "WHOLESALE AND RETAIL TRADE"@en, "HANDEL"@de, "COMMERCIO ALL'INGROSSO E AL DETTAGLIO"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "G";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -407,7 +400,6 @@ ndc:keyConcept a rdf:Property .
 :H a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "TRANSPORTATION AND STORAGE"@en, "VERKEHR UND LAGEREI"@de, "TRASPORTO E MAGAZZINAGGIO"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "H";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -423,7 +415,6 @@ ndc:keyConcept a rdf:Property .
 :I a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ACCOMMODATION AND FOOD SERVICE ACTIVITIES"@en, "GASTGEWERBE/BEHERBERGUNG UND GASTRONOMIE"@de, "ATTIVITÀ DEI SERVIZI DI ALLOGGIO E DI RISTORAZIONE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "I";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -436,7 +427,6 @@ ndc:keyConcept a rdf:Property .
 :J a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "PUBLISHING, BROADCASTING, AND CONTENT PRODUCTION AND DISTRIBUTION ACTIVITIES"@en, "VERLAGSWESEN, RUNDFUNK SOWIE ERSTELLUNG UND VERBREITUNG VON MEDIENINHALTEN"@de, "ATTIVITÀ EDITORIALI, TRASMISSIONI RADIOFONICHE E PRODUZIONE E DISTRIBUZIONE DI CONTENUTI"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "J";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -452,7 +442,6 @@ ndc:keyConcept a rdf:Property .
 :K a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "TELECOMMUNICATION, COMPUTER PROGRAMMING, CONSULTING, COMPUTING INFRASTRUCTURE AND OTHER INFORMATION SERVICE ACTIVITIES"@en, "TELEKOMMUNIKATION, SOFTWAREENTWICKLUNG, IT-BERATUNG UND ERBRINGUNG SONSTIGER DIENSTLEISTUNGEN DER INFORMATIONSTECHNOLOGIE UND DER COMPUTERINFRASTRUKTUR"@de, "TELECOMUNICAZIONI, PROGRAMMAZIONE E CONSULENZA INFORMATICA, INFRASTRUTTURE INFORMATICHE E ALTRE ATTIVITÀ DEI SERVIZI D'INFORMAZIONE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "K";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -466,7 +455,6 @@ ndc:keyConcept a rdf:Property .
 :L a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "FINANCIAL AND INSURANCE ACTIVITIES"@en, "ERBRINGUNG VON FINANZ- UND VERSICHERUNGSDIENSTLEISTUNGEN"@de, "ATTIVITÀ FINANZIARIE E ASSICURATIVE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "L";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -477,7 +465,6 @@ ndc:keyConcept a rdf:Property .
 :M a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "REAL ESTATE ACTIVITIES"@en, "GRUNDSTÜCKS- UND WOHNUNGSWESEN"@de, "ATTIVITÀ IMMOBILIARI"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "M";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """È prevista una regola specifica per la classificazione delle attività di fornitura di servizi di alloggio (o affitto) in case e appartamenti all'interno delle divisioni 55 o 68 basata sulla durata del servizio offerto. In particolare: la fornitura di servizi di alloggio (o affitto) in case e appartamenti per un periodo superiore a un anno deve essere classificata nella classe 68.20; la fornitura di servizi di alloggio (o affitto) in case e appartamenti a turisti per un periodo inferiore a un anno deve essere classificata nella classe 55.20; la fornitura di servizi di alloggio (affitto) in case e appartamenti a lavoratori e studenti (per motivi non-holiday o non di vacanza) per un periodo inferiore a un anno deve essere classificata nella classe 55.90.Sono escluse le seguenti attività:
@@ -488,7 +475,6 @@ ndc:keyConcept a rdf:Property .
 :N a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES"@en, "ERBRINGUNG VON WISSENSCHAFTLICHEN UND TECHNISCHEN DIENSTLEISTUNGEN"@de, "ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "N";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "This section includes specialised professional, scientific and technical activities. These activities require a high degree of training and make specialised knowledge and skills available to users."@en, "Questa sezione include le attività specialistiche professionali, scientifiche e tecniche. Tali attività richiedono un elevato livello di preparazione e mettono a disposizione degli utenti conoscenze e capacità specialistiche."@it;
@@ -497,7 +483,6 @@ ndc:keyConcept a rdf:Property .
 :O a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES"@en, "ERBRINGUNG VON SONSTIGEN WIRTSCHAFTLICHEN DIENSTLEISTUNGEN"@de, "ATTIVITÀ AMMINISTRATIVE E DI SERVIZI DI SUPPORTO"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "O";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "This section includes a variety of activities that support general business operations. These activities differ from those in section N since their primary purpose is not the transfer of specialised knowledge."@en, "Questa sezione include una serie di attività amministrative e di servizi di supporto che differiscono da quelle incluse nella sezione N, in quanto il loro scopo primario non consiste nel trasferimento di conoscenze specialistiche."@it;
@@ -506,7 +491,6 @@ ndc:keyConcept a rdf:Property .
 :P a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY"@en, "ÖFFENTLICHE VERWALTUNG, VERTEIDIGUNG; SOZIALVERSICHERUNG"@de, "AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "P";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "This section includes activities of a governmental nature, normally carried out by the public administration. This includes the enactment and judicial interpretation of laws and their pursuant regulation, as well as the administration of programmes based on them, legislative activities, taxation, national defence, public order and safety, immigration services, foreign affairs and the administration of government programmes. The legal or institutional status is not, in itself, the determining factor for an activity to belong in this section, rather than the activity being of a nature specified in the previous paragraph. This means that activities classified elsewhere in NACE/ATECO do not fall under this section, even if carried out by public entities; for example the administration of the school system, in other words, regulations, checks, curricula falls under this section, but teaching itself does not (see section Q) while a prison or military hospital is classified to health (see section R). Similarly, some activities described in this section may be carried out by non-government units. This section also includes compulsory social security activities."@en, "Questa sezione include le attività di natura governativa, normalmente svolte dalla Pubblica Amministrazione. Sono incluse l'emanazione e l'interpretazione giudiziaria delle leggi e la loro regolamentazione, l'amministrazione dei programmi basati su di esse, le attività legislative, la tassazione, la difesa nazionale, l'ordine pubblico e la sicurezza, i servizi di immigrazione, gli affari esteri e l'amministrazione dei programmi governativi. Lo status giuridico o istituzionale delle unità economiche non è, di per sé, il fattore determinante per l'appartenenza di un'attività a questa sezione, ma piuttosto che l'attività sia della natura specificata nel paragrafo precedente. Ciò significa che le attività classificate altrove nella classificazione NACE/ATECO non rientrano in questa sezione, anche se svolte da enti pubblici. Ad esempio l'amministrazione del sistema scolastico (regolamenti, controlli, programmi di studio) rientra in questa sezione, ma non l'insegnamento in sé (cfr. sezione Q); le attività di ospedali carcerari o ospedali militari sono classificate nella sezione dedicata alla salute umana (cfr. sezione R). Allo stesso tempo, alcune attività descritte in questa sezione possono essere svolte da unità non governative. Questa sezione include anche le attività di assicurazione sociale obbligatoria (previdenza sociale)."@it;
@@ -515,7 +499,6 @@ ndc:keyConcept a rdf:Property .
 :Q a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "EDUCATION"@en, "ERZIEHUNG UND UNTERRICHT"@de, "ISTRUZIONE E FORMAZIONE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "Q";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """In questa sezione sono classificate anche le attività di istituti omnicomprensivi cioè attività di strutture che offrono programmi educativi afferenti a diversi livelli di istruzione. Per determinare l'attività economica principale svolta da tali unità si ricorre solitamente a criteri alternativi al valore aggiunto (cfr. linee guida introduttive della classificazione NACE/ATECO o linee guida tecnico-metodologiche della classificazione NACE/ATECO), in particolare al numero di studenti iscritti in ognuno dei livelli considerati.Sono escluse le seguenti attività:
@@ -526,7 +509,6 @@ ndc:keyConcept a rdf:Property .
 :R a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES"@en, "GESUNDHEITS- UND SOZIALWESEN"@de, "ATTIVITÀ PER LA SALUTE UMANA E DI ASSISTENZA SOCIALE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "R";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Questa sezione include discipline, servizi e attività svolte in ambito sanitario o comunque finalizzate a sostenere e tutelare la salute umana nei processi di prevenzione, cura integrata, riabilitazione.Sono escluse le seguenti attività:
@@ -538,7 +520,6 @@ ndc:keyConcept a rdf:Property .
 :S a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ARTS, SPORTS AND RECREATION"@en, "KUNST, SPORT UND ERHOLUNG"@de, "ATTIVITÀ ARTISTICHE, SPORTIVE E DI DIVERTIMENTO"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "S";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "This section includes a wide range of activities to meet varied cultural, sports and recreational interests of their customers, including live performances, entertainment, the operation of cultural and natural heritage sites, and gambling. This section also includes services that facilitate entertainment events and live performances."@en, "Questa sezione include un'ampia gamma di attività destinate a soddisfare i diversi interessi culturali, sportivi e ricreativi degli utenti, tra cui eventi dal vivo, spettacoli e intrattenimento, gestione di siti di interesse culturale e naturale, e gioco d'azzardo. Questa sezione include anche i servizi che consentono di organizzare eventi di intrattenimento e spettacoli dal vivo."@it;
@@ -547,7 +528,6 @@ ndc:keyConcept a rdf:Property .
 :T a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "OTHER SERVICE ACTIVITIES"@en, "ERBRINGUNG VON SONSTIGEN DIENSTLEISTUNGEN"@de, "ALTRE ATTIVITÀ DI SERVIZI"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "T";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "This section (as a residual category) includes the activities of membership organisations, the repair of computers, personal and household goods, motor vehicles and motorcycles, and a variety of personal service activities not covered elsewhere in the classification."@en, "Questa sezione (come voce residuale) include le attività di organizzazioni associative, di riparazione di computer, beni per uso personale e per la casa, autoveicoli e motocicli, e una serie di attività di servizi alla persona non incluse altrove nella classificazione."@it;
@@ -556,7 +536,6 @@ ndc:keyConcept a rdf:Property .
 :U a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS AND UNDIFFERENTIATED GOODS - AND SERVICE-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"@en, "PRIVATE HAUSHALTE MIT HAUSPERSONAL SOWIE HERSTELLUNG VON WAREN UND ERBRINGUNG VON DIENSTLEISTUNGEN DURCH PRIVATE HAUSHALTE FÜR DEN EIGENBEDARF OHNE AUSGEPRÄGTEN SCHWERPUNKT"@de, "ATTIVITÀ DI FAMIGLIE E CONVIVENZE COME DATORI DI LAVORO PER PERSONALE DOMESTICO E PRODUZIONE DI BENI E SERVIZI INDIFFERENZIATI PER USO PROPRIO DA PARTE DI FAMIGLIE E CONVIVENZE"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "U";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition ""@en, ""@it;
@@ -565,7 +544,6 @@ ndc:keyConcept a rdf:Property .
 :V a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"@en, "EXTERRITORIALE ORGANISATIONEN UND KÖRPERSCHAFTEN"@de, "ATTIVITÀ DI ORGANIZZAZIONI E ORGANISMI EXTRATERRITORIALI"@it;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2025/>;
   skos:notation "V";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition ""@en, ""@it;
