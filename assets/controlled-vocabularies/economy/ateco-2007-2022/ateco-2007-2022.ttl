@@ -212,7 +212,7 @@ ndc:keyConcept a rdf:Property .
 	dct:publisher <https://w3id.org/italia/data/public-organization/ISTAT> ;
 	dcat:distribution <https://w3id.org/italia/data/distribution/Ateco2007-2022-RDF-Turtle> ,  <https://w3id.org/italia/data/distribution/Ateco2007-2022-CSV> ,
 	<https://w3id.org/italia/data/distribution/Ateco2007-2022-XLSX>  ;
-	dct:modified "2025-09-16"^^xsd:date ;
+	dct:modified "2025-09-29"^^xsd:date ;
     prov:wasDerivedFrom <https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007> ;
 	adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
 	dcat:keyword "ATECO" , "Attività Economica" , "Classificazione" , "Ateco2007" ;
@@ -295,7 +295,6 @@ ndc:keyConcept a rdf:Property .
 :A a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "AGRICOLTURA, SILVICOLTURA E PESCA";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "A";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "Nella sezione sono incluse le attività produttive che utilizzano le risorse di origine vegetale ed animale. La sezione include attività dell'agricoltura, della zootecnia, della silvicoltura, della cattura di animali in aree di allevamento o ripopolamento o nei loro habitat naturali.";
@@ -304,7 +303,6 @@ ndc:keyConcept a rdf:Property .
 :B a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ESTRAZIONE DI MINERALI DA CAVE E MINIERE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "B";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -324,7 +322,6 @@ Alcune operazioni tecniche di questa sezione, in particolare legate all'estrazio
 :C a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ MANIFATTURIERE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "C";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """Questa sezione include la trasformazione fisica o chimica di materiali, sostanze o componenti in nuovi prodotti, sebbene questo non sia l'unico criterio con cui è possibile definire queste attività (cfr. nota sul riciclaggio dei materiali di scarto). I materiali, le sostanze o i componenti trasformati sono materie prime che provengono dall'agricoltura, dalla silvicoltura, dalla pesca, dall'estrazione di minerali oppure sono il prodotto di altre attività manifatturiere. L'alterazione, la rigenerazione o la ricostruzione sostanziale dei prodotti sono in genere considerate attività manifatturiere.
@@ -363,7 +360,6 @@ Di contro, la Nace non considera come manifatturiere altre attività che talvolt
 :D a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "FORNITURA DI ENERGIA ELETTRICA, GAS, VAPORE E ARIA CONDIZIONATA";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "D";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -376,7 +372,6 @@ Questa sezione include pertanto la gestione di aziende elettriche e del gas, che
 :E a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "FORNITURA DI ACQUA; RETI FOGNARIE, ATTIVITÀ DI GESTIONE DEI RIFIUTI E RISANAMENTO";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "E";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "Questa sezione include le attività legate alla gestione (inclusa la raccolta, il trattamento e lo smaltimento) di varie forme di rifiuti, quali rifiuti solidi o non solidi industriali o domestici, come pure la gestione di siti contaminati. Il prodotto che risulta dal processo di trattamento dei rifiuti può essere smaltito oppure può diventare un input in altri processi di produzione. Anche le attività di fornitura di acqua sono incluse in questa sezione, in quanto spesso sono condotte insieme al trattamento dei reflui, o comunque dalle stesse unità.";
@@ -385,7 +380,6 @@ Questa sezione include pertanto la gestione di aziende elettriche e del gas, che
 :F a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "COSTRUZIONI";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "F";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """Questa sezione comprende l'attività generica e specializzata per la costruzione di edifici e di opere di ingegneria civile. Essa include i nuovi lavori, le riparazioni, le aggiunte, le alterazioni, l'installazione nei cantieri di edifici prefabbricati o di strutture e le costruzioni di natura temporanea.
@@ -401,7 +395,6 @@ In questa sezione è inclusa l'attività delle cooperative finalizzate al reperi
 :G a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "COMMERCIO ALL'INGROSSO E AL DETTAGLIO; RIPARAZIONE DI AUTOVEICOLI E MOTOCICLI";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "G";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """In questa sezione vengono classificate le attività di vendita all'ingrosso e al dettaglio (ossia vendita senza trasformazione) di ogni genere di beni, nonché la fornitura di servizi correlati alla vendita di merci. La vendita all'ingrosso e quella al dettaglio costituiscono le fasi finali della catena di distribuzione di merci. Sono incluse in questa sezione anche la riparazione di autoveicoli e di motocicli.
@@ -414,7 +407,6 @@ La vendita al dettaglio (senza trasformazione) riguarda beni nuovi e usati cedut
 :H a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "TRASPORTO E MAGAZZINAGGIO";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "H";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:note """Sono escluse le seguenti attività:
@@ -430,7 +422,6 @@ Questa sezione include i servizi di ristorazione e bar effettuati dalle stesse i
 :I a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ DEI SERVIZI DI ALLOGGIO E DI RISTORAZIONE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "I";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """In questa sezione sono incluse le strutture che forniscono alloggio per brevi periodi a visitatori e viaggiatori, nonché pasti e bevande pronti per il consumo. La quantità e i tipi di servizi complementari forniti dalle strutture di questa sezione possono variare ampiamente. 
@@ -440,7 +431,6 @@ Questa sezione esclude la fornitura di alloggio per lunghi periodi, che viene cl
 :J a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "SERVIZI DI INFORMAZIONE E COMUNICAZIONE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "J";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """Questa sezione include la produzione e la distribuzione di informazioni e prodotti culturali, la gestione dei mezzi per la trasmissione e per la distribuzione di tali prodotti, nonché le attività relative alla trasmissione di dati e comunicazioni, le attività relative all'information technology (tecnologie dell'informatica) e le attività di altri servizi di informazione.
@@ -452,7 +442,6 @@ Le attività relative alla produzione e alla distribuzione di programmazioni tel
 :K a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ FINANZIARIE E ASSICURATIVE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "K";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """Questa sezione include le attività di intermediazione finanziaria, incluse le assicurazioni, le riassicurazioni e i fondi pensione, nonché le attività ausiliarie dell'intermediazione finanziaria.
@@ -462,7 +451,6 @@ Sono incluse anche le attività di assunzione e detenzione di attività finanzia
 :L a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ IMMOBILIARI";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "L";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """Questa sezione include le attività di locatori, agenti e/o mediatori che operano nell'ambito di uno o più dei seguenti settori: vendita e acquisto di immobili, affitto di immobili, fornitura di altri servizi immobiliari quali la valutazione di immobili o le attività di agenti immobiliari per conto terzi. Le attività incluse in questa sezione possono essere effettuate su beni immobili propri o in affitto ed anche per conto terzi.
@@ -472,7 +460,6 @@ Questa sezione include anche gli amministratori di beni immobili.""";
 :M a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ PROFESSIONALI, SCIENTIFICHE E TECNICHE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "M";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "Questa sezione comprende le attività specialistiche professionali, scientifiche e tecniche. Tali attività richiedono un elevato livello di preparazione e mettono a disposizione degli utenti conoscenze e capacità specialistiche.";
@@ -481,7 +468,6 @@ Questa sezione include anche gli amministratori di beni immobili.""";
 :N a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "NOLEGGIO, AGENZIE DI VIAGGIO, SERVIZI DI SUPPORTO ALLE IMPRESE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "N";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """Le attività previste in questa sezione possono essere svolte non solo a favore di imprese e/o istituzioni, ma anche a favore di utenti finali.
@@ -491,7 +477,6 @@ Queste attività differiscono da quelle incluse nella sezione M, in quanto il lo
 :O a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "O";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """In questa sezione vengono classificate le attività di natura governativa normalmente svolte dalle amministrazioni pubbliche. Sono incluse le attività di promulgazione e di interpretazione giuridica delle leggi e dei relativi regolamenti attuativi, oltre all'amministrazione dei programmi fondati su tali leggi, le attività legislative, il regime fiscale, la difesa nazionale, l'ordine e la sicurezza pubblica, i servizi per l'immigrazione, gli affari esteri e l'amministrazione dei programmi di governo. Questa sezione include anche le attività connesse all'assicurazione sociale obbligatoria.
@@ -501,7 +486,6 @@ Lo status giuridico o istituzionale non costituisce di per sé il fattore determ
 :P a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ISTRUZIONE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "P";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition """In questa sezione viene classificata l'istruzione a qualsiasi livello o per qualsiasi professione. L'attività può essere svolta attraverso lezioni orali o scritte, tramite radio, televisione, internet o per corrispondenza.
@@ -514,7 +498,6 @@ Questa sezione include anche l'istruzione impartita a scopi principalmente sport
 :Q a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "SANITÀ E ASSISTENZA SOCIALE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "Q";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "Questa sezione include l'erogazione di servizi sanitari e le attività di assistenza sociale. È inclusa una vasta gamma di attività, tra cui l'assistenza sanitaria fornita da medici professionisti presso ospedali e altre strutture, le attività di assistenza domiciliare che contemplano anche attività di assistenza sanitaria o attività di assistenza sociale che non contemplano il coinvolgimento degli operatori sanitari.";
@@ -523,7 +506,6 @@ Questa sezione include anche l'istruzione impartita a scopi principalmente sport
 :R a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ ARTISTICHE, SPORTIVE, DI INTRATTENIMENTO E DIVERTIMENTO";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "R";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "Questa sezione include una vasta gamma di attività destinate a soddisfare diversi interessi culturali, di intrattenimento e divertimento per il pubblico, inclusi spettacoli dal vivo, gestione di musei, giochi e scommesse, attività sportive e ricreative.";
@@ -532,7 +514,6 @@ Questa sezione include anche l'istruzione impartita a scopi principalmente sport
 :S a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ALTRE ATTIVITÀ DI SERVIZI";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "S";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "Questa sezione include le attività di organizzazioni associative, la riparazione di computer e di beni per la casa e la persona e una varietà di servizi personali non altrove classificati.";
@@ -541,7 +522,6 @@ Questa sezione include anche l'istruzione impartita a scopi principalmente sport
 :T a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ATTIVITÀ DI FAMIGLIE E CONVIVENZE COME DATORI DI LAVORO PER PERSONALE DOMESTICO; PRODUZIONE DI BENI E SERVIZI INDIFFERENZIATI PER USO PROPRIO DA PARTE DI FAMIGLIE E CONVIVENZE";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "T";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "";
@@ -550,7 +530,6 @@ Questa sezione include anche l'istruzione impartita a scopi principalmente sport
 :U a skos:Concept, covapit:PrivateOrgActivityType;
   skos:prefLabel "ORGANIZZAZIONI ED ORGANISMI EXTRATERRITORIALI";
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022>;
-  skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022/>;
   skos:notation "U";
   clvapit:hasRankOrder "1"^^xsd:int;
   skos:definition "";
