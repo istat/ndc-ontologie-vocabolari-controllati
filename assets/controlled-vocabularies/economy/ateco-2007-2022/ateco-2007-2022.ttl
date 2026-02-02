@@ -208,7 +208,7 @@ ndc:keyConcept a rdf:Property .
 	dct:title "Ateco 2007 - Classificazione delle attività economiche - Aggiornamento 2022";
 	rdfs:isDefinedBy <https://w3id.org/italia/stat/controlled-vocabulary/economy/ateco-2007-2022> ;
 	dct:identifier "ISTAT:D.8" ;
-	ndc:keyConcept "ateco-2007" ;
+	ndc:keyConcept "ateco-2007-2022" ;
 	dct:publisher <https://w3id.org/italia/data/public-organization/ISTAT> ;
 	dcat:distribution <https://w3id.org/italia/data/distribution/Ateco2007-2022-RDF-Turtle> ,  <https://w3id.org/italia/data/distribution/Ateco2007-2022-CSV> ,
 	<https://w3id.org/italia/data/distribution/Ateco2007-2022-XLSX>  ;
