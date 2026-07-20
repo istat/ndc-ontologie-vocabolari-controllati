@@ -5,7 +5,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix learning: <https://w3id.org/italia/onto/Learning/> .
-@prefix IEF: <https://w3id.org/italia/onto/IEF/> .
+@prefix eat: <https://w3id.org/italia/stat/onto/EducationTraining/> .
 @prefix xkos: <http://purl.org/linked-data/xkos#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -16,7 +16,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-
+@base <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme/> .
 
 
 #################################################################
@@ -28,8 +28,8 @@
     a skos:ConceptScheme , adms:Asset , dcatapit:Dataset ;
         dct:title "Education Programmes Controlled Vocabulary"@en ,
               "Vocabolario controllato dei percorsi di istruzione"@it ;
-    dct:description "Il Vocabolario controllato dei percorsi di istruzione è finalizzato alla classificazione e all’analisi comparabile dei programmi formativi e delle attività educative organizzate. Il vocabolario si articola su un unico livello gerarchico ed è strutturato in modo speculare alla CLAIST, la quale adotta come base di riferimento i percorsi identificati dallo schema internazionale ISCED-P (ISCED-Programmes), sviluppandoli con un maggior grado di dettaglio per aderire pienamente alle specificità del sistema educativo nazionale. Il vocabolario copre l’intero spettro dei percorsi formali di istruzione e formazione — dai servizi educativi per la prima infanzia fino all’istruzione terziaria superiore — intesi come sequenze coerenti di attività educative progettate per raggiungere obiettivi di apprendimento prestabiliti. Attraverso la stretta corrispondenza con la CLAIST, esso garantisce un raccordo sistematico tra la normativa nazionale vigente e le categorie concordate a livello internazionale, assicurando una mappatura trasparente dei dati."@it ,
-                    "Education Programmes Controlled Vocabulary is designed for the classification and comparable analysis of organized education programmes and educational activities. This vocabulary consists of a single hierarchical level and is designed to be specular to CLAIST. While CLAIST is originally based on the pathways and categories identified by the international ISCED-P (ISCED-Programmes) coding scheme, it provides a higher level of granularity and detail to accurately reflect the specificities of the national education system. The vocabulary encompasses the full range of formal educational pathways — from early childhood education to tertiary level — defined as coherent sequences of educational activities designed to achieve pre-determined learning objectives. By mirroring CLAIST, the vocabulary ensures a systematic link between current national regulations and international statistical standards, facilitating the transparent mapping of national data into internationally agreed categories."@en ;
+    dct:description "Il Vocabolario controllato dei percorsi di istruzione è finalizzato alla classificazione e all’analisi comparabile dei programmi formativi e delle attività educative organizzate. Il vocabolario si articola su un unico livello gerarchico ed è strutturato in modo speculare alla CLAIST (Mappa dei percorsi di istruzione e dei titoli di studio italiani - https://www.istat.it/classificazione/classificazione-dei-titoli-di-studio-italiani/), la quale adotta come base di riferimento i percorsi identificati dallo schema internazionale ISCED-P (ISCED-Programmes), sviluppandoli con un maggior grado di dettaglio per aderire pienamente alle specificità del sistema educativo nazionale. Il vocabolario copre l’intero spettro dei percorsi formali di istruzione e formazione — dai servizi educativi per la prima infanzia fino all’istruzione terziaria superiore — intesi come sequenze coerenti di attività educative progettate per raggiungere obiettivi di apprendimento prestabiliti. Attraverso la stretta corrispondenza con la CLAIST, esso garantisce un raccordo sistematico tra la normativa nazionale vigente e le categorie concordate a livello internazionale, assicurando una mappatura trasparente dei dati."@it ,
+                    "Education Programmes Controlled Vocabulary is designed for the classification and comparable analysis of organized education programmes and educational activities. This vocabulary consists of a single hierarchical level and is designed to be specular to CLAIST (Map of Italian education programmes and qualifications - https://www.istat.it/classificazione/classificazione-dei-titoli-di-studio-italiani/). While CLAIST is originally based on the pathways and categories identified by the international ISCED-P (ISCED-Programmes) coding scheme, it provides a higher level of granularity and detail to accurately reflect the specificities of the national education system. The vocabulary encompasses the full range of formal educational pathways — from early childhood education to tertiary level — defined as coherent sequences of educational activities designed to achieve pre-determined learning objectives. By mirroring CLAIST, the vocabulary ensures a systematic link between current national regulations and international statistical standards, facilitating the transparent mapping of national data into internationally agreed categories."@en ;
     xkos:numberOfLevels "1" ;
     dct:type <http://purl.org/adms/assettype/CodeList> ;
     adms:representationTechnique <http://purl.org/adms/representationtechnique/SKOS> ;
@@ -204,7 +204,7 @@
     <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme/CPS_67> .
 
 
-:CPS_34 a skos:Concept, IEF:EducationProgramme;
+:CPS_34 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_34";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -222,7 +222,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca, di conce
 Decreto del Presidente della Repubblica 15 marzo 2010, n. 87 \"Regolamento recante norme per il riordino degli istituti professionali, a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
  :riferimentoMappaClaist "323.01"@it .
 
-:CPS_36 a skos:Concept, IEF:EducationProgramme;
+:CPS_36 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_36";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -234,7 +234,7 @@ Decreto del Presidente della Repubblica 15 marzo 2010, n. 87 \"Regolamento recan
 Art. 1, legge 11 dicembre 1969, n. 910 \"Provvedimenti urgenti per l'Università\"."""@it;
  :riferimentoMappaClaist "326.01"@it .
 
-:CPS_41 a skos:Concept, IEF:EducationProgramme;
+:CPS_41 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_41";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_5_10_10>;
@@ -256,7 +256,7 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca, di c
 Decreto del Ministro dell’istruzione, dell’università e della ricerca di concerto con il Ministro del lavoro e delle politiche sociali, adottato 7 settembre 2011, n. 8327 \"recante norme generali concernenti i diplomi degli Istituti Tecnici Superiori (I.T.S.) e relative figure nazionali di riferimento, la verifica e la certificazione delle competenze di cui agli articoli 4, comma 3, e 8, comma 2, del decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008\"."""@it;
  :riferimentoMappaClaist "501.01; 501.02"@it .
 
-:CPS_21 a skos:Concept, IEF:EducationProgramme;
+:CPS_21 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_21";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -268,7 +268,7 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca di co
 Art. 191 del decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "311.01"@it .
 
-:CPS_30 a skos:Concept, IEF:EducationProgramme;
+:CPS_30 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_30";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -281,7 +281,7 @@ Decreto del Presidente della Repubblica 8 marzo 1999, n. 275 \"Regolamento recan
 Decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "320.01"@it .
 
-:CPS_56 a skos:Concept, IEF:EducationProgramme;
+:CPS_56 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_56";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_30_20>;
@@ -293,7 +293,7 @@ Decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legi
 Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento concernente modifiche al regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508, adottato con decreto del Presidente della Repubblica 8 luglio 2005, n. 212\"."""@it;
  :riferimentoMappaClaist "709.01"@it .
 
-:CPS_47 a skos:Concept, IEF:EducationProgramme;
+:CPS_47 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_47";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_50_10>;
@@ -305,7 +305,7 @@ Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento con
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
  :riferimentoMappaClaist "604.01"@it .
 
-:CPS_69 a skos:Concept, IEF:EducationProgramme;
+:CPS_69 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_69";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9_30_10>;
@@ -320,7 +320,7 @@ Accordo in Conferenza Stato-Regioni 1° agosto 2019, n. 155 \"riguardante l'inte
 Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'istruzione, dell'università e della ricerca 8 gennaio 2018 \"Istituzione del Quadro nazionale delle qualificazioni rilasciate nell'ambito del Sistema nazionale di certificazione delle competenze di cui al decreto legislativo 16 gennaio 2013, n. 13\"."""@it;
  :riferimentoMappaClaist "903.01"@it .
 
-:CPS_60 a skos:Concept, IEF:EducationProgramme;
+:CPS_60 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_60";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>;
@@ -350,7 +350,7 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca 23 fe
 Decreto del Ministro dell’istruzione, dell’università e della ricerca 30 settembre 2011 “Criteri e modalità per lo svolgimento dei corsi di formazione per il conseguimento della specializzazione per le attività di sostegno, ai sensi degli articoli 5 e 13 del decreto 10 settembre 2010, n. 249”."""@it;
  :riferimentoMappaClaist "713.01"@it .
 
-:CPS_64 a skos:Concept, IEF:EducationProgramme;
+:CPS_64 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_64";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8_10_10>;
@@ -364,7 +364,7 @@ Art. 4, legge 3 luglio 1998, n. 210 \"Norme per il reclutamento dei ricercatori 
 Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della docenza universitaria e relativa fascia di formazione, e per la sperimentazione organizzativa e didattica\"."""@it;
  :riferimentoMappaClaist "801.01"@it .
 
-:CPS_65 a skos:Concept, IEF:EducationProgramme;
+:CPS_65 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_65";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8_10_20>;
@@ -377,7 +377,7 @@ Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento con
 Legge 21  dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\"."""@it;
  :riferimentoMappaClaist "802.01"@it .
 
-:CPS_7 a skos:Concept, IEF:EducationProgramme;
+:CPS_7 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_7";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2_10_10>;
@@ -390,7 +390,7 @@ Legge 31 dicembre 1962, n. 1859 \"Istituzione e ordinamento della scuola media s
 Legge 1° luglio 1940, n. 899 \"Istituzione della scuola media\" (c.d. riforma Bottai)."""@it;
  :riferimentoMappaClaist "201.01 "@it .
 
-:CPS_8 a skos:Concept, IEF:EducationProgramme;
+:CPS_8 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_8";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2_10_20>;
@@ -404,7 +404,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 novemb
 Decreto del Presidente della Repubblica 20 marzo 2009, n. 89 \"Revisione dell'assetto ordinamentale, organizzativo e didattico della scuola dell'infanzia e del primo ciclo di istruzione ai sensi dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
  :riferimentoMappaClaist "202.01; 202.02"@it .
 
-:CPS_9 a skos:Concept, IEF:EducationProgramme;
+:CPS_9 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_9";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2_10_20>;
@@ -417,7 +417,7 @@ Art. 4, decreto del Presidente della Repubblica 29 ottobre 2012 , n. 263 \"Regol
 Artt. 169-172 del  decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "203.01; 203.02"@it .
 
-:CPS_42 a skos:Concept, IEF:EducationProgramme;
+:CPS_42 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_42";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_5_10_20>;
@@ -443,7 +443,7 @@ Decreto del Ministro dell'istruzione e del merito 20 ottobre 2023 \"Disposizioni
 Decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008 “Linee guida per la riorganizzazione del Sistema di istruzione e formazione tecnica superiore e la costituzione degli Istituti tecnici superiori”."""@it;
  :riferimentoMappaClaist "502.01"@it .
 
-:CPS_57 a skos:Concept, IEF:EducationProgramme;
+:CPS_57 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_57";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>;
@@ -468,7 +468,7 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca 1° a
 Decreto legislativo 17 agosto 1999, n. 368 “Attuazione della direttiva 93/16/CE in materia di libera circolazione dei medici e di reciproco riconoscimento dei loro diplomi, certificati ed altri titoli e delle direttive 97/50/CE, 98/21/CE, 98/63/CE e 99/46/CE che modificano la direttiva 93/16/CE”."""@it;
  :riferimentoMappaClaist "710.01; 710.02; 710.03"@it .
 
-:CPS_49 a skos:Concept, IEF:EducationProgramme;
+:CPS_49 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_49";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_10_10>;
@@ -483,7 +483,7 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
 Regio decreto del 31 agosto 1933, n. 1592 \"Approvazione del testo unico delle leggi sull'istruzione superiore\"."""@it;
  :riferimentoMappaClaist "701.01"@it .
 
-:CPS_52 a skos:Concept, IEF:EducationProgramme;
+:CPS_52 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_52";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_20_10>;
@@ -497,7 +497,7 @@ Legge 21  dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Ac
 Regio decreto del 31 dicembre 1923, n. 3123 \"Ordinamento dell'istruzione artistica\"."""@it;
  :riferimentoMappaClaist "706.01"@it .
 
-:CPS_54 a skos:Concept, IEF:EducationProgramme;
+:CPS_54 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_54";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_20_30>;
@@ -511,7 +511,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 gennai
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 23 giugno 2011, n. 81 “Definizione degli ordinamenti curriculari dei profili formativi professionalizzanti del corso di diploma accademico di secondo livello di durata quinquennale in Restauro”."""@it;
  :riferimentoMappaClaist "708.01"@it .
 
-:CPS_67 a skos:Concept, IEF:EducationProgramme;
+:CPS_67 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_67";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9_10_10>;
@@ -526,7 +526,7 @@ Accordo in Conferenza Stato-Regioni 1° agosto 2019, n. 155 \"riguardante l'inte
 Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'istruzione, dell'università e della ricerca 8 gennaio 2018 \"Istituzione del Quadro nazionale delle qualificazioni rilasciate nell'ambito del Sistema nazionale di certificazione delle competenze di cui al decreto legislativo 16 gennaio 2013, n. 13\"."""@it;
  :riferimentoMappaClaist "901.01"@it .
 
-:CPS_19 a skos:Concept, IEF:EducationProgramme;
+:CPS_19 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_19";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -539,7 +539,7 @@ Art. 191 del decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disp
 Decreto del Ministero dell'istruzione e del merito n. 29 del 19 febbraio 2026 “concernente l'attuazione degli articoli 26 e 26 bis del decreto-legge 23 settembre 2022, n. 144, recante la revisione dell'assetto ordinamentale degli istituti tecnici e la definizione degli indirizzi, delle articolazioni, dei corrispondenti quadri orari e dei risultati di apprendimento in esito ai relativi percorsi, registrato alla Corte dei Conti il 06/03/2026 al n. 372”."""@it;
  :riferimentoMappaClaist "309.01; 309.02; 309.03"@it .
 
-:CPS_5 a skos:Concept, IEF:EducationProgramme;
+:CPS_5 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_5";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_10_20>;
@@ -550,7 +550,7 @@ Decreto del Ministero dell'istruzione e del merito n. 29 del 19 febbraio 2026 �
   dct:bibliographicCitation "Artt. 5 e 19, decreto legislativo 19 febbraio 2004, n.59 \"Definizione delle norme generali relative alla scuola dell'infanzia e al primo ciclo dell'istruzione, a norma dell'articolo 1 della legge 28 marzo 2003, n. 53\"."@it;
  :riferimentoMappaClaist "102.01"@it .
 
-:CPS_32 a skos:Concept, IEF:EducationProgramme;
+:CPS_32 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_32";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -567,7 +567,7 @@ Decreto del Ministero dell'istruzione e del merito n. 29 del 19 febbraio 2026 �
 Decreto del Presidente della Repubblica 15 marzo 2010, n. 89 \"Regolamento recante revisione dell'assetto ordinamentale, organizzativo e didattico dei licei a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
  :riferimentoMappaClaist "328.01"@it .
 
-:CPS_27 a skos:Concept, IEF:EducationProgramme;
+:CPS_27 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_27";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -580,7 +580,7 @@ Decreto del Presidente della Repubblica 8 marzo 1999, n. 275 \"Regolamento recan
 Decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "317.01"@it .
 
-:CPS_29 a skos:Concept, IEF:EducationProgramme;
+:CPS_29 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_29";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -593,7 +593,7 @@ Decreto del Presidente della Repubblica 8 marzo 1999, n. 275 \"Regolamento recan
 Decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "319.01"@it .
 
-:CPS_59 a skos:Concept, IEF:EducationProgramme;
+:CPS_59 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_59";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>;
@@ -618,7 +618,7 @@ Decreto legislativo 17 novembre 1997, n.398 “Modifica alla disciplina del conc
 Legge 15 maggio 1997, n. 127 “Misure urgenti per lo snellimento dell’attività amministrativa e dei procedimenti di decisione e di controllo”."""@it;
  :riferimentoMappaClaist "712.01"@it .
 
-:CPS_51 a skos:Concept, IEF:EducationProgramme;
+:CPS_51 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_51";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_10_30>;
@@ -631,7 +631,7 @@ Art. 6, co. 3, decreto del Ministro dell'istruzione, dell'università e della ri
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
  :riferimentoMappaClaist "703.01; 703.02"@it .
 
-:CPS_6 a skos:Concept, IEF:EducationProgramme;
+:CPS_6 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_6";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_10_30>;
@@ -644,7 +644,7 @@ Art. 4, co. 1, let. c), decreto del Presidente della Repubblica 29 ottobre 2012 
 Decreto ministro dell'istruzione, dell'università e della ricerca, di concerto con il ministro dell'economia e delle finanze 12 marzo 2015, \"Linee guida per il passaggio al nuovo ordinamento a sostegno dell’autonomia organizzativa e  didattica dei Centri provinciali per l’istruzione degli adulti\"."""@it;
  :riferimentoMappaClaist "103.01; 103.02"@it .
 
-:CPS_11 a skos:Concept, IEF:EducationProgramme;
+:CPS_11 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_11";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_10>;
@@ -655,7 +655,7 @@ Decreto ministro dell'istruzione, dell'università e della ricerca, di concerto 
   dct:bibliographicCitation "Art. 191, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
  :riferimentoMappaClaist "301.01"@it .
 
-:CPS_35 a skos:Concept, IEF:EducationProgramme;
+:CPS_35 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_35";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -668,7 +668,7 @@ Decreto ministro dell'istruzione, dell'università e della ricerca, di concerto 
 Art. 1, legge 11 dicembre 1969, n. 910 \"Provvedimenti urgenti per l'Università\"."""@it;
  :riferimentoMappaClaist "325.01"@it .
 
-:CPS_38 a skos:Concept, IEF:EducationProgramme;
+:CPS_38 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_38";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
@@ -680,7 +680,7 @@ Art. 1, legge 11 dicembre 1969, n. 910 \"Provvedimenti urgenti per l'Università
 Decreto legislativo 13 aprile 2017, n. 60, \"Norme sulla promozione della cultura umanistica, sulla valorizzazione del patrimonio e delle produzioni culturali e sul sostegno della creatività, a norma dell’articolo 1, commi 180 e 181, lettera g), della legge 13 luglio 2015, n. 107\"  (c.d. La buona scuola)."""@it;
  :riferimentoMappaClaist "327.01"@it .
 
-:CPS_40 a skos:Concept, IEF:EducationProgramme;
+:CPS_40 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_40";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_4_10_20>;
@@ -695,7 +695,7 @@ Il percorso rappresenta una specializzazione post-diploma che consente di acquis
 Art. 8, decreto del Presidente della Repubblica 15 marzo 2010, n. 88 \"Regolamento recante norme per il riordino degli istituti tecnici a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
  :riferimentoMappaClaist "402.01"@it .
 
-:CPS_20 a skos:Concept, IEF:EducationProgramme;
+:CPS_20 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_20";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -708,7 +708,7 @@ Art. 2, decreto del Presidente della Repubblica 15 marzo 2010, n. 87 \"Regolamen
 Art. 191 del decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "310.01; 310.02; 310.03"@it .
 
-:CPS_45 a skos:Concept, IEF:EducationProgramme;
+:CPS_45 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_45";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_30_10>;
@@ -720,7 +720,7 @@ Art. 191 del decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disp
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
  :riferimentoMappaClaist "603.01; 603.02"@it .
 
-:CPS_46 a skos:Concept, IEF:EducationProgramme;
+:CPS_46 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_46";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_40_10>;
@@ -732,7 +732,7 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
 Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\"."""@it;
  :riferimentoMappaClaist "605.01"@it .
 
-:CPS_63 a skos:Concept, IEF:EducationProgramme;
+:CPS_63 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_63";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>;
@@ -767,7 +767,7 @@ Decreto del Presidente della Repubblica 8 luglio 2005, n.212 “Regolamento reca
 Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\"."""@it;
  :riferimentoMappaClaist "716.01; 716.02"@it .
 
-:CPS_12 a skos:Concept, IEF:EducationProgramme;
+:CPS_12 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_12";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_20>;
@@ -778,7 +778,7 @@ Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Acc
   dct:bibliographicCitation "Art. 191, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
  :riferimentoMappaClaist "302.01"@it .
 
-:CPS_15 a skos:Concept, IEF:EducationProgramme;
+:CPS_15 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_15";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_20>;
@@ -789,7 +789,7 @@ Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Acc
   dct:bibliographicCitation "Artt. 191 e 193 ter, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
  :riferimentoMappaClaist "305.01"@it .
 
-:CPS_33 a skos:Concept, IEF:EducationProgramme;
+:CPS_33 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_33";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -807,7 +807,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca, di conce
 Decreto del Presidente della Repubblica 15 marzo 2010, n. 88 “Regolamento recante norme per il riordino degli istituti tecnici a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
  :riferimentoMappaClaist "322.01"@it .
 
-:CPS_39 a skos:Concept, IEF:EducationProgramme;
+:CPS_39 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_39";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_4_10_10>;
@@ -821,7 +821,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca, di conce
 Decreto del Presidente del Consiglio dei ministri del 25 gennaio 2008 \"recante linee guida per la riorganizzazione del Sistema di istruzione e formazione tecnica superiore e la costituzione degli Istituti tecnici superiori” della Legge 17 maggio 1999, n. 144\"."""@it;
  :riferimentoMappaClaist "401.01"@it .
 
-:CPS_22 a skos:Concept, IEF:EducationProgramme;
+:CPS_22 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_22";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -833,7 +833,7 @@ Decreto del Presidente del Consiglio dei ministri del 25 gennaio 2008 \"recante 
 Legge 11 dicembre 1969, n. 910, \"Provvedimenti urgenti per l'Università\"."""@it;
  :riferimentoMappaClaist "312.01"@it .
 
-:CPS_25 a skos:Concept, IEF:EducationProgramme;
+:CPS_25 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_25";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -848,7 +848,7 @@ Decreto del Ministero dell'istruzione e del merito n. 29 del 19 febbraio 2026 �
 Decreto del Ministro dell'istruzione  3 dicembre 2021, n. 344  \"concernente l’ampliamento e l’adeguamento della sperimentazione di percorsi quadriennali di istruzione secondaria di secondo grado\"."""@it;
  :riferimentoMappaClaist "315.01; 315.02; 315;03"@it .
 
-:CPS_58 a skos:Concept, IEF:EducationProgramme;
+:CPS_58 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_58";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>;
@@ -878,7 +878,7 @@ Art. 6, legge 23 febbraio 2001, n. 29 \"Nuove disposizioni in materia di interve
 Decreto del Ministro dell’istruzione, dell’università e della ricerca di concerto con il Ministro per i beni e le attività culturali 31 gennaio 2006 “Riassetto delle Scuole di specializzazione nel settore della tutela, gestione e valorizzazione del patrimonio culturale”."""@it;
  :riferimentoMappaClaist "711.01; 711.02"@it .
 
-:CPS_16 a skos:Concept, IEF:EducationProgramme;
+:CPS_16 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_16";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -894,7 +894,7 @@ Decreto del Ministero dell'istruzione, dell'università e della ricerca 23 april
 Accordo in Conferenza Stato-Regioni 27 luglio 2011, n. 66 \"riguardante la definizione delle aree professionali relative alle figure professionali di riferimento dei percorsi di istruzione e formazione professionale di cui al decreto legislativo 17 ottobre 2005, n. 226\"."""@it;
  :riferimentoMappaClaist "306.01; 306.02; 306.03"@it .
 
-:CPS_17 a skos:Concept, IEF:EducationProgramme;
+:CPS_17 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_17";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -908,7 +908,7 @@ Decreto del Ministro dell’istruzione e del merito di concerto con il Ministro 
 Legge 8 agosto 2024, n. 121  \"Istituzione della filiera formativa tecnologico-professionale\"."""@it;
  :riferimentoMappaClaist "307.01; 307.02; 307.03"@it .
 
-:CPS_4 a skos:Concept, IEF:EducationProgramme;
+:CPS_4 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_4";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_10_10>;
@@ -922,7 +922,7 @@ Legge 4 giugno 1911, n. 487 \"Provvedimenti per il Consiglio superiore della pub
 Regio decreto 13 novembre 1859, n. 3725 \"Legge sull'ordinamento dell'istruzione pubblica\" (c.d. legge Casati)."""@it;
  :riferimentoMappaClaist "101.01"@it .
 
-:CPS_28 a skos:Concept, IEF:EducationProgramme;
+:CPS_28 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_28";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -935,7 +935,7 @@ Decreto del Presidente della Repubblica 8 marzo 1999, n. 275 \"Regolamento recan
 Decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "318.01"@it .
 
-:CPS_31 a skos:Concept, IEF:EducationProgramme;
+:CPS_31 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_31";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -953,7 +953,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca, di conce
 Decreto del Presidente della Repubblica 15 marzo 2010, n. 89 \"Regolamento recante revisione dell'assetto ordinamentale, organizzativo e didattico dei licei a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
  :riferimentoMappaClaist "321.01"@it .
 
-:CPS_43 a skos:Concept, IEF:EducationProgramme;
+:CPS_43 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_43";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_10_10>;
@@ -979,7 +979,7 @@ Legge 8 agosto 2024, n. 121  \"Istituzione della filiera formativa tecnologico-p
 Decreto del Presidente del Consiglio dei ministri 25 gennaio 2008 \"Linee guida per la riorganizzazione del Sistema di istruzione e formazione tecnica superiore e la costituzione degli Istituti tecnici superiori”."""@it;
  :riferimentoMappaClaist "601.01"@it .
 
-:CPS_48 a skos:Concept, IEF:EducationProgramme;
+:CPS_48 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_48";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_50_20>;
@@ -993,7 +993,7 @@ Nota del Ministero dell'università e della ricerca 1° febbraio 2023,  n. 1801 
 Nota del Ministero dell'istruzione, dell'università e della ricerca 9 dicembre 2010, n. 7631 \"Regolamento tipo concernente principi e criteri per la progettazione di master da parte delle Istituzioni AFAM\"."""@it;
  :riferimentoMappaClaist "606.01"@it .
 
-:CPS_10 a skos:Concept, IEF:EducationProgramme;
+:CPS_10 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_10";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
@@ -1006,7 +1006,7 @@ Decreto del ministro dell'istruzione, dell'università e della ricerca 30 settem
 Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\"."""@it;
  :riferimentoMappaClaist "204.01"@it .
 
-:CPS_13 a skos:Concept, IEF:EducationProgramme;
+:CPS_13 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_13";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_30>;
@@ -1017,7 +1017,7 @@ Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Acc
   dct:bibliographicCitation "Art. 191, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
  :riferimentoMappaClaist "303.01"@it .
 
-:CPS_1 a skos:Concept, IEF:EducationProgramme;
+:CPS_1 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_1";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0_10_20>;
@@ -1036,7 +1036,7 @@ c) servizi integrativi che concorrono all'educazione e alla cura dei bambini, ac
 Legge 6 dicembre 1971, n. 1044 “Piano quinquennale per l’istituzione di asili-nido comunali con il concorso dello Stato”."""@it;
  :riferimentoMappaClaist "010.01; 010.02"@it .
 
-:CPS_2 a skos:Concept, IEF:EducationProgramme;
+:CPS_2 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_2";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0_10_20>;
@@ -1048,7 +1048,7 @@ Legge 6 dicembre 1971, n. 1044 “Piano quinquennale per l’istituzione di asil
 Legge 28 marzo 2003, n. 53 \"Delega al Governo per la definizione delle norme generali sull'istruzione e dei livelli essenziali delle prestazioni in materia di istruzione e formazione professionale\" (c.d. “riforma Moratti”)."""@it;
  :riferimentoMappaClaist "021.01"@it .
 
-:CPS_37 a skos:Concept, IEF:EducationProgramme;
+:CPS_37 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_37";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
@@ -1061,7 +1061,7 @@ Decreto del ministro dell'istruzione, dell'università e della ricerca 30 settem
 Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\"."""@it;
  :riferimentoMappaClaist "324.01"@it .
 
-:CPS_23 a skos:Concept, IEF:EducationProgramme;
+:CPS_23 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_23";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -1072,7 +1072,7 @@ Legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Acc
   dct:bibliographicCitation "Art. 191, co. 6 del decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
  :riferimentoMappaClaist "313.01"@it .
 
-:CPS_26 a skos:Concept, IEF:EducationProgramme;
+:CPS_26 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_26";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -1087,7 +1087,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 24 maggio
 Decreto legislativo 13 aprile 2017, n. 61 \"Revisione dei percorsi dell'istruzione professionale nel rispetto dell'articolo 117 della Costituzione, nonché raccordo con i percorsi dell'istruzione e formazione professionale, a norma dell'articolo 1, commi 180 e 181, lettera d), della legge 13 luglio 2015, n. 107\" (c.d. La buona scuola)."""@it;
  :riferimentoMappaClaist "316.01; 316.02"@it .
 
-:CPS_55 a skos:Concept, IEF:EducationProgramme;
+:CPS_55 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_55";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_30_10>;
@@ -1101,7 +1101,7 @@ Nota del Ministero dell'università e della ricerca 1° febbraio 2023,  n. 1801 
 Nota del Ministero dell'istruzione, dell'università e della ricerca 9 dicembre 2010, n. 7631 \"Regolamento tipo concernente principi e criteri per la progettazione di master da parte delle Istituzioni AFAM\"."""@it;
  :riferimentoMappaClaist "704.01"@it .
 
-:CPS_53 a skos:Concept, IEF:EducationProgramme;
+:CPS_53 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_53";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_20_20>;
@@ -1114,7 +1114,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 gennai
 Legge 21 Dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\"."""@it;
  :riferimentoMappaClaist "707.01"@it .
 
-:CPS_68 a skos:Concept, IEF:EducationProgramme;
+:CPS_68 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_68";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9_20_10>;
@@ -1128,7 +1128,7 @@ Accordo in Conferenza Stato-Regioni 1° agosto 2019, n. 155 \"riguardante l'inte
 Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'istruzione, dell'università e della ricerca 8 gennaio 2018 \"Istituzione del Quadro nazionale delle qualificazioni rilasciate nell'ambito del Sistema nazionale di certificazione delle competenze di cui al decreto legislativo 16 gennaio 2013, n. 13\"."""@it;
  :riferimentoMappaClaist "902.01"@it .
 
-:CPS_62 a skos:Concept, IEF:EducationProgramme;
+:CPS_62 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_62";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>;
@@ -1152,7 +1152,7 @@ Art. 8, legge 29 dicembre 2000, n. 401 “Norme sull’organizzazione e sul pers
 Decreto del Ministro dell’istruzione, dell’università e della ricerca 27 gennaio 2006 “Riassetto delle Scuole di specializzazione di area veterinaria”."""@it;
  :riferimentoMappaClaist "715.01; 715.02"@it .
 
-:CPS_14 a skos:Concept, IEF:EducationProgramme;
+:CPS_14 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_14";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_10>;
@@ -1163,7 +1163,7 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca 27 ge
   dct:bibliographicCitation "Artt. 191 e 193 ter, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
  :riferimentoMappaClaist "304.01"@it .
 
-:CPS_18 a skos:Concept, IEF:EducationProgramme;
+:CPS_18 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_18";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -1175,7 +1175,7 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca 27 ge
 Art. 191 del decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."""@it;
  :riferimentoMappaClaist "308.01; 308.02; 308.03"@it .
 
-:CPS_3 a skos:Concept, IEF:EducationProgramme;
+:CPS_3 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_3";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0_10_20>;
@@ -1187,7 +1187,7 @@ Art. 191 del decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disp
 decreto del Presidente della Repubblica 20 marzo 2009, n. 89 “Revisione dell’assetto ordinamentale, organizzativo e didattico della scuola dell’infanzia e del primo ciclo”."""@it;
  :riferimentoMappaClaist "022.01"@it .
 
-:CPS_24 a skos:Concept, IEF:EducationProgramme;
+:CPS_24 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_24";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>;
@@ -1208,7 +1208,7 @@ Art. 1, co. 2 e 6, decreto del Ministro dell'istruzione, dell'università e dell
 Decreto del Presidente della Repubblica 15 marzo 2010, n. 89 \"Regolamento recante revisione dell'assetto ordinamentale, organizzativo e didattico dei licei a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
  :riferimentoMappaClaist "314.01; 314.02"@it .
 
-:CPS_44 a skos:Concept, IEF:EducationProgramme;
+:CPS_44 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_44";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_20_10>;
@@ -1222,7 +1222,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 22 ottobr
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
  :riferimentoMappaClaist "602.01"@it .
 
-:CPS_50 a skos:Concept, IEF:EducationProgramme;
+:CPS_50 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_50";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_10_20>;
@@ -1234,7 +1234,7 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
  :riferimentoMappaClaist "702.01; 702.02"@it .
 
-:CPS_61 a skos:Concept, IEF:EducationProgramme;
+:CPS_61 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_61";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>;
@@ -1263,7 +1263,7 @@ Decreto del Ministro dell’università e della ricerca 24 luglio 2006 “Riasse
 Decreto del Ministro dell’università e della ricerca scientifica e tecnologica 11 dicembre 1998, n.509 “Regolamento recante norme per il riconoscimento degli istituti abilitati ad attivare corsi di specializzazione in psicoterapia ai sensi dell' articolo 17, comma 96, della legge 15 maggio 1997, n. 127”."""@it;
  :riferimentoMappaClaist "714.01; 714.02"@it .
 
-:CPS_66 a skos:Concept, IEF:EducationProgramme;
+:CPS_66 a skos:Concept, eat:EducationProgramme;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-programme>;
   skos:notation "CPS_66";
   skos:related <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8_10_20>;
