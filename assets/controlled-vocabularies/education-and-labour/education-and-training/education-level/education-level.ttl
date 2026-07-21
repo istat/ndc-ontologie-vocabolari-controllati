@@ -16,7 +16,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix ndc: <https://w3id.org/italia/onto/NDC/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@base <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/> .
+@prefix el: <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/> .
 
 #################################################################
 # inizio metadati
@@ -289,7 +289,7 @@ ISCED:
 International Standard Classification of Education, ISCED 2011, Section 9, level 0, let. G);
 ISCED 2011 Operational Manual, Chapter 2.
 """@it;
-  :riferimentoMappaClaist "010.01; 010.02; 021.01; 022.01" .
+  el:riferimentoMappaClaist "010.01; 010.02; 021.01; 022.01" .
 
 :CTS_0_10_30 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -359,7 +359,7 @@ Art. 3, co. 1 let. d), decreto del Presidente della Repubblica dell'8 luglio 200
 Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento concernente modifiche al regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508, adottato con decreto del Presidente della Repubblica 8 luglio 2005, n. 212\";
 Legge 21  dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\".
 Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della docenza universitaria e relativa fascia di formazione, e per la sperimentazione organizzativa e didattica\"."""@it;
-  :riferimentoMappaClaist "802.01; 803.01" .
+  el:riferimentoMappaClaist "802.01; 803.01" .
 
 :CTS_8_10_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -376,7 +376,7 @@ Ph.D. (Philosophiæ Doctor) (denominazione internazionale)."""@it;
 Art. 8, co. 10, decreto del Ministro dell'università e della ricerca 14 dicembre 2021, n.226 \"Regolamento recante modalità di accreditamento delle sedi e dei corsi di dottorato e criteri per la istituzione dei corsi di dottorato da parte degli enti accreditati\";
 Legge 3 luglio 1998, n. 210 \"Norme per il reclutamento dei ricercatori e dei professori universitari di ruolo\";
 Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della docenza universitaria e relativa fascia di formazione, e per la sperimentazione organizzativa e didattica\"."""@it;
-  :riferimentoMappaClaist "801.01" .
+  el:riferimentoMappaClaist "801.01" .
 
 :CTS_1_10_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -388,7 +388,7 @@ Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della doc
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo di studio che si consegue a conclusione del corso elementare dopo aver sostenuto l'esame di licenza. Il titolo è valido per l'iscrizione alla prima classe della scuola media e per l'ammissione agli esami di idoneità e di licenza di scuola media."@it;
   dct:bibliographicCitation "Artt. 148 e 149, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
-  :riferimentoMappaClaist "101.01" .
+  el:riferimentoMappaClaist "101.01" .
 
 :CTS_1_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -423,7 +423,7 @@ Artt. 148 e 149, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle 
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 3 ottobre 2017, n. 742 \"Finalità della certificazione delle competenze \";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 novembre 2012, n. 254 \"Regolamento recante indicazioni nazionali per il curricolo della scuola dell'infanzia e del primo ciclo d'istruzione, a norma dell'articolo 1, comma 4, del decreto del Presidente della Repubblica 20 marzo 2009, n. 89\";
 Decreto legislativo del 19 febbraio 2004, n. 59 \"Definizione delle norme generali relative alla scuola dell'infanzia e al  primo  ciclo dell'istruzione, a norma dell'articolo 1 della legge 28 marzo 2003, n. 53\"."""@it;
-  :riferimentoMappaClaist "102.01" .
+  el:riferimentoMappaClaist "102.01" .
 
 :CTS_1_10_30 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -438,7 +438,7 @@ Decreto legislativo del 19 febbraio 2004, n. 59 \"Definizione delle norme genera
   dct:bibliographicCitation """Art. 9, co. 1, decreto legislativo 13 aprile 2017, n. 62 “Norme in materia di valutazione e certificazione delle competenze nel primo ciclo ed esami di Stato, a norma dell'articolo 1, commi180 e 181, lettera i), della legge 13 luglio 2015, n. 107” (c.d. La buona scuola);
 Art. 4, co. 1 c), decreto del Presidente della Repubblica 29 ottobre 2012, n. 263 \"Regolamento recante norme generali per la ridefinizione dell'assetto organizzativo didattico dei Centri d'istruzione per gli adulti, ivi compresi i corsi serali, a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 3 ottobre 2017, n. 742 \"Finalità della certificazione delle competenze \"."""@it;
-  :riferimentoMappaClaist "103.01;103.02" .
+  el:riferimentoMappaClaist "103.01;103.02" .
 
 :CTS_1 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -463,7 +463,7 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo di studio intermedio rilasciato agli studenti che, al termine di un percorso triennale in un istituto d’arte, ai sensi dell’art. 191 del d.lgs. 297/1994, abbiano superato l’esame di licenza di maestro d'arte, in uno specifico settore dell’arte applicata. Il titolo consente l’inserimento nel mondo del lavoro e l’accesso al biennio post-licenza per il conseguimento del diploma di maturità d’arte applicata."@it;
   dct:bibliographicCitation "Art. 196, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
-  :riferimentoMappaClaist "302.01; 305.01" .
+  el:riferimentoMappaClaist "302.01; 305.01" .
 
 :CTS_3_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -488,7 +488,7 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:altLabel ""@en, "Diploma di abilitazione all'insegnamento nelle scuole materne."@it;
   skos:definition ""@en, "Titolo di studio conseguito al termine del corso di studi triennale della scuola magistrale del vecchio ordinamento (art. 191 d.lgs. 297/1994), dopo avere sostenuto gli esami di abilitazione all'insegnamento nelle scuole materne.  Il titolo di abilitazione all'insegnamento della scuola materna, a differenza del diploma degli istituti magistrali quadriennali, non dà accesso alla Facoltà di magistero."@it;
   dct:bibliographicCitation "Art. 194, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
-  :riferimentoMappaClaist "303.01" .
+  el:riferimentoMappaClaist "303.01" .
 
 :CTS_3_10_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -500,7 +500,7 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:altLabel ""@en, "Diploma di qualifica professionale."@it;
   skos:definition ""@en, "Titolo di studio intermedio conseguito dall’alunno che ha superato l'esame finale dei corsi degli istituti professionali (art. 191 d.lgs. 297/1994). Il diploma vale ai fini degli inquadramenti contrattuali, dopo un periodo di inserimento nel lavoro, da definirsi in sede di contrattazione collettiva, o comunque non superiore a tre mesi. Il titolo dà diritto a particolare valutazione nei concorsi per soli titoli e per titoli ed esami per l'assunzione in ruoli di carattere tecnico ai quali si accede con il possesso di licenza di scuola media. Permette anche l’accesso al secondo biennio dei percorsi professionali statali per il conseguimento del diploma di istruzione professionale al quinto anno."@it;
   dct:bibliographicCitation "Art. 195, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\"."@it;
-  :riferimentoMappaClaist "301.01; 304.01" .
+  el:riferimentoMappaClaist "301.01; 304.01" .
 
 :CTS_3 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -565,7 +565,7 @@ Attestato di Master di 1° livello."""@it;
   skos:definition ""@en, "Titolo di studio non ordinamentale, rilasciato in seguito ad un esame finale, al termine di un corso di master di 1° livello attivato dalle università italiane ai sensi del d.m. 509/1999 e del d.m. 270/2004, rivolto a chi è in possesso di una laurea di 1° livello o di un titolo equivalente riconosciuto. Il diploma è un titolo legalmente riconosciuto ma che non rientra nell’ordinamento didattico nazionale, finalizzato all’inserimento qualificato nel mondo del lavoro, all’aggiornamento professionale o all’accesso a concorsi pubblici, laddove previsto."@it;
   dct:bibliographicCitation """Art. 7, comma 4, decreto del Ministro dell'istruzione, dell'università e della ricerca 22 ottobre 2004, n. 270 \"Modifiche al regolamento recante norme concernenti l'autonomia didattica degli atenei, approvato con decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509\";
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
-  :riferimentoMappaClaist "604.01" .
+  el:riferimentoMappaClaist "604.01" .
 
 :CTS_6_50_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -581,7 +581,7 @@ Attestato di Master accademico di 1° livello."""@it;
 Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento concernente modifiche al regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508, adottato con decreto del Presidente della Repubblica 8 luglio 2005, n. 212\";
 Nota del Ministero dell'università e della ricerca 1° febbraio 2023,  n. 1801 \"Indicazioni operative per l’approvazione di nuovi corsi di diploma accademico di primo e secondo livello e m aster e le modifiche degli stessi - A.A. 2023-2024\";
 Nota del Ministero dell'istruzione, dell'università e della ricerca 9 dicembre 2010, n. 7631 \"Regolamento tipo concernente principi e criteri per la progettazione di master da parte delle Istituzioni AFAM\"."""@it;
-  :riferimentoMappaClaist "606.01" .
+  el:riferimentoMappaClaist "606.01" .
 
 :CTS_6_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -693,7 +693,7 @@ Diploma di laurea specialistica di 2° livello (biennale)/Diploma di laurea magi
   dct:bibliographicCitation """Art. 3, co. 1 let. b), decreto del Ministro dell'istruzione, dell'università e della ricerca 22 ottobre 2004, n. 270 \"Modifiche al regolamento recante norme concernenti l'autonomia didattica degli atenei, approvato con decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca, di concerto con il Ministro per la pubblica amministrazione e l'innovazione 9 luglio 2009 \"Equiparazioni tra diplomi di lauree di vecchio ordinamento, lauree specialistiche (LS) ex decreto n. 509/1999 e lauree magistrali (LM) ex decreto n. 270/2004, ai fini della partecipazione ai pubblici concorsi\";
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
-  :riferimentoMappaClaist "702.01; 702.02" .
+  el:riferimentoMappaClaist "702.01; 702.02" .
 
 :CTS_7_10_30 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -708,7 +708,7 @@ Diploma di laurea specialistica di 2° livello (biennale)/Diploma di laurea magi
   dct:bibliographicCitation """Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 marzo 2007 \"Determinazione delle classi di laurea magistrale\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 22 ottobre 2004, n. 270 \"Modifiche al regolamento recante norme concernenti l'autonomia didattica degli atenei, approvato con decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509\";
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
-  :riferimentoMappaClaist "703.01;703.02" .
+  el:riferimentoMappaClaist "703.01;703.02" .
 
 :CTS_7_10_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -725,7 +725,7 @@ Art. 167, regio decreto del 31 agosto 1933, n. 1592 \"Approvazione del testo uni
 Decreto del ministro dell'istruzione, dell'università e della ricerca, di concerto con il ministro per la pubblica amministrazione e l'innovazione 9 luglio 2009 \"Equiparazioni tra diplomi di lauree di vecchio ordinamento, lauree specialistiche (LS) ex decreto n. 509/1999 e lauree magistrali (LM) ex decreto n. 270/2004, ai fini della partecipazione ai pubblici concorsi\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 22 ottobre 2004, n. 270 \"Modifiche al regolamento recante norme concernenti l'autonomia didattica degli atenei, approvato con decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509\";
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
-  :riferimentoMappaClaist "701.01" .
+  el:riferimentoMappaClaist "701.01" .
 
 :CTS_7_30 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -945,7 +945,7 @@ Il diploma di maturità artistica di liceo artistico quadriennale permette l'acc
   dct:bibliographicCitation """Art. 191 e 197, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle disposizioni legislative vigenti in materia di istruzione, relative alle scuole di ogni ordine e grado\";
 Art. 7, co. 11 e 13, ordinanza del Ministro della pubblica istruzione 29 luglio 1997, n. 455 \"Educazione in età adulta. Istruzione e formazione\";
 Legge 11 dicembre 1969, n. 910, \"Provvedimenti urgenti per l'Università\"."""@it;
-  :riferimentoMappaClaist "308.01; 309.01; 310.01; 311.01; 312.01; 313.01; 314.01; 317.01; 318.01; 319.01; 320.01;325.01; 326.01" .
+  el:riferimentoMappaClaist "308.01; 309.01; 310.01; 311.01; 312.01; 313.01; 314.01; 317.01; 318.01; 319.01; 320.01;325.01; 326.01" .
 
 :CTS_3_30_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -970,7 +970,7 @@ Art. 6, decreto del Presidente della Repubblica 29 ottobre 2012, n. 263 \"Regola
 Decreto-legge 9 settembre 2025, n. 127 \"Misure urgenti per la riforma dell'esame di Stato del secondo ciclo di istruzione e per il regolare avvio dell'anno scolastico 2025/2026\".
 Decreto del Ministro dell'istruzione  3 dicembre 2021, n. 344  \"concernente l’ampliamento e l’adeguamento della sperimentazione di percorsi quadriennali di istruzione secondaria di secondo grado\".
 Decreto Miur del 3 agosto 2017, n. 567 \"Piano nazionale di innovazione ordinamentale per la sperimentazione di percorsi quadriennali di istruzione secondaria di secondo grado\"."""@it;
-  :riferimentoMappaClaist "308.02; 308.03; 309.02; 310.02; 310.03; 314.02; 315.01;315.02; 316.01;316.02; 321.01; 322.01; 323.01 ; 328.01" .
+  el:riferimentoMappaClaist "308.02; 308.03; 309.02; 310.02; 310.03; 314.02; 315.01;315.02; 316.01;316.02; 321.01; 322.01; 323.01 ; 328.01" .
 
 :CTS_6_40_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -983,7 +983,7 @@ Decreto Miur del 3 agosto 2017, n. 567 \"Piano nazionale di innovazione ordiname
   skos:definition ""@en, "Titolo di studio rilasciato dalle Istituzioni dell’alta formazione artistica, musicale e coreutica (AFAM) a seguito di prova finale pratico-teorica, al termine di un corso triennale ordinamentale. Il Diploma accademico di 1° livello AFAM è equipollente alla Laurea triennale universitaria ai fini dell’accesso ai concorsi pubblici, al mondo del lavoro e ai percorsi di secondo ciclo (Diploma accademico di 2° livello AFAM o Laurea magistrale)."@it;
   dct:bibliographicCitation """Art. 3 co. 1 a), decreto del Presidente della Repubblica 8 luglio 2005, n.212 \"Regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508\";
 Art. 2, co. 5, legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\"."""@it;
-  :riferimentoMappaClaist "605.01" .
+  el:riferimentoMappaClaist "605.01" .
 
 :CTS_1_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1012,7 +1012,7 @@ Art. 8, decreto legislativo 16 gennaio 2013, n. 13,  \"Definizione delle norme g
 Art. 20, decreto legislativo 17 ottobre 2005 n. 226 \"Norme generali e livelli essenziali delle prestazioni relativi al secondo ciclo del sistema educativo di istruzione e formazione, a norma dell'articolo 2 della legge 28 marzo 2003, n. 53\" (c.d. riforma Moratti);
 Accordo in Conferenza Stato-Regioni 10 maggio 2018, n. 100 \"per la definizione delle fasi dei passaggi tra i percorsi di istruzione professionale e i percorsi di istruzione e formazione professionale compresi nel repertorio nazionale dell’offerta di istruzione e formazione professionale di cui agli Accordi in Conferenza permanente per i rapporti tra lo Stato, le Regioni e le Province autonome di Trento e Bolzano del 29 aprile 2010, del 27 luglio 2011 e del 19 gennaio 2012, e viceversa, in attuazione dell’articolo 8, comma 2, del decreto legislativo 13 aprile 2017, n. 61\";
 Intesa in Conferenza Stato-Regioni 17 febbraio 2010 \"Linee guida per la formazione nel 2010\"."""@it;
-  :riferimentoMappaClaist "306.01; 306.02; 306.03" .
+  el:riferimentoMappaClaist "306.01; 306.02; 306.03" .
 
 :CTS_3_20_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1029,7 +1029,7 @@ Artt. 17, 20, decreto legislativo 17 ottobre 2005 n. 226 \"Norme generali e live
 Legge 8 agosto 2024, n. 121  \"Istituzione della filiera formativa tecnologico-professionale\";
 Accordo in Conferenza Stato-Regioni 10 maggio 2018, n. 100 \"per la definizione delle fasi dei passaggi tra i percorsi di istruzione professionale e i percorsi di istruzione e formazione professionale compresi nel repertorio nazionale dell’offerta di istruzione e formazione professionale di cui agli Accordi in Conferenza permanente per i rapporti tra lo Stato, le Regioni e le Province autonome di Trento e Bolzano del 29 aprile 2010, del 27 luglio 2011 e del 19 gennaio 2012, e viceversa, in attuazione dell’articolo 8, comma 2, del decreto legislativo 13 aprile 2017, n. 61\";
 Intesa in Conferenza Stato-Regioni 17 febbraio 2010 \"Linee guida per la formazione nel 2010\"."""@it;
-  :riferimentoMappaClaist "307.01; 307.02; 307.03" .
+  el:riferimentoMappaClaist "307.01; 307.02; 307.03" .
 
 :CTS_2_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1075,7 +1075,7 @@ Art. 5, co. 2, legge 15 luglio 2022, n. 99 \"Istituzione del Sistema terziario d
 Legge 8 agosto 2024, n. 121  \"Istituzione della filiera formativa tecnologico-professionale\";
 Decreto del Ministro dell'istruzione e del merito 17 maggio 2023, n. 88 \"Disposizioni in merito ai criteri e alle modalità per la costituzione e i compensi delle commissioni delle prove di verifica finale delle competenze acquisite da parte di coloro che hanno seguito con profitto i percorsi formativi degli Istituti tecnologici superiori (ITS Academy); alle indicazioni generali per la verifica finale delle competenze acquisite e per la relativa certificazione, nonché ai modelli di diploma di specializzazione per le tecnologie applicate e il diploma di specializzazione superiore per le tecnologie applicate ai sensi degli articoli 6, comma 2, e 5, comma 2 della legge 15 luglio 2022, n. 99\";
 Decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008 \"Linee guida per la riorganizzazione del Sistema di istruzione e formazione tecnica superiore e la costituzione degli Istituti tecnici superiori”."""@it;
-  :riferimentoMappaClaist "601.01" .
+  el:riferimentoMappaClaist "601.01" .
 
 :CTS_9_30_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1090,7 +1090,7 @@ Decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008 \"Linee guida 
   dct:bibliographicCitation """Art. 8, decreto legislativo 16 gennaio 2013, n. 13 \"Definizione delle norme generali e dei livelli essenziali delle prestazioni per l'individuazione e validazione degli apprendimenti non formali e informali e degli standard minimi di servizio del sistema nazionale di certificazione delle competenze, a norma dell'articolo 4, commi 58 e 68, della legge 28 giugno 2012, n. 92\" (c.d. Repertorio nazionale dei titoli di istruzione e formazione e delle qualificazioni professionali);
 Accordo in Conferenza Stato-Regioni 1° agosto 2019, n. 155 \"riguardante l'integrazione e modifica del Repertorio nazionale delle figure nazionali di riferimento per le qualifiche e i diplomi professionali, l'aggiornamento degli standard minimi formativi relativi alle competenze di base e dei modelli di attestazione intermedia e finale dei percorsi di Istruzione e Formazione Professionale, di cui all'Accordo in Conferenza Stato-Regioni del 27 luglio 2011\";
 Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'istruzione, dell'università e della ricerca 8 gennaio 2018 \"Istituzione del Quadro nazionale delle qualificazioni rilasciate nell'ambito del Sistema nazionale di certificazione delle competenze di cui al decreto legislativo 16 gennaio 2013, n. 13\"."""@it;
-  :riferimentoMappaClaist "903.01" .
+  el:riferimentoMappaClaist "903.01" .
 
 :CTS_9_30 skos:narrower :CTS_9_30_10 .
 
@@ -1122,7 +1122,7 @@ Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Mi
   dct:bibliographicCitation """Art. 8, decreto legislativo 16 gennaio 2013, n. 13 \"Definizione delle norme generali e dei livelli essenziali delle prestazioni per l'individuazione e validazione degli apprendimenti non formali e informali e degli standard minimi di servizio del sistema nazionale di certificazione delle competenze, a norma dell'articolo 4, commi 58 e 68, della legge 28 giugno 2012, n. 92\" (c.d. Repertorio nazionale dei titoli di istruzione e formazione e delle qualificazioni professionali);
 Accordo in Conferenza Stato-Regioni 1° agosto 2019, n. 155 \"riguardante l'integrazione e modifica del Repertorio nazionale delle figure nazionali di riferimento per le qualifiche e i diplomi professionali, l'aggiornamento degli standard minimi formativi relativi alle competenze di base e dei modelli di attestazione intermedia e finale dei percorsi di Istruzione e Formazione Professionale, di cui all'Accordo in Conferenza Stato-Regioni del 27 luglio 2011\";
 Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'istruzione, dell'università e della ricerca 8 gennaio 2018 \"Istituzione del Quadro nazionale delle qualificazioni rilasciate nell'ambito del Sistema nazionale di certificazione delle competenze di cui al decreto legislativo 16 gennaio 2013, n. 13\"."""@it;
-  :riferimentoMappaClaist "901.01" .
+  el:riferimentoMappaClaist "901.01" .
 
 :CTS_6_30_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1138,7 +1138,7 @@ Mini laurea (nuovo ordinamento) (termine di uso comune)."""@it;
   skos:definition ""@en, "Titolo di studio rilasciato, a seguito di discussione pubblica di tesi, al termine di un corso universitario triennale, appartenente al primo ciclo del sistema universitario italiano, riformato ai sensi del d.m. 509/1999 e successivamente dal d.m. 270/2004. Con la laurea di 1° livello si conseguono un totale di 180 crediti formativi universitari (CFU). Il titolo consente l’accesso diretto al mondo del lavoro, l’iscrizione a corsi di laurea magistrale (secondo ciclo) e a master universitari di 1° livello, ed è classificato al livello 6 del Quadro europeo delle qualifiche (EQF)."@it;
   dct:bibliographicCitation """Art. 3, co. 1 a), decreto del Ministro dell'istruzione, dell'università e della ricerca 22 ottobre 2004, n. 270 \"Modifiche al regolamento recante norme concernenti l'autonomia didattica degli atenei, approvato con decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509\";
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
-  :riferimentoMappaClaist "603.01; 603.02" .
+  el:riferimentoMappaClaist "603.01; 603.02" .
 
 :CTS_2_10_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1160,7 +1160,7 @@ Artt. 22 e 24, legge 22 aprile 1932, n. 490 \"Conversione in legge del R. decret
 Art. 190, regio decreto 5 febbraio 1928, n. 577 \"Testo unico sull’istruzione elementare e post-elementare\";
 Art. 13, regio decreto 1° ottobre 1923, n. 2185 \"Ordinamento dei gradi scolastici e dei programmi didattici dell'istruzione elementare\";
 Legge 31 dicembre 1962, n. 1859 \"Istituzione e ordinamento della scuola media statale\"."""@it;
-  :riferimentoMappaClaist "201.01" .
+  el:riferimentoMappaClaist "201.01" .
 
 :CTS_2_10_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1176,7 +1176,7 @@ Art. 4, decreto del Presidente della Repubblica 29 ottobre 2012 , n. 263 \"Regol
 Art. 1, co. 12, decreto legislativo 17 ottobre 2005 n. 226 \"Norme generali e livelli essenziali delle prestazioni relativi al secondo ciclo del sistema educativo di istruzione e formazione, a norma dell'articolo 2 della legge 28 marzo 2003, n. 53\" (c.d. riforma Moratti);
 Art. 4, decreto legislativo 19 febbraio 2004, n. 59 \"Definizione delle norme generali relative alla scuola dell'infanzia e al primo ciclo dell'istruzione, a norma dell'articolo 1 della legge 28 marzo 2003, n. 53\" (c.d. riforma Moratti);
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 novembre 2012, n. 254 \"Regolamento recante indicazioni nazionali per il curricolo della scuola dell'infanzia e del primo ciclo d'istruzione, a norma dell'articolo 1, comma 4, del decreto del Presidente della Repubblica 20 marzo 2009, n. 89\"."""@it;
-  :riferimentoMappaClaist "202.01; 202.02; 203.01; 203.02" .
+  el:riferimentoMappaClaist "202.01; 202.02; 203.01; 203.02" .
 
 :CTS_4_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1214,7 +1214,7 @@ Art. 8, decreto del Presidente della Repubblica 15 marzo 2010, n. 88 \"Regolamen
 Art. 69, legge 17 maggio 1999, n. 144 \"Misure in materia di investimenti, delega al Governo per il riordino degli incentivi all' occupazione e della normativa che disciplina l' INAIL, nonché disposizioni per il riordino degli enti previdenziali\";
 Legge 8 agosto 2024, n. 121  \"Istituzione della filiera formativa tecnologico-professionale\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca, di concerto con il Ministro del lavoro e delle politiche sociali 7 febbraio 2013 \"Definizione dei percorsi di specializzazione tecnica superiore di cui al Decreto del Capo III del decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008\"."""@it;
-  :riferimentoMappaClaist "401.01" .
+  el:riferimentoMappaClaist "401.01" .
 
 :CTS_4_10_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1227,7 +1227,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca, di conce
   skos:definition ""@en, "Titolo di studio post-secondario rilasciato, a seguito dell'esame di Stato di specializzazione, al termine di un percorso annuale successivo al conseguimento del diploma di istruzione conseguito presso gli istituti tecnici del settore “Agraria, agroalimentare e agroindustria”, articolazione “Viticoltura ed enologia”, in attuazione dell’art. 8 del d.p.r. 88/2010.  Il titolo è referenziato al livello 5 del Quadro nazionale delle qualificazioni (QNQ-EQF), ai sensi del d.l. 45/2025, convertito nella legge 79/2025, ed abilita all’esercizio della professione di Enotecnico. Il titolo, inoltre, dà accesso a corsi di istruzione terziaria, a concorsi e al Collegio Nazionale dei Periti Agrari e dei Periti Agrari Laureati, con assolvimento del tirocinio, previo esame di Stato di abilitazione, per l’esercizio della libera professione."@it;
   dct:bibliographicCitation """Disposizioni speciali dell'Allegato B del decreto-legge 7 aprile 2025, n. 45 \"Ulteriori disposizioni urgenti in materia di attuazione delle misure del Piano nazionale di ripresa e resilienza e per l'avvio dell'anno scolastico 2025/2026\";
 Art. 8, decreto del Presidente della Repubblica 15 marzo 2010, n. 88 \"Regolamento recante norme per il riordino degli istituti tecnici a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133\" (c.d. riforma Gelmini)."""@it;
-  :riferimentoMappaClaist "402.01" .
+  el:riferimentoMappaClaist "402.01" .
 
 :CTS_6_20_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1244,7 +1244,7 @@ Mini laurea (vecchio ordinamento) (termine di uso comune)."""@it;
 Decreto del Ministro dell'istruzione, dell'università e della ricerca, di concerto con il Ministro per la pubblica amministrazione e l'innovazione 9 luglio 2009 \"Equiparazioni tra diplomi di lauree di vecchio ordinamento, lauree specialistiche (LS) ex decreto n. 509/1999 e lauree magistrali (LM) ex decreto n. 270/2004, ai fini della partecipazione ai pubblici concorsi\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 22 ottobre 2004, n. 270 \"Modifiche al regolamento recante norme concernenti l'autonomia didattica degli atenei, approvato con decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509\";
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\"."""@it;
-  :riferimentoMappaClaist "602.01" .
+  el:riferimentoMappaClaist "602.01" .
 
 :CTS_7_30_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1260,7 +1260,7 @@ Attestato di Master di 2° livello."""@it;
 Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\";
 Nota del Ministero dell'università e della ricerca 1° febbraio 2023,  n. 1801 \"Indicazioni operative per l’approvazione di nuovi corsi di diploma accademico di primo e secondo livello e m aster e le modifiche degli stessi - A.A. 2023-2024\";
 Nota del Ministero dell'istruzione, dell'università e della ricerca 9 dicembre 2010, n. 7631 \"Regolamento tipo concernente principi e criteri per la progettazione di master da parte delle Istituzioni AFAM\"."""@it;
-  :riferimentoMappaClaist "704.01" .
+  el:riferimentoMappaClaist "704.01" .
 
 :CTS_7_30_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1274,7 +1274,7 @@ Attestato di Master accademico di 2° livello."""@it;
   skos:definition ""@en, "Titolo accademico non ordinamentale rilasciato dalle Istituzioni dell’alta formazione artistica, musicale e coreutica (AFAM), in seguito ad un esame finale, al termine di un corso di perfezionamento o specializzazione successivo al diploma accademico di 2° livello AFAM o titolo equivalente riconosciuto, finalizzato all’acquisizione di competenze professionali, artistiche e culturali di elevata qualificazione. Il diploma di Master accademico di 2° livello AFAM è riconosciuto come titolo di perfezionamento e può essere valutato nei concorsi pubblici, nei percorsi formativi successivi e nei contesti professionali."@it;
   dct:bibliographicCitation """Art. 3, co. 1 e), decreto del Presidente della Repubblica 8 luglio 2005, n.212 \"Regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508\";
 Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento concernente modifiche al regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508, adottato con decreto del Presidente della Repubblica 8 luglio 2005, n. 212\"."""@it;
-  :riferimentoMappaClaist "709.01" .
+  el:riferimentoMappaClaist "709.01" .
 
 :CTS_7_20_30 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1289,7 +1289,7 @@ Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento con
 Art. 3, decreto del Presidente della Repubblica 8 luglio 2005, n. 212 \"Regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508\".
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 gennaio 2018, n. 18 “recante autorizzazione all’attivazione di corsi accademici di secondo livello ordinamentali di didattica della musica e dello strumento “non abilitanti” e svincolati dall’accesso con numero programmato\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 23 giugno 2011, n. 81 “Definizione degli ordinamenti curriculari dei profili formativi professionalizzanti del corso di diploma accademico di secondo livello di durata quinquennale in Restauro”."""@it;
-  :riferimentoMappaClaist "708.01" .
+  el:riferimentoMappaClaist "708.01" .
 
 :CTS_7_20_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1304,7 +1304,7 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 23 giugno
 Art. 3, decreto del Presidente della Repubblica 8 luglio 2005, n. 212 \"Regolamento recante disciplina per la definizione degli ordinamenti didattici delle Istituzioni di alta formazione artistica, musicale e coreutica, a norma dell'articolo 2 della legge 21 dicembre 1999, n. 508\";
 Legge 21  dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\";
 Regio decreto del 31 dicembre 1923, n. 3123 \"Ordinamento dell'istruzione artistica\"."""@it;
-  :riferimentoMappaClaist "706.01" .
+  el:riferimentoMappaClaist "706.01" .
 
 :CTS_7_20_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1320,7 +1320,7 @@ Diploma accademico di 2° livello."""@it;
 Art. 2, comma 5, legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle arti, dell'Accademia nazionale di danza, dell'Accademia nazionale di arte drammatica, degli Istituti superiori per le industrie artistiche, dei Conservatori di musica e degli Istituti musicali pareggiati\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 9 gennaio 2018, n. 14 \"Messa a ordinamento dei bienni sperimentali AFAM\";
 Decreto del Ministro dell'istruzione, dell'università e della ricerca 10 aprile 2019, n. 331\"Equipollenza dei diplomi AFAM di vecchio ordinamento ai diplomi accademici di secondo livello (Laurea magistrale) e relativa tabella\"."""@it;
-  :riferimentoMappaClaist "707.01" .
+  el:riferimentoMappaClaist "707.01" .
 
 :CTS_5_10_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1336,7 +1336,7 @@ Art. 69 della legge 17 maggio 1999, n. 144 \"Misure in materia di investimenti, 
 Legge 15 luglio 2022, n. 99 \"Istituzione del Sistema terziario di istruzione tecnologica superiore\";
 Decreto del Ministro dell’istruzione, dell’università e della ricerca, di concerto con il Ministro del lavoro e delle politiche sociali 5 febbraio 2013, n. 82 \"concernente la revisione degli ambiti di articolazione dell’area “Tecnologie innovative per i beni e le attività culturali - Turismo” degli Istituti Tecnici Superiori, delle relative figure nazionali di riferimento e dei connessi standard delle competenze tecnico - professionali\";
 Decreto del Ministro dell’istruzione, dell’università e della ricerca di concerto con il Ministro del lavoro e delle politiche sociali, adottato 7 settembre 2011, n. 8327 \"recante norme generali concernenti i diplomi degli Istituti Tecnici Superiori (I.T.S.) e relative figure nazionali di riferimento, la verifica e la certificazione delle competenze di cui agli articoli 4, comma 3, e 8, comma 2, del decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008\"."""@it;
-  :riferimentoMappaClaist "501.01; 501.02" .
+  el:riferimentoMappaClaist "501.01; 501.02" .
 
 :CTS_5_10_20 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1353,7 +1353,7 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca di co
 Legge 8 agosto 2024, n. 121  \"Istituzione della filiera formativa tecnologico-professionale\";
 Decreto del Ministro dell'istruzione e del merito 20 ottobre 2023 \"Disposizioni concernenti le aree tecnologiche, le figure professionali nazionali di riferimento dei ITS Academy e gli standard minimi delle competenze tecnologiche e tecnico-professionali\";
 Decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008 “Linee guida per la riorganizzazione del Sistema di istruzione e formazione tecnica superiore e la costituzione degli Istituti tecnici superiori”."""@it;
-  :riferimentoMappaClaist "502.01" .
+  el:riferimentoMappaClaist "502.01" .
 
 :CTS_7_40_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1369,7 +1369,7 @@ Diploma accademico di specializzazione (Art. 3, co. 1, let. c) d.p.r. 212/2005).
 Art. 3, decreto del Ministro dell'università e della ricerca scientifica e tecnologica 3 novembre 1999, n. 509 \"Regolamento recante norme concernenti l’autonomia didattica degli atenei\";
 Art. 4, Legge 19 novembre 1990, n. 341  \"Riforma degli ordinamenti didattici universitari\";
 Decreto del Presidente della Repubblica 10 marzo 1982, n. 162 \"Riordinamento delle scuole dirette a fini speciali, delle scuole di specializzazione e dei corsi di perfezionamento\"."""@it;
-  :riferimentoMappaClaist "710.01; 710.02; 710.03; 711:01; 711.02; 712.01; 713.01; 714.01; 714.02; 715.01; 715.02; 716.01; 716.02" .
+  el:riferimentoMappaClaist "710.01; 710.02; 710.03; 711:01; 711.02; 712.01; 713.01; 714.01; 714.02; 715.01; 715.02; 716.01; 716.02" .
 
 :CTS_9_20_10 a skos:Concept, cpv:EducationLevel;
   skos:inScheme <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>;
@@ -1384,7 +1384,7 @@ Decreto del Presidente della Repubblica 10 marzo 1982, n. 162 \"Riordinamento de
   dct:bibliographicCitation """Art. 8, decreto legislativo 16 gennaio 2013, n. 13 \"Definizione delle norme generali e dei livelli essenziali delle prestazioni per l'individuazione e validazione degli apprendimenti non formali e informali e degli standard minimi di servizio del sistema nazionale di certificazione delle competenze, a norma dell'articolo 4, commi 58 e 68, della legge 28 giugno 2012, n. 92\" (c.d. Repertorio nazionale dei titoli di istruzione e formazione e delle qualificazioni professionali);
 Accordo in Conferenza Stato-Regioni 1° agosto 2019, n. 155 \"riguardante l'integrazione e modifica del Repertorio nazionale delle figure nazionali di riferimento per le qualifiche e i diplomi professionali, l'aggiornamento degli standard minimi formativi relativi alle competenze di base e dei modelli di attestazione intermedia e finale dei percorsi di Istruzione e Formazione Professionale, di cui all'Accordo in Conferenza Stato-Regioni del 27 luglio 2011\";
 Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Ministro dell'istruzione, dell'università e della ricerca 8 gennaio 2018 \"Istituzione del Quadro nazionale delle qualificazioni rilasciate nell'ambito del Sistema nazionale di certificazione delle competenze di cui al decreto legislativo 16 gennaio 2013, n. 13\"."""@it;
-  :riferimentoMappaClaist "902.01" .
+  el:riferimentoMappaClaist "902.01" .
 
 :CTS_9_20 skos:narrower :CTS_9_20_10 .
 
