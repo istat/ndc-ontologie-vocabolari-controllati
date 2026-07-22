@@ -130,55 +130,19 @@
 
 
 <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level>
-  skos:hasTopConcept <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_4>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_5>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7> .
+  skos:hasTopConcept :CTS_8,:CTS_9,:CTS_0,:CTS_1,:CTS_2,:CTS_3,:CTS_4,:CTS_5,:CTS_6, :CTS_7 .
 
 <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/Livello1>
   a xkos:ClassificationLevel;
-  skos:member <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_4>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_5>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7>;
+  skos:member :CTS_8,:CTS_9,:CTS_0,:CTS_1,:CTS_2,:CTS_3,:CTS_4,:CTS_5,:CTS_6, :CTS_7 ;
   skos:prefLabel "ISCED-A";
   xkos:depth "1" .
 
 
 <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/Livello2>
   a xkos:ClassificationLevel;
-  skos:member <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_30>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_4_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_5_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_30>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_40>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_50>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_30>;
+  skos:member :CTS_0_10, :CTS_1_10, :CTS_1_20, :CTS_2_10, :CTS_3_10, :CTS_3_20, :CTS_3_30, :CTS_7_40, :CTS_8_10, :CTS_9_10, 
+              :CTS_4_10, :CTS_5_10, :CTS_6_10, :CTS_6_20, :CTS_6_30, :CTS_6_40, :CTS_6_50, :CTS_7_10, :CTS_7_20, :CTS_7_30;
   skos:prefLabel "GRUPPO";
   xkos:depth "2" .
 
@@ -186,45 +150,11 @@
 
 <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/Livello3>
   a xkos:ClassificationLevel;
-  skos:member <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_0_10_30>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_1_10_30>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_2_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_10_30>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_20_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_10_30>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_20_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_20_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_20_30>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_30_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_30_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_7_40_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_30_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_3_30_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_4_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_4_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_5_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_5_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_20_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_30_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_40_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_50_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_6_50_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_8_10_20>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9_10_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9_20_10>,
-    <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/CTS_9_30_10>;
+  skos:member :CTS_0_10_10,     :CTS_0_10_20,     :CTS_0_10_30,     :CTS_1_10_10,     :CTS_1_10_20,     :CTS_1_10_30,     :CTS_2_10_10,     :CTS_2_10_20,  :CTS_3_10_10,
+              :CTS_3_10_20,     :CTS_3_10_30,     :CTS_3_20_10,     :CTS_3_20_20,     :CTS_7_10_10,     :CTS_7_10_20,     :CTS_7_10_30,     :CTS_7_20_10,  :CTS_7_20_20,
+              :CTS_7_20_30,     :CTS_7_30_10,     :CTS_7_30_20,     :CTS_7_40_10,     :CTS_8_10_10,     :CTS_3_30_10,     :CTS_3_30_20,     :CTS_4_10_10,  :CTS_4_10_20,
+			  :CTS_5_10_10,     :CTS_5_10_20,     :CTS_6_10_10,     :CTS_6_20_10,     :CTS_6_30_10,     :CTS_6_40_10,     :CTS_6_50_10,     :CTS_6_50_20,  :CTS_8_10_20,     
+			  :CTS_9_10_10,     :CTS_9_20_10,     :CTS_9_30_10;
   skos:prefLabel "TITOLO";
   xkos:depth "3" .
 
@@ -235,7 +165,6 @@
   skos:broader :CTS_0;
   skos:notation "CTS_0_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "No educational degree"@en, "Nessun titolo di studio "@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo non previsto"@it;
@@ -248,7 +177,6 @@ ISCED 2011 Operational Manual, Chapter 2."""@it;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_0";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Early childhood education (‘less than primary’ for educational attainment); No educational degree"@en,
     "Nessun titolo di studio "@it;
   skos:altLabel ""@it, ""@en;
@@ -262,7 +190,6 @@ ISCED 2011 Operational Manual, Chapter 2."""@it;
   skos:broader :CTS_0_10;
   skos:notation "CTS_0_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "No educational degree;  No access to educational system"@en, "Nessun titolo; Nessun accesso all'istruzione"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Nessun titolo previsto"@it;
@@ -274,7 +201,6 @@ ISCED 2011 Operational Manual, Chapter 2."""@it .
   skos:broader :CTS_0_10;
   skos:notation "CTS_0_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "No educational degree; Pre-primary education and early childhood"@en,
     "Nessun titolo; Scuola dell'infanzia e prima infanzia"@it;
   skos:altLabel ""@it, ""@en;
@@ -296,7 +222,6 @@ ISCED 2011 Operational Manual, Chapter 2.
   skos:broader :CTS_0_10;
   skos:notation "CTS_0_10_30";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "No educational degree; Not completed primary education"@en, "Nessun titolo; Istruzione primaria non completata"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Nessun titolo previsto"@it;
@@ -312,7 +237,6 @@ ISCED 2011 Operational Manual, Chapter 2."""@it .
   skos:broader :CTS_8;
   skos:notation "CTS_8_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Doctor of Philosophy (PhD); AFAM Doctor of Philosophy (PhD) and AFAM academic diploma in research training"@en,
     """Dottore di ricerca (universitario);
 Dottore di ricerca (AFAM); Diploma accademico di formazione alla ricerca AFAM"""@it;
@@ -332,7 +256,6 @@ Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della doc
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_8";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Doctoral or equivalent level"@en, "Istruzione terziaria di 3° livello (universitaria/accademica)"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Grado di istruzione (corrispondente all'ISCED-A 8) che si configura attraverso il conseguimento del titolo di Dottore di ricerca o di una qualifica terziaria dottorale equivalente. Il titolo certifica la capacità di condurre attività di ricerca scientifica avanzata e indipendente, in seguito all'avvenuta produzione di un contributo originale alla conoscenza sottoposto a revisione paritaria, e il possesso del massimo livello di competenza accademica nel proprio ambito di specializzazione."@it;
@@ -345,7 +268,6 @@ ISCED 2011 Operational Manual, Chapter 11."""@it;
   skos:broader :CTS_8_10;
   skos:notation "CTS_8_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "AFAM Doctor of Philosophy  (PhD) and AFAM academic diploma in research training"@en,
     "Dottore di ricerca (AFAM); Diploma accademico di formazione alla ricerca AFAM"@it;
   skos:altLabel ""@en, """Dottore di ricerca;
@@ -366,7 +288,6 @@ Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della doc
   skos:broader :CTS_8_10;
   skos:notation "CTS_8_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Doctor of Philosophy (PhD)"@en, "Dottore di ricerca (universitario)"@it;
   skos:altLabel ""@en, """Dottore di ricerca;
 Dott. Ric.;
@@ -383,7 +304,6 @@ Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della doc
   skos:broader :CTS_1_10;
   skos:notation "CTS_1_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Primary school certificate"@en, "Licenza elementare"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo di studio che si consegue a conclusione del corso elementare dopo aver sostenuto l'esame di licenza. Il titolo è valido per l'iscrizione alla prima classe della scuola media e per l'ammissione agli esami di idoneità e di licenza di scuola media."@it;
@@ -395,7 +315,6 @@ Legge 21 febbraio 1980, n. 28 \"Delega al Governo per il riordinamento della doc
   skos:broader :CTS_1;
   skos:notation "CTS_1_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Final assessment (primary school)"@en, "Licenza elementare; Certificazione delle competenze"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Documento ufficiale rilasciato al termine della classe quinta della scuola primaria, sulla base di una valutazione complessiva, che attesta lo sviluppo dei livelli delle competenze chiave e delle competenze di cittadinanza acquisite dall'alunno, previste dal quadro europeo e dalle Indicazioni nazionali per il curricolo. Questo documento costituisce parte integrante del processo valutativo e ha lo scopo di rendere trasparente il percorso formativo, favorire la continuità educativa con la scuola secondaria di 1° grado. Prima del d.lgs. 59/2004, la scuola primaria era denominata scuola elementare e al termine della classe quinta veniva sostenuto l’esame di Stato al seguito del quale veniva rilasciato il titolo di studio di Licenza elementare."@it;
@@ -414,7 +333,6 @@ Artt. 148 e 149, decreto legislativo 16 aprile 1994, n. 297 \"Testo Unico delle 
   skos:broader :CTS_1_10;
   skos:notation "CTS_1_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Competency certification - Final evaluation certificate (primary school)"@en,
     "Certificazione delle competenze e attestato di valutazione finale"@it;
   skos:altLabel ""@it, ""@en;
@@ -430,7 +348,6 @@ Decreto legislativo del 19 febbraio 2004, n. 59 \"Definizione delle norme genera
   skos:broader :CTS_1_10;
   skos:notation "CTS_1_10_30";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Competency certification - Literacy and learning of Italian language certificate"@en,
     "Attestato di conoscenza della lingua italiana (livello a2)"@it;
   skos:altLabel ""@en, "Certificazione delle competenze – attestato di alfabetizzazione e apprendimento della lingua italiana (livello A2) (Artt. 1, 9, d.lgs. 62/2017; art. 1. d.m. 742/2017, art. 4 co. 1 c) d.p.r 263/2012)."@it;
@@ -445,7 +362,6 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 3 ottobre
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_1";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Primary education"@en, "Istruzione primaria"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Grado di istruzione (corrispondente all'ISCED-A 1) che si configura attraverso il completamento del livello iniziale dell'istruzione formale (conseguimento della Certificazione delle competenze o dell'Attestato di conoscenza della lingua italiana - livello A2). Il titolo certifica l'acquisizione delle competenze alfabetiche, di lettura, scrittura e calcolo aritmetico fondamentali, nonché delle conoscenze di base necessarie a stabilire una solida struttura per l'apprendimento autonomo, lo sviluppo personale e la comprensione iniziale delle diverse aree disciplinari."@it;
@@ -458,7 +374,6 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:broader :CTS_3_10;
   skos:notation "CTS_3_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Master craftsman certificate"@en, "Licenza di maestro d'arte"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo di studio intermedio rilasciato agli studenti che, al termine di un percorso triennale in un istituto d’arte, ai sensi dell’art. 191 del d.lgs. 297/1994, abbiano superato l’esame di licenza di maestro d'arte, in uno specifico settore dell’arte applicata. Il titolo consente l’inserimento nel mondo del lavoro e l’accesso al biennio post-licenza per il conseguimento del diploma di maturità d’arte applicata."@it;
@@ -470,7 +385,6 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:broader :CTS_3;
   skos:notation "CTS_3_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Vocational qualification diploma (3 years); Pre-school teaching qualification  (3 years);Master craftsman certificate  (3 years)"@en,
     "Diploma di qualifica professionale (triennale); Titolo di abilitazione all'insegnamento nella scuola materna (triennale); Licenza di maestro d'arte (triennale)"@it;
   skos:altLabel ""@it, ""@en;
@@ -483,7 +397,6 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:broader :CTS_3_10;
   skos:notation "CTS_3_10_30";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Pre-school teaching qualification "@en, "Titolo di abilitazione all'insegnamento nella scuola materna"@it;
   skos:altLabel ""@en, "Diploma di abilitazione all'insegnamento nelle scuole materne."@it;
   skos:definition ""@en, "Titolo di studio conseguito al termine del corso di studi triennale della scuola magistrale del vecchio ordinamento (art. 191 d.lgs. 297/1994), dopo avere sostenuto gli esami di abilitazione all'insegnamento nelle scuole materne.  Il titolo di abilitazione all'insegnamento della scuola materna, a differenza del diploma degli istituti magistrali quadriennali, non dà accesso alla Facoltà di magistero."@it;
@@ -495,7 +408,6 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:broader :CTS_3_10;
   skos:notation "CTS_3_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Vocational qualification diploma (3 years)"@en, "Diploma di qualifica professionale (triennale)"@it;
   skos:altLabel ""@en, "Diploma di qualifica professionale."@it;
   skos:definition ""@en, "Titolo di studio intermedio conseguito dall’alunno che ha superato l'esame finale dei corsi degli istituti professionali (art. 191 d.lgs. 297/1994). Il diploma vale ai fini degli inquadramenti contrattuali, dopo un periodo di inserimento nel lavoro, da definirsi in sede di contrattazione collettiva, o comunque non superiore a tre mesi. Il titolo dà diritto a particolare valutazione nei concorsi per soli titoli e per titoli ed esami per l'assunzione in ruoli di carattere tecnico ai quali si accede con il possesso di licenza di scuola media. Permette anche l’accesso al secondo biennio dei percorsi professionali statali per il conseguimento del diploma di istruzione professionale al quinto anno."@it;
@@ -507,7 +419,6 @@ ISCED 2011 Operational Manual, Chapter 3."""@it;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_3";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Upper secondary education"@en, "Istruzione secondaria superiore "@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Grado di istruzione (corrispondente all'ISCED-A 3) che si configura attraverso il completamento del secondo ciclo dell'istruzione secondaria (conseguimento dei titoli IeFP o del Diploma di maturità). Il titolo certifica l'acquisizione di un'istruzione più ampia, diversificata e approfondita rispetto a quella del primo ciclo, caratterizzata da una maggiore differenziazione di opzioni e indirizzi, e qualifica il titolare per l'accesso all'istruzione terziaria o al mercato del lavoro."@it;
@@ -520,7 +431,6 @@ ISCED 2011 Operational Manual, Chapter 5."""@it;
   skos:broader :CTS_6;
   skos:notation "CTS_6_50";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel """
 First-level university postgraduate diploma or First level AFAM academic master’s diploma
 """@en,
@@ -544,7 +454,6 @@ Nota del Ministero dell'istruzione, dell'università e della ricerca 9 dicembre 
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_6";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Bachelor’s or equivalent level"@en, """Istruzione terziaria di 1° livello (universitaria/accademica/ITS Academy triennale)
 """@it;
   skos:altLabel ""@it, ""@en;
@@ -558,7 +467,6 @@ ISCED 2011 Operational Manual, Chapter 9."""@it;
   skos:broader :CTS_6_50;
   skos:notation "CTS_6_50_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "First-level university postgraduate diploma"@en, "Master universitario di 1° livello"@it;
   skos:altLabel ""@en, """Diploma di Master di 1° livello;
 Attestato di Master di 1° livello."""@it;
@@ -572,7 +480,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_6_50;
   skos:notation "CTS_6_50_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "First-level AFAM academic master’s diploma"@en, "Master accademico di 1° livello AFAM"@it;
   skos:altLabel ""@en, """Diploma di Master accademico di 1° livello;
 Attestato di Master accademico di 1° livello."""@it;
@@ -588,7 +495,6 @@ Nota del Ministero dell'istruzione, dell'università e della ricerca 9 dicembre 
   skos:broader :CTS_6;
   skos:notation "CTS_6_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Advanced ITS Academy diploma of specialisation in applied technologies (3 years)"@en,
     "Diploma di specializzazione superiore per le tecnologie applicate ITS Academy (triennale)"@it;
   skos:altLabel ""@it, ""@en;
@@ -605,7 +511,6 @@ Decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008 \"Linee guida 
   skos:broader :CTS_6;
   skos:notation "CTS_6_20";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "University diploma under the former system (2 or 3 years)"@en, "Diploma universitario del vecchio ordinamento (biennale/triennale)"@it;
   skos:altLabel ""@en, """Laurea breve (vecchio ordinamento) (termine di uso comune);
 Mini laurea (vecchio ordinamento) (termine di uso comune)."""@it;
@@ -621,7 +526,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_6;
   skos:notation "CTS_6_40";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "AFAM academic diploma (3 years)"@en, "Diploma accademico di 1° livello AFAM (triennale)"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo di studio rilasciato dalle Istituzioni dell’alta formazione artistica, musicale e coreutica (AFAM) a seguito di prova finale pratico-teorica, al termine di un corso triennale ordinamentale. Il Diploma accademico di 1° livello AFAM è equipollente alla Laurea triennale universitaria ai fini dell’accesso ai concorsi pubblici, al mondo del lavoro e ai percorsi di secondo ciclo (Diploma accademico di 2° livello AFAM o Laurea magistrale)."@it;
@@ -634,7 +538,6 @@ Art. 2, co. 5, legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle
   skos:broader :CTS_6;
   skos:notation "CTS_6_30";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Bachelor’s degree (2 or 3 years)"@en, "Laurea di 1° livello (triennale)"@it;
   skos:altLabel ""@en, """Laurea (art. 3 co. 1, d.m. 270/2004);
 Laurea triennale;
@@ -650,7 +553,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_7;
   skos:notation "CTS_7_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel """University degree under the former system (4–6 years);
 Master’s degree (2 years);
 Master’s degree (5–6 years)"""@en,
@@ -672,7 +574,6 @@ Regio decreto del 31 agosto 1933, n. 1592 \"Approvazione del testo unico delle l
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_7";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Master’s or equivalent level"@en, "Istruzione terziaria di 2° livello (universitaria/accademica)"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Grado di istruzione (corrispondente all'ISCED-A 7) che si configura attraverso il conseguimento di una Laurea specialistica/magistrale, di un Diploma accademico di 2° livello, di un Master di 2° livello, di un Diploma di specializzazione o di una qualifica terziaria avanzata equivalente. Il titolo certifica l'acquisizione di conoscenze teoriche e professionali altamente specializzate e approfondite. Può includere una sostanziale componente di ricerca originale ed è rilasciato da università, istituzioni AFAM o enti di istruzione superiore equivalenti."@it;
@@ -685,7 +586,6 @@ ISCED 2011 Operational Manual, Chapter 10."""@it;
   skos:broader :CTS_7_10;
   skos:notation "CTS_7_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Master’s degree (2 years)"@en, "Laurea specialistica/magistrale di 2° livello (biennale)"@it;
   skos:altLabel ""@en, """Laurea specialistica di 2° livello (biennale)/Laurea magistrale di 2° livello (biennale);
 Diploma di laurea specialistica di 2° livello (biennale)/Diploma di laurea magistrale di 2° livello (biennale)."""@it;
@@ -700,7 +600,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_7_10;
   skos:notation "CTS_7_10_30";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Master’s degree (5–6 years)"@en, "Laurea specialistica/magistrale di 2° livello a ciclo unico (5-6 anni)"@it;
   skos:altLabel ""@en, """Laurea specialistica di 2° livello (a ciclo unico)/Laurea magistrale di 2° livello (a ciclo unico);
 Diploma di laurea specialistica di 2° livello (biennale)/Diploma di laurea magistrale di 2° livello (biennale)."""@it;
@@ -715,7 +614,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_7_10;
   skos:notation "CTS_7_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "University degree under the former system (4–6 years)"@en, "Diploma di laurea del vecchio ordinamento  (4-6 anni)"@it;
   skos:altLabel ""@en, """Diploma di laurea del vecchio ordinamento;
 Laurea (vecchio ordinamento)."""@it;
@@ -732,7 +630,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_7;
   skos:notation "CTS_7_30";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Second-level university or AFAM academic master’s diploma"@en, "Master universitario o accademico AFAM di 2° livello"@it;
   skos:altLabel ""@en, """Diploma di Master di 2° livello;
 Attestato di Master di 2° livello."""@it;
@@ -753,7 +650,6 @@ Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento con
   skos:broader :CTS_7;
   skos:notation "CTS_7_40";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Specialisation diploma"@en, "Diploma di specializzazione"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo previsto dall'ordinamento nazionale, rilasciato in seguito ad un esame finale, al termine di un corso universitario post-laurea, attivato presso le scuole di specializzazione delle università italiane, ai sensi del d.p.r. 162/1982 e successive integrazioni, finalizzato alla formazione di specialisti in ambiti professionali regolamentati o ad alta qualificazione. Il diploma di specializzazione ha validità nazionale ed europea ed è richiesto per l’esercizio di professioni regolamentate (es. medico specialista, magistrato, avvocato, notaio, psicologo, veterinario, restauratore, ecc.) o per l’accesso a ruoli dirigenziali e tecnici di alta responsabilità."@it;
@@ -768,7 +664,6 @@ Decreto del Presidente della Repubblica 10 marzo 1982, n. 162 \"Riordinamento de
   skos:broader :CTS_7;
   skos:notation "CTS_7_20";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel """Academic diploma under the former system (4–6 years);
 Second-cycle AFAM academic diploma (2 years);
 Single-cycle AFAM academic diploma (5–6 years)
@@ -795,7 +690,6 @@ Regio decreto del 31 dicembre 1923, n. 3123 \"Ordinamento dell'istruzione artist
   skos:broader :CTS_3;
   skos:notation "CTS_3_20";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "IeFP vocational qualification - Operator (3 years); IeFP vocational diploma - Technician (4 years)"@en,
     "Attestato di qualifica professionale IeFP di operatore (triennale); Diploma professionale IeFP di tecnico (quadriennale)"@it;
   skos:altLabel ""@it, ""@en;
@@ -815,7 +709,6 @@ Intesa in Conferenza Stato-Regioni 17 febbraio 2010 \"Linee guida per la formazi
   skos:broader :CTS_3;
   skos:notation "CTS_3_30";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Upper secondary school diploma "@en, "Diploma di maturità; Diploma di superamento dell’esame di stato/maturità conclusivo dei corsi di istruzione secondaria di 2° grado (che danno accesso all’istruzione universitaria o accademica)"@it;
   skos:altLabel ""@en, """Diploma di scuola superiore;
 Diploma di istruzione secondaria di secondo grado (ante 2010);
@@ -842,7 +735,6 @@ Legge 11 dicembre 1969, n. 910, \"Provvedimenti urgenti per l'Università\"."""@
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_5";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Short-cycle tertiary education"@en, "Istruzione terziaria a ciclo breve (non universitaria/accademica)"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Grado di istruzione (corrispondente all'ISCED-A 5) che si configura attraverso il conseguimento di un titolo d'istruzione terziaria a ciclo breve ad elevata specializzazione tecnico-professionale (Diploma di specializzazione ITS). Il titolo certifica il possesso di conoscenze, abilità e competenze marcatamente pratiche e specifiche per una professione, strutturate per l'inserimento diretto in ruoli tecnici qualificati del mercato del lavoro, offrendo al contempo crediti per l'eventuale progressione in altri programmi di istruzione terziaria."@it;
@@ -855,7 +747,6 @@ ISCED 2011 Operational Manual, Chapter 8."""@it;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_2";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Lower secondary education"@en, "Istruzione secondaria inferiore "@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Grado di istruzione (corrispondente all'ISCED-A 2) che si configura attraverso il completamento del primo ciclo dell'istruzione secondaria (conseguimento del Diploma conclusivo del 1° ciclo di istruzione). Il titolo certifica il consolidamento e il potenziamento dei risultati di apprendimento del livello primario, ponendo le basi per l'apprendimento permanente e lo sviluppo personale. Introduce i contenuti disciplinari attraverso concetti teorici più strutturati e attività di orientamento e propedeuticità alla formazione professionale."@it;
@@ -868,7 +759,6 @@ ISCED 2011 Operational Manual, Chapter 4."""@it;
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_9";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Vocational qualification certificate (regional training courses)"@en,
     "Qualificazione di formazione professionale regionale di area operativa, di area tecnica e di alta formazione"@it;
   skos:altLabel ""@it, ""@en;
@@ -883,7 +773,6 @@ Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Mi
   skos:broader <https://w3id.org/italia/stat/controlled-vocabulary/education-and-labour/education-and-training/education-level/>;
   skos:notation "CTS_4";
   clvapit:hasRankOrder "1"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Post-secondary non-tertiary education"@en, "Istruzione post-secondaria non terziaria"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Grado di istruzione (corrispondente all'ISCED-A 4) che si configura attraverso il conseguimento di una qualifica o specializzazione successiva al diploma secondario superiore, ma con un livello di complessità inferiore a quello dell'istruzione terziaria (Certificato di specializzazione tecnica superiore IFTS, Diploma di specializzazione in enotecnico). Il titolo certifica l'acquisizione di conoscenze e competenze tecniche mirate, destinate a integrare la preparazione secondaria sia per l'inserimento diretto nel mercato del lavoro sia per agevolare l'accesso a successivi percorsi terziari."@it;
@@ -896,7 +785,6 @@ ISCED 2011 Operational Manual, Chapter 6."""@it;
   skos:broader :CTS_5;
   skos:notation "CTS_5_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel """ITS Higher technical diploma;
 ITS Academy specialisation in applied technologies diploma"""@en,
     """Diploma di tecnico superiore ITS;
@@ -918,7 +806,6 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca di co
   skos:broader :CTS_3_30;
   skos:notation "CTS_3_30_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Upper secondary school diploma (Ante 2010)"@en, "Diploma di maturità (Ante 2010)"@it;
   skos:altLabel ""@en, """Diploma di scuola superiore;
 Diploma di istruzione secondaria di secondo grado (ante 2010);
@@ -952,7 +839,6 @@ Legge 11 dicembre 1969, n. 910, \"Provvedimenti urgenti per l'Università\"."""@
   skos:broader :CTS_3_30;
   skos:notation "CTS_3_30_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Upper secondary school diploma"@en, "Diploma di superamento dell’esame di stato/maturità conclusivo dei corsi di istruzione secondaria di 2° grado "@it;
   skos:altLabel ""@en, """Diploma di istruzione secondaria di secondo grado (post 2010);
 Diploma liceale (art.11, co. 2 e 3, d.p.r. 89/2010);
@@ -977,7 +863,6 @@ Decreto Miur del 3 agosto 2017, n. 567 \"Piano nazionale di innovazione ordiname
   skos:broader :CTS_6_40;
   skos:notation "CTS_6_40_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "AFAM academic diploma (3 years)"@en, "Diploma accademico di 1° livello AFAM (triennale)"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo di studio rilasciato dalle Istituzioni dell’alta formazione artistica, musicale e coreutica (AFAM) a seguito di prova finale pratico-teorica, al termine di un corso triennale ordinamentale. Il Diploma accademico di 1° livello AFAM è equipollente alla Laurea triennale universitaria ai fini dell’accesso ai concorsi pubblici, al mondo del lavoro e ai percorsi di secondo ciclo (Diploma accademico di 2° livello AFAM o Laurea magistrale)."@it;
@@ -990,7 +875,6 @@ Art. 2, co. 5, legge 21 dicembre 1999, n. 508 \"Riforma delle Accademie di belle
   skos:broader :CTS_1;
   skos:notation "CTS_1_20";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Literacy and learning of Italian language certificate"@en, "Attestato di conoscenza della lingua italiana (livello a2)"@it;
   skos:altLabel ""@en, "Certificazione delle competenze – attestato di alfabetizzazione e apprendimento della lingua italiana (livello A2) (Artt. 1, 9, d.lgs. 62/2017; art. 1. d.m. 742/2017, art. 4 co. 1 c) d.p.r 263/2012)."@it;
   skos:definition ""@en, "Documento ufficiale rilasciato da enti certificatori accreditati dal Ministero dell’istruzione e del merito, dal Ministero degli affari esteri e della cooperazione internazionale o da istituzioni universitarie autorizzate, che attesta il livello di competenza linguistica in lingua italiana secondo il QCER, raggiunto presso i Centri provinciali per l’istruzione degli adulti (CPIA), con livello minimo A2 necessario per l’accesso ai percorsi di primo livello dei CPIA, corrispondenti alla scuola secondaria di 1° grado. Prima del d.p.r. 263/2012 le attestazioni venivano rilasciate dai Centri territoriali permanenti (CTP), erano locali e non sempre standardizzate, dopo il 2012 il titolo certifica formalmente il livello A2 riconosciuto a livello nazionale, valido anche ai fini di integrazione sociale e amministrativa."@it;
@@ -1003,7 +887,6 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 3 ottobre
   skos:broader :CTS_3_20;
   skos:notation "CTS_3_20_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "IeFP vocational qualification - Operator (3 years)"@en, "Attestato di qualifica professionale IeFP di operatore (triennale)"@it;
   skos:altLabel ""@en, "Qualifica di operatore professionale (art. 20, d.lgs. 226/2005)."@it;
   skos:definition ""@en, "Titolo rilasciato dalle Regioni o dalle Province autonome, tramite soggetti accreditati per l’Istruzione e Formazione Professionale (IeFP), al termine di un percorso triennale conforme agli standard nazionali definiti dall’intesa Stato-Regioni del 17 febbraio 2010. L’attestato è rilasciato in esito agli esami conclusivi del percorso triennale e certifica il conseguimento della qualifica di operatore professionale di livello 3 del Quadro europeo delle qualifiche (EQF), riconosciuta a livello nazionale. Tale attestato consente l’accesso alla prosecuzione dei percorsi IeFP nel quarto anno per il conseguimento del diploma professionale IeFP di tecnico (IV livello EQF) e può essere riconosciuto per il passaggio, al quarto anno dei percorsi di istruzione professionale statale, finalizzati al conseguimento del diploma di istruzione secondaria di secondo grado."@it;
@@ -1019,7 +902,6 @@ Intesa in Conferenza Stato-Regioni 17 febbraio 2010 \"Linee guida per la formazi
   skos:broader :CTS_3_20;
   skos:notation "CTS_3_20_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "IeFP vocational diploma - Technician (4 years)"@en, "Diploma professionale IeFP di tecnico (quadriennale)"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo rilasciato al termine di un percorso quadriennale di Istruzione e formazione professionale (IeFP), attivato da enti accreditati dalle Regioni e dalle Province autonome, in attuazione dell’art. 17 del d.lgs. 226/2005, ed inserito nel quadro della filiera formativa tecnologico-professionale, come da legge 121/2024. Tale diploma certifica il raggiungimento di competenze tecnico-professionali e culturali corrispondenti al livello 4 del Quadro europeo delle qualifiche (EQF), rilasciando la qualifica di tecnico professionale, ed è finalizzato all’inserimento qualificato nel mondo del lavoro, nonché alla prosecuzione degli studi. Il diploma consente l’accesso diretto ai percorsi di istruzione tecnica superiore (ITS Academy) e la possibilità di accesso diretto, previa prova INVALSI, all’esame di Stato per il conseguimento del diploma di scuola secondaria di 2° grado presso l’istituto professionale di riferimento della filiera, o in alternativa l’accesso al quinto anno dei percorsi di istruzione professionale quinquennale o ad un anno di istruzione e formazione tecnica superiore (IFTS)."@it;
@@ -1036,7 +918,6 @@ Intesa in Conferenza Stato-Regioni 17 febbraio 2010 \"Linee guida per la formazi
   skos:broader :CTS_2;
   skos:notation "CTS_2_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Lower secondary education certificate"@en, "Licenza media; Avviamento professionale; Diploma conclusivo del 1° ciclo di istruzione (Scuola secondaria di 1° grado)"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo di studio rilasciato al termine della scuola secondaria di 1° grado, a seguito del superamento dell’esame di Stato conclusivo del primo ciclo di istruzione. Attesta il completamento del primo ciclo, certifica le competenze acquisite dagli alunni e consente l’accesso al secondo ciclo di istruzione, costituito dal sistema dell'istruzione secondaria superiore e dal sistema dell'istruzione e formazione professionale. Il diploma è accompagnato dalla certificazione delle competenze, redatta secondo il modello nazionale previsto dalla normativa vigente. Fino al d.lgs. 59/2004 il titolo rilasciato era la Licenza media che, a sua volta, con la legge 1859/1962 aveva sostituito la Licenza di avviamento professionale."@it;
@@ -1065,7 +946,6 @@ Art. 20, co. 1 e 2, decreto legislativo 13 aprile 2017, n. 62 \"Norme in materia
   skos:broader :CTS_6_10;
   skos:notation "CTS_6_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Advanced ITS Academy diploma of specialisation in applied technologies (3 years)"@en,
     "Diploma di specializzazione superiore per le tecnologie applicate ITS Academy (triennale)"@it;
   skos:altLabel ""@it, ""@en;
@@ -1082,7 +962,6 @@ Decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008 \"Linee guida 
   skos:broader :CTS_9_30;
   skos:notation "CTS_9_30_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Advanced vocational qualification certificate (regional training courses)"@en,
     "Qualificazione di alta formazione professionale regionale"@it;
   skos:altLabel ""@it, ""@en;
@@ -1099,7 +978,6 @@ Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Mi
   skos:broader :CTS_9;
   skos:notation "CTS_9_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Vocational qualification certificate (regional training courses)"@en,
     "Qualificazione di formazione professionale regionale di area operativa, di area tecnica e di alta formazione"@it;
   skos:altLabel ""@en, "Qualificazione di formazione professionale regionale."@it;
@@ -1114,7 +992,6 @@ Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Mi
   skos:broader :CTS_9_10;
   skos:notation "CTS_9_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Vocational qualification certificate (regional training courses) - Operational Area"@en,
     "Qualificazione di formazione professionale regionale di area operativa"@it;
   skos:altLabel ""@it, ""@en;
@@ -1129,7 +1006,6 @@ Decreto del Ministro del lavoro e delle politiche sociali, di concerto con il Mi
   skos:broader :CTS_6_30;
   skos:notation "CTS_6_30_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Bachelor’s degree (3 years)"@en, "Laurea di 1° livello (triennale)"@it;
   skos:altLabel ""@en, """Laurea (art. 3 co. 1, d.m. 270/2004);
 Laurea triennale;
@@ -1145,7 +1021,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_2_10;
   skos:notation "CTS_2_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Lower secondary education certificate (vocational training included) "@en,
     "Licenza media (inclusa licenza di avviamento professionale)"@it;
   skos:altLabel ""@en, """Diploma di licenza della scuola media (art. 112, d.lgs. 297/1994);
@@ -1167,7 +1042,6 @@ Legge 31 dicembre 1962, n. 1859 \"Istituzione e ordinamento della scuola media s
   skos:broader :CTS_2_10;
   skos:notation "CTS_2_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Final evaluation certificate (lower secondary school)"@en, "Diploma conclusivo del 1° ciclo di istruzione"@it;
   skos:altLabel ""@en, "Diploma di scuola secondaria di 1° grado (d.lgs. 297/1994), l'uso termina con il d. lgs. 62/2017."@it;
   skos:definition ""@en, "Titolo di studio rilasciato al termine della scuola secondaria di 1° grado, a seguito del superamento dell’esame di Stato conclusivo del primo ciclo di istruzione. Attesta il completamento del primo ciclo, certifica le competenze acquisite dagli alunni e consente l’accesso al secondo ciclo di istruzione, costituito dal sistema dell'istruzione secondaria superiore e dal sistema dell'istruzione e formazione professionale. Il diploma è accompagnato dalla certificazione delle competenze, redatta secondo il modello nazionale previsto dalla normativa vigente."@it;
@@ -1183,7 +1057,6 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 16 novemb
   skos:broader :CTS_4;
   skos:notation "CTS_4_10";
   clvapit:hasRankOrder "2"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "IFTS higher technical specialisation certificate; Specialisation diploma in oenology"@en,
     "Certificato di specializzazione tecnica superiore IFTS; Diploma di specializzazione in enotecnico"@it;
   skos:altLabel ""@it, ""@en;
@@ -1206,7 +1079,6 @@ Art. 8, decreto del Presidente della Repubblica 15 marzo 2010, n. 88 \"Regolamen
   skos:broader :CTS_4_10;
   skos:notation "CTS_4_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "IFTS higher technical specialisation certificate"@en, "Certificato di specializzazione tecnica superiore IFTS"@it;
   skos:altLabel ""@it, ""@en;
   skos:definition ""@en, "Titolo rilasciato al termine di un percorso annuale di Istruzione e Formazione Tecnica Superiore (IFTS), istituito ai sensi dell’art. 69 della legge 144/1999 e progettato dalle regioni in collaborazione tra istituti scolastici, enti di formazione accreditati, università e imprese. Il certificato attesta il possesso di competenze tecnico-professionali di livello EQF 4, riferite a specifici settori produttivi e coerenti con i fabbisogni del territorio. Ha validità nazionale e riconoscimento europeo, ed è immediatamente spendibile nel mercato del lavoro o utile per l’accesso a percorsi di istruzione terziaria, come gli ITS Academy, nel quadro della filiera formativa tecnologico-professionale prevista dalla legge 121/2024, ma non in ambito universitario ed AFAM. Il rilascio avviene previo superamento di una verifica finale, al termine di un percorso formativo di almeno 800 ore, di cui almeno il 30% svolto in contesto aziendale."@it;
@@ -1221,7 +1093,6 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca, di conce
   skos:broader :CTS_4_10;
   skos:notation "CTS_4_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Specialisation diploma in oenology"@en, "Diploma di specializzazione in enotecnico"@it;
   skos:altLabel ""@en, "Superdiploma di enotecnico (termine di uso comune)."@it;
   skos:definition ""@en, "Titolo di studio post-secondario rilasciato, a seguito dell'esame di Stato di specializzazione, al termine di un percorso annuale successivo al conseguimento del diploma di istruzione conseguito presso gli istituti tecnici del settore “Agraria, agroalimentare e agroindustria”, articolazione “Viticoltura ed enologia”, in attuazione dell’art. 8 del d.p.r. 88/2010.  Il titolo è referenziato al livello 5 del Quadro nazionale delle qualificazioni (QNQ-EQF), ai sensi del d.l. 45/2025, convertito nella legge 79/2025, ed abilita all’esercizio della professione di Enotecnico. Il titolo, inoltre, dà accesso a corsi di istruzione terziaria, a concorsi e al Collegio Nazionale dei Periti Agrari e dei Periti Agrari Laureati, con assolvimento del tirocinio, previo esame di Stato di abilitazione, per l’esercizio della libera professione."@it;
@@ -1234,7 +1105,6 @@ Art. 8, decreto del Presidente della Repubblica 15 marzo 2010, n. 88 \"Regolamen
   skos:broader :CTS_6_20;
   skos:notation "CTS_6_20_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "University diploma under the former system (2 or 3 years)"@en, "Diploma universitario del vecchio ordinamento (biennale/triennale)"@it;
   skos:altLabel ""@en, """Diploma universitario del vecchio ordinamento;
 Laurea breve (vecchio ordinamento) (termine di uso comune);
@@ -1251,7 +1121,6 @@ Decreto del Ministro dell'università e della ricerca scientifica e tecnologica 
   skos:broader :CTS_7_30;
   skos:notation "CTS_7_30_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Second-level university master’s diploma"@en, "Master universitario di 2° livello"@it;
   skos:altLabel ""@en, """Diploma di Master di 2° livello;
 Attestato di Master di 2° livello."""@it;
@@ -1267,7 +1136,6 @@ Nota del Ministero dell'istruzione, dell'università e della ricerca 9 dicembre 
   skos:broader :CTS_7_30;
   skos:notation "CTS_7_30_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Second-level AFAM academic master’s diploma"@en, "Master accademico di 2° livello AFAM"@it;
   skos:altLabel ""@en, """Diploma di Master accademico di 2° livello;
 Attestato di Master accademico di 2° livello."""@it;
@@ -1281,7 +1149,6 @@ Decreto del Presidente della Repubblica  24 aprile 2024, n. 82 \"Regolamento con
   skos:broader :CTS_7_20;
   skos:notation "CTS_7_20_30";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Single-cycle AFAM academic diploma (5–6 years)"@en, "Diploma accademico di 2° livello a ciclo unico AFAM  (5-6 anni)"@it;
   skos:altLabel ""@en, "Diploma accademico di 2° livello AFAM (a ciclo unico )"@it;
   skos:definition ""@en, "Titolo di studio rilasciato dalle Istituzioni dell’alta formazione artistica, musicale e coreutica (AFAM), a seguito di una prova pratica e di discussione pubblica della tesi, al termine di un corso quinquennale ordinamentale che integra in un unico percorso formativo i contenuti del primo e del secondo ciclo. Il titolo è equipollente alla laurea magistrale a ciclo unico universitaria, valido ai fini dell’accesso ai concorsi pubblici, all’esercizio di professioni regolamentate e ai percorsi di terzo ciclo (dottorati di ricerca AFAM o universitari)."@it;
@@ -1296,7 +1163,6 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 23 giugno
   skos:broader :CTS_7_20;
   skos:notation "CTS_7_20_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "AFAM academic diploma under the former system (4–6 years)"@en, "Diploma accademico del vecchio ordinamento AFAM (4-6 anni)"@it;
   skos:altLabel ""@en, "Diploma accademico del vecchio ordinamento AFAM."@it;
   skos:definition ""@en, "Titolo di studio rilasciato dalle Istituzioni dell’alta formazione artistica, musicale e coreutica (AFAM), a seguito di esame finale, a completamento di un corso accademico, prima dell’entrata in vigore della legge 508/1999. A seguito della riforma, i diplomi del vecchio ordinamento sono equiparati ai diplomi accademici di 2° livello AFAM, purché congiunti al possesso di un diploma di istruzione secondaria di secondo grado, ai fini dell’accesso ai concorsi pubblici, ai percorsi di terzo ciclo (dottorati, master universitari e AFAM) e all’esercizio di professioni regolamentate."@it;
@@ -1311,7 +1177,6 @@ Regio decreto del 31 dicembre 1923, n. 3123 \"Ordinamento dell'istruzione artist
   skos:broader :CTS_7_20;
   skos:notation "CTS_7_20_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Second-cycle AFAM academic diploma (2 years)"@en, "Diploma accademico di 2° livello AFAM (biennale)"@it;
   skos:altLabel ""@en, """Diploma accademico di 2° livello AFAM;
 Diploma accademico di 2° livello."""@it;
@@ -1327,7 +1192,6 @@ Decreto del Ministro dell'istruzione, dell'università e della ricerca 10 aprile
   skos:broader :CTS_5_10;
   skos:notation "CTS_5_10_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "ITS Higher technical diploma  (2 or 3 years)"@en, "Diploma di tecnico superiore ITS (biennale o triennale)"@it;
   skos:altLabel ""@en, "Diploma di tecnico superiore ITS."@it;
   skos:definition ""@en, "Titolo di studio rilasciato al termine di un percorso biennale o triennale presso gli Istituti Tecnici Superiori (ITS), al superamento di una verifica delle competenze acquisite relative all'area e all'ambito di studi prescelto, attraverso una prova teorico-pratica, una scritta ed una orale, con un punteggio complessivo non inferiore a 70/100. Il diploma di istruzione terziaria tecnica superiore conseguito corrisponde al livello 5 del Quadro europeo delle qualifiche (EQF) per il percorso biennale e al livello 6 per quello triennale, vengono riconosciuti crediti formativi universitari (CFU), costituisce titolo d’accesso ai pubblici concorsi, ed è corredato dal supplemento al diploma europass per il riconoscimento a livello nazionale ed europeo."@it;
@@ -1343,7 +1207,6 @@ Decreto del Ministro dell’istruzione, dell’università e della ricerca di co
   skos:broader :CTS_5_10;
   skos:notation "CTS_5_10_20";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel """ITS Academy specialisation in applied technologies diploma (2 years)
 """@en,
     "Diploma di specializzazione per le tecnologie applicate ITS Academy (biennale)"@it;
@@ -1360,7 +1223,6 @@ Decreto del Presidente del Consiglio dei Ministri 25 gennaio 2008 “Linee guida
   skos:broader :CTS_7_40;
   skos:notation "CTS_7_40_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Specialisation diploma"@en, "Diploma di specializzazione"@it;
   skos:altLabel ""@en, """Titolo di specializzazione (Art. 9, co. 5, d.m. 30 settembre 2011);
 Diploma accademico di specializzazione (Art. 3, co. 1, let. c) d.p.r. 212/2005)."""@it;
@@ -1376,7 +1238,6 @@ Decreto del Presidente della Repubblica 10 marzo 1982, n. 162 \"Riordinamento de
   skos:broader :CTS_9_20;
   skos:notation "CTS_9_20_10";
   clvapit:hasRankOrder "3"^^xsd:int;
-  skos:note ""@it;
   skos:prefLabel "Vocational qualification certificate (regional training courses) - Technical Area"@en,
     "Qualificazione di formazione professionale regionale di area tecnica"@it;
   skos:altLabel ""@it, ""@en;
