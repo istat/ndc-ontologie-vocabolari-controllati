@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphol version="3">
+  <project version="1.0" name="EducationTraining">
+    <ontology lang="en" prefix="eat" addLabelFromSimpleName="0" addLabelFromUserInput="0" iri="https://w3id.org/italia/stat/onto/FormalEducationTraining/">
+      <imports>
+        <import isLocal="0" version="https://w3id.org/italia/onto/CLV" iri="https://w3id.org/italia/onto/CLV" location="https://w3id.org/italia/onto/CLV"/>
+        <import isLocal="0" version="https://w3id.org/italia/onto/l0" iri="https://w3id.org/italia/onto/l0" location="https://w3id.org/italia/onto/l0"/>
+        <import isLocal="0" version="https://w3id.org/italia/onto/l0" iri="https://w3id.org/italia/onto/l0" location="https://w3id.org/italia/onto/l0"/>
+      </imports>
+      <prefixes>
+        <prefix>
+          <value>CLV</value>
+          <namespace>https://w3id.org/italia/onto/CLV/</namespace>
+        </prefix>
+        <prefix>
+          <value>COV</value>
+          <namespace>https://w3id.org/italia/onto/COV/</namespace>
+        </prefix>
+        <prefix>
+          <value>CPV</value>
+          <namespace>https://w3id.org/italia/onto/CPV/</namespace>
+        </prefix>
+        <prefix>
+          <value>R0</value>
+          <namespace>https://w3id.org/italia/onto/RO/</namespace>
+        </prefix>
+        <prefix>
+          <value>TI</value>
+          <namespace>https://w3id.org/italia/onto/TI/</namespace>
+        </prefix>
+        <prefix>
+          <value>admsapit</value>
+          <namespace>https://w3id.org/italia/onto/ADMS/</namespace>
+        </prefix>
+        <prefix>
+          <value>dcat</value>
+          <namespace>http://www.w3.org/ns/dcat#</namespace>
+        </prefix>
+        <prefix>
+          <value>dct</value>
+          <namespace>http://purl.org/dc/terms/</namespace>
+        </prefix>
+        <prefix>
+          <value>eat</value>
+          <namespace>https://w3id.org/italia/stat/onto/EducationTraining/</namespace>
+        </prefix>
+        <prefix>
+          <value>foaf</value>
+          <namespace>http://xmlns.com/foaf/0.1/</namespace>
+        </prefix>
+        <prefix>
+          <value>l0</value>
+          <namespace>https://w3id.org/italia/onto/l0/</namespace>
+        </prefix>
+        <prefix>
+          <value>learning</value>
+          <namespace>https://w3id.org/italia/onto/Learning/</namespace>
+        </prefix>
+        <prefix>
+          <value>owl</value>
+          <namespace>http://www.w3.org/2002/07/owl#</namespace>
+        </prefix>
+        <prefix>
+          <value>prov</value>
+          <namespace>http://www.w3.org/ns/prov#</namespace>
+        </prefix>
+        <prefix>
+          <value>rdf</value>
+          <namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</namespace>
+        </prefix>
+        <prefix>
+          <value>rdfs</value>
+          <namespace>http://www.w3.org/2000/01/rdf-schema#</namespace>
+        </prefix>
+        <prefix>
+          <value>vcard</value>
+          <namespace>http://www.w3.org/2006/vcard/ns#</namespace>
+        </prefix>
+        <prefix>
+          <value>vs</value>
+          <namespace>http://www.w3.org/2003/06/sw-vocab-status/ns#</namespace>
+        </prefix>
+        <prefix>
+          <value>xml</value>
+          <namespace>http://www.w3.org/XML/1998/namespace</namespace>
+        </prefix>
+        <prefix>
+          <value>xsd</value>
+          <namespace>http://www.w3.org/2001/XMLSchema#</namespace>
+        </prefix>
+      </prefixes>
+      <datatypes>
+        <datatype>http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral</datatype>
+        <datatype>http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral</datatype>
+        <datatype>http://www.w3.org/2000/01/rdf-schema#Literal</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#NCName</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#NMTOKEN</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#Name</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#anyURI</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#base64Binary</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#boolean</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#byte</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#dateTime</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#dateTimeStamp</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#decimal</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#double</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#float</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#hexBinary</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#int</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#integer</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#language</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#long</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#negativeInteger</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#nonNegativeInteger</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#nonPositiveInteger</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#normalizedString</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#positiveInteger</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#short</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#string</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#token</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#unsignedByte</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#unsignedInt</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#unsignedLong</datatype>
+        <datatype>http://www.w3.org/2001/XMLSchema#unsignedShort</datatype>
+        <datatype>http://www.w3.org/2002/07/owl#rational</datatype>
+        <datatype>http://www.w3.org/2002/07/owl#real</datatype>
+      </datatypes>
+      <languages>
+        <language>de</language>
+        <language>en</language>
+        <language>es</language>
+        <language>fr</language>
+        <language>it</language>
+      </languages>
+      <facets>
+        <facet>http://www.w3.org/2001/XMLSchema#langRange</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#length</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#maxExclusive</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#maxInclusive</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#maxLength</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#minExclusive</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#minInclusive</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#minLength</facet>
+        <facet>http://www.w3.org/2001/XMLSchema#pattern</facet>
+      </facets>
+      <annotationProperties>
+        <annotationProperty>http://purl.org/dc/terms/accrualPeriodicity</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/creator</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/description</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/format</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/identifier</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/issued</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/language</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/license</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/modified</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/publisher</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/rightsHolder</annotationProperty>
+        <annotationProperty>http://purl.org/dc/terms/title</annotationProperty>
+        <annotationProperty>http://www.w3.org/2000/01/rdf-schema#backwardCompatibleWith</annotationProperty>
+        <annotationProperty>http://www.w3.org/2000/01/rdf-schema#comment</annotationProperty>
+        <annotationProperty>http://www.w3.org/2000/01/rdf-schema#isDefinedBy</annotationProperty>
+        <annotationProperty>http://www.w3.org/2000/01/rdf-schema#label</annotationProperty>
+        <annotationProperty>http://www.w3.org/2002/07/owl#backwardCompatibleWith</annotationProperty>
+        <annotationProperty>http://www.w3.org/2002/07/owl#deprecated</annotationProperty>
+        <annotationProperty>http://www.w3.org/2002/07/owl#fetchedFrom</annotationProperty>
+        <annotationProperty>http://www.w3.org/2002/07/owl#incompatibleWith</annotationProperty>
+        <annotationProperty>http://www.w3.org/2002/07/owl#priorVersion</annotationProperty>
+        <annotationProperty>http://www.w3.org/2002/07/owl#versionInfo</annotationProperty>
+        <annotationProperty>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</annotationProperty>
+        <annotationProperty>http://www.w3.org/2006/vcard/ns#fn</annotationProperty>
+        <annotationProperty>http://www.w3.org/2006/vcard/ns#hasEmail</annotationProperty>
+        <annotationProperty>http://www.w3.org/ns/dcat#accessURL</annotationProperty>
+        <annotationProperty>http://www.w3.org/ns/dcat#contactPoint</annotationProperty>
+        <annotationProperty>http://www.w3.org/ns/dcat#downloadURL</annotationProperty>
+        <annotationProperty>http://www.w3.org/ns/dcat#keyword</annotationProperty>
+        <annotationProperty>http://www.w3.org/ns/dcat#theme</annotationProperty>
+        <annotationProperty>http://www.w3.org/ns/prov#wasDerivedFrom</annotationProperty>
+        <annotationProperty>http://xmlns.com/foaf/0.1/name</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/acronym</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/hasContributor</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/hasFormalityLevel</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/hasKeyClass</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/hasOntologyLanguage</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/hasTask</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/last</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/officialURI</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/prefix</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/prev</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/semanticAssetInUse</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/status</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/target</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/ADMS/type</annotationProperty>
+        <annotationProperty>https://w3id.org/italia/onto/l0/controlledVocabulary</annotationProperty>
+      </annotationProperties>
+      <iris>
+        <iri>
+          <value>http://purl.org/dc/terms/accrualPeriodicity</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/creator</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/description</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/format</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/identifier</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/issued</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/language</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/license</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/modified</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/publisher</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/rightsHolder</value>
+        </iri>
+        <iri>
+          <value>http://purl.org/dc/terms/title</value>
+        </iri>
+        <iri>
+          <value>http://spcdata.digitpa.gov.it/Amministrazione/agid</value>
+        </iri>
+        <iri>
+          <value>http://spcdata.digitpa.gov.it/browse/page/Amministrazione/ISTAT</value>
+        </iri>
+        <iri>
+          <value>http://spcdata.digitpa.gov.it/browse/page/Amministrazione/age</value>
+        </iri>
+        <iri>
+          <value>http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2000/01/rdf-schema#Literal</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2000/01/rdf-schema#backwardCompatibleWith</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2000/01/rdf-schema#comment</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2000/01/rdf-schema#isDefinedBy</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2000/01/rdf-schema#label</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#NCName</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#NMTOKEN</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#Name</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#anyURI</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#base64Binary</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#boolean</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#byte</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#dateTime</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#dateTimeStamp</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#decimal</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#double</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#float</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#hexBinary</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#int</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#integer</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#langRange</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#language</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#length</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#long</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#maxExclusive</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#maxInclusive</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#maxLength</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#minExclusive</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#minInclusive</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#minLength</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#negativeInteger</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#nonNegativeInteger</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#nonPositiveInteger</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#normalizedString</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#pattern</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#positiveInteger</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#short</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#string</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#token</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#unsignedByte</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#unsignedInt</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#unsignedLong</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2001/XMLSchema#unsignedShort</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#Nothing</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#Thing</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#backwardCompatibleWith</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#bottomDataProperty</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#bottomObjectProperty</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#deprecated</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#fetchedFrom</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#incompatibleWith</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#priorVersion</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#rational</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#real</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#topDataProperty</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#topObjectProperty</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2002/07/owl#versionInfo</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2006/vcard/ns#fn</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2006/vcard/ns#hasEmail</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/ns/dcat#accessURL</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/ns/dcat#contactPoint</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/ns/dcat#downloadURL</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/ns/dcat#keyword</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/ns/dcat#theme</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/ns/prov#wasDerivedFrom</value>
+        </iri>
+        <iri>
+          <value>http://xmlns.com/foaf/0.1/name</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/distribution/CLVAPIT-RDF-TURTLE</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/distribution/CLVAPIT-RDF-XML</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/distribution/l0-JSON-LD</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/distribution/l0-RDF-TURTLE</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/distribution/l0-RDF-XML</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/organization/public-organization/td</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/project/ANNCSU</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/acronym</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/hasContributor</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/hasFormalityLevel</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/hasKeyClass</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/hasOntologyLanguage</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/hasTask</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/last</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/officialURI</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/prefix</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/prev</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/semanticAssetInUse</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/status</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/target</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/type</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/AddressArea</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/AddressComponent</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/AddressInTime</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/AdminUnitComponent</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Box</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/CensusSection</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/City</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/CivicNumbering</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Country</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/District</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Feature</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/GeographicalDistribution</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Geometry</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/GeometryType</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Identifier</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/InternalAccess</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Line</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Point</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Polygon</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Province</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Region</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/SpatialObject</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/StreetToponym</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/acronym</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/alt</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/building</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/coordinate</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/coordinateSystem</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/exponent</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/flatNumber</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/floor</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/fullAddress</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasAddressArea</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasAddressComponent</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasAdressinTime</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasCensusSection</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasCity</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasCountry</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasDirectHigherRank</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasDirectLowerRank</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasDistrict</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasGeographicalDistribution</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasGeometry</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasGeometryType</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasHigherRank</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasIdentifier</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasInternalAccess</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasLowerRank</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasNumber</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasPrimaryAddress</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasProvince</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasRankOrder</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasRegion</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasSOValidity</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasSpatialCoverage</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasStreetToponym</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/identifierType</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/isAddressFor</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/isAddressInTimeFor</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/isGeometryFor</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/isSpatialCoverageOf</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/issuedBy</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/lat</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/long</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/metric</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/nextAddress</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/officialStreetName</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/peculiarity</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/postCode</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/prevAddress</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/refersToExternalAccess</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/serialization</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/situatedWithin</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/staircase</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/streetNumber</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/toponymQualifier</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/withAddress</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/yard</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CPV/EducationLevel</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CPV/Person</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CPV/hasLevelOfEducation</value>
+          <functional/>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/Learning/Institute</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/TI/TimeIndexedEvent</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/TI/TimeInterval</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/TI/atTime</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/TI/modified</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Activity</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Collection</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Concept</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Entity</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/EventOrSituation</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Object</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Sequence</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/System</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Topic</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/controlledVocabulary</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/directlyFollows</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/directlyPrecedes</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/follows</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/hasDescription</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/hasFirstMember</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/hasLastMember</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/hasMember</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/hasTopic</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/isDescriptionOf</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/isFirstMemberOf</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/isLastMemberOf</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/isMemberOf</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/isTopicOf</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/positionInSequence</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/precedes</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Programma generale di istruzione e formazione</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>Programmi generali di istruzione e formazione, disciplinati dal legislatore, strutturati in cicli sequenziali e finalizzati al conseguimento di specifici e riconoscibili obiettivi di apprendimento.</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>General Education and Training Programme</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>General Education and training programmes, regulated by legislation, structured into sequential cycles, and designed to achieve specific and clearly identifiable learning outcomes.</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Percorso di istruzione</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Legally-Specific Education and Training Programme</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>Percorso di  istruzione e formazione,  disciplinato nell'ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Programma generale di istruzione e formazione e uno specifico Ordinamento.</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</property>
+              <object>
+                <lexicalForm>unstable</lexicalForm>
+                <datatype/>
+                <language/>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>An education and training programme regulated within a specific legislative framework. Each programme is defined by the combination of a general education and training programme and a specific set of regulations.</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>è massimo titolo di studio conseguito</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Highest educational attainment</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Posizione Formativa</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>Relazione che si instaura tra una persona, un’istituzione che eroga istruzione e formazione e un programma di istruzione e formazione in un periodo di tempo.</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Educational Position</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>A relationship between an individual, an education and training institution, and an education and training programme over a given period of time.</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</subject>
+              <property>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</property>
+              <object>
+                <lexicalForm>unstable</lexicalForm>
+                <datatype/>
+                <language/>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Titolo di Studio</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>Documento ufficiale dotato di valore legale e funzionale che viene rilasciato al completamento di un percorso d’istruzione o formazione regolamentato dalla legge. Tale atto attesta formalmente la conclusione di un determinato ciclo di studi e certifica le conoscenze e le competenze acquisite, solitamente in seguito al superamento di un esame di Stato o di una prova di verifica finale. La sua funzione principale consiste nel qualificare il possessore per l'accesso ai livelli di istruzione superiori o per l'inserimento nel mercato del lavoro, sulla base di fonti normative che ne disciplinano l’equipollenza e l’equiparazione ai fini amministrativi e concorsuali.</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>An official document with legal and functional validity, issued upon the successful completion of a legally regulated education or training programme. This document formally certifies the completion of a specific cycle of education and attests to the knowledge, skills, and competences acquired, typically following the successful completion of a State examination or a final assessment. Its primary purpose is to qualify the holder for access to higher levels of education or entry into the labour market, based on legal provisions governing its equivalence and recognition for administrative and competitive recruitment purposes.</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Educational Attainment</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Denominazione titolo di studio ottenuto</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Educational Attainment Obtained</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained</subject>
+              <property>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</property>
+              <object>
+                <lexicalForm>unstable</lexicalForm>
+                <datatype/>
+                <language/>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Ordinamento</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>Insieme delle disposizioni normative, organizzative e didattiche che disciplinano la struttura del sistema educativo, definendone i percorsi, i livelli, i titoli rilasciati, le modalità di accesso, i requisiti di frequenza e di valutazione, nonché i criteri per il conseguimento delle qualificazioni in un quadro di  coerenza,  validità giuridica e riconoscimento istituzionale.</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>The set of legal, organisational, and educational provisions governing the structure of the education system, defining its programmes, levels, qualifications awarded, admission requirements, attendance and assessment requirements, as well as the criteria for the award of qualifications, within a framework that ensures coherence, legal validity, and institutional recognition.</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Regulatory Framework</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</subject>
+              <property>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</property>
+              <object>
+                <lexicalForm>unstable</lexicalForm>
+                <datatype/>
+                <language/>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/assignedToEducationStatus</value>
+          <inverseFunctional/>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/assignedToEducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>assegnato a Posizione Formativa</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/assignedToEducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>assigned to Educational Status</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/attainmentDate</value>
+          <functional/>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/attainmentDate</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>data conseguimento titolo</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableAchievement</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableAchievement</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>ablita conseguimento</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableAchievement</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>enables achievement</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableTrainingProgram</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableTrainingProgram</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>si riferisce a programma di istruzione</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableTrainingProgram</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Referred to Training Program</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/establishes</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/establishes</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>è regolamentato</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/establishes</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>establish</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/gradeAchieved</value>
+          <functional/>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/gradeAchieved</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>voto conseguimento titolo</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/gradeAchieved</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>grade</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/hasObtainedEducationalAttainment</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/hasObtainedEducationalAttainment</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>haConseguitoTitoloDiStudio</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo</value>
+          <inverseFunctional/>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>relativo a</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>relatedTo</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus</value>
+          <inverseFunctional/>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>ha Posizione Formativa</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>has Educational Status</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>it</value>
+        </iri>
+        <iri>
+          <value>urn:x-graphol:origin</value>
+        </iri>
+      </iris>
+    </ontology>
+    <diagrams>
+      <diagram width="5000" name="EducationStatus" height="5000">
+        <node id="n0" color="#fcfcfc" type="concept">
+          <geometry y="-181" width="110" height="50" x="64"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</iri>
+          <label y="-181" width="110" size="12" height="36" x="64" customSize="0"/>
+        </node>
+        <node id="n1" color="#fcfcfc" type="concept">
+          <geometry y="145" width="110" height="50" x="71"/>
+          <iri>https://w3id.org/italia/onto/CPV/Person</iri>
+          <label y="145" width="110" size="12" height="22" x="71" customSize="0"/>
+        </node>
+        <node id="n10" color="#000000" type="range-restriction">
+          <geometry y="-83" width="20" height="20" x="67"/>
+          <label y="-105" width="39" size="12" height="22" x="67" customSize="0">exists</label>
+        </node>
+        <node id="n12" color="#f0e50c" type="concept">
+          <geometry y="366" width="116" height="50" x="-195"/>
+          <iri>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</iri>
+          <label y="366" width="116" size="12" height="64" x="-195" customSize="0"/>
+        </node>
+        <node id="n13" color="#fcfcfc" type="role">
+          <geometry y="-181" width="70" height="50" x="-213"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/assignedToEducationStatus</iri>
+          <label y="-211" width="190" size="12" height="22" x="-213" customSize="0"/>
+        </node>
+        <node id="n14" color="#fcfcfc" type="domain-restriction">
+          <geometry y="-58" width="20" height="20" x="-210"/>
+          <label y="-80" width="39" size="12" height="22" x="-210" customSize="0">exists</label>
+        </node>
+        <node id="n15" color="#000000" type="range-restriction">
+          <geometry y="-181" width="20" height="20" x="-110"/>
+          <label y="-203" width="39" size="12" height="22" x="-110" customSize="0">exists</label>
+        </node>
+        <node id="n16" color="#fcfcfc" type="role">
+          <geometry y="-328" width="70" height="50" x="-216"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo</iri>
+          <label y="-358" width="58" size="12" height="22" x="-216" customSize="0"/>
+        </node>
+        <node id="n2" color="#f0e50c" type="concept">
+          <geometry y="141" width="119" height="50" x="548"/>
+          <iri>https://w3id.org/italia/onto/CPV/EducationLevel</iri>
+          <label y="134" width="119" size="12" height="22" x="548" customSize="0"/>
+        </node>
+        <node id="n20" color="#fcfcfc" type="domain-restriction">
+          <geometry y="-330" width="20" height="20" x="-134"/>
+          <label y="-352" width="39" size="12" height="22" x="-134" customSize="0">exists</label>
+        </node>
+        <node id="n21" color="#000000" type="range-restriction">
+          <geometry y="-326" width="20" height="20" x="-298"/>
+          <label y="-348" width="39" size="12" height="22" x="-298" customSize="0">exists</label>
+        </node>
+        <node id="n27" color="#fcfcfc" type="concept">
+          <geometry y="-324" width="110" height="50" x="-433"/>
+          <iri>https://w3id.org/italia/onto/Learning/Institute</iri>
+          <label y="-324" width="110" size="12" height="22" x="-433" customSize="0"/>
+        </node>
+        <node id="n3" color="#fcfcfc" type="role">
+          <geometry y="144" width="70" height="50" x="311"/>
+          <iri>https://w3id.org/italia/onto/CPV/hasLevelOfEducation</iri>
+          <label y="114" width="149" size="12" height="22" x="311" customSize="0"/>
+        </node>
+        <node id="n30" color="#fcfcfc" type="concept">
+          <geometry y="-179" width="130" height="50" x="319"/>
+          <iri>https://w3id.org/italia/onto/TI/TimeIndexedEvent</iri>
+          <label y="-179" width="130" size="12" height="22" x="319" customSize="0"/>
+        </node>
+        <node id="n34" color="#fcfcfc" type="concept">
+          <geometry y="70" width="110" height="50" x="-681"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</iri>
+          <label y="70" width="110" size="12" height="22" x="-681" customSize="0"/>
+        </node>
+        <node id="n38" color="#f0e50c" type="concept">
+          <geometry y="212" width="110" height="50" x="-688"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment</iri>
+          <label y="212" width="110" size="12" height="22" x="-688" customSize="0"/>
+        </node>
+        <node id="n39" color="#fcfcfc" type="role">
+          <geometry y="211" width="70" height="50" x="-494"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableAchievement</iri>
+          <label y="181" width="126" size="12" height="22" x="-494" customSize="0"/>
+        </node>
+        <node id="n40" color="#fcfcfc" type="domain-restriction">
+          <geometry y="211" width="20" height="20" x="-408"/>
+          <label y="189" width="39" size="12" height="22" x="-408" customSize="0">exists</label>
+        </node>
+        <node id="n41" color="#000000" type="range-restriction">
+          <geometry y="210" width="20" height="20" x="-580"/>
+          <label y="188" width="39" size="12" height="22" x="-580" customSize="0">exists</label>
+        </node>
+        <node id="n42" color="#fcfcfc" type="role">
+          <geometry y="70" width="70" height="50" x="-491"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/establishes</iri>
+          <label y="40" width="97" size="12" height="22" x="-491" customSize="0"/>
+        </node>
+        <node id="n44" color="#000000" type="range-restriction">
+          <geometry y="72" width="20" height="20" x="-569"/>
+          <label y="50" width="39" size="12" height="22" x="-569" customSize="0">exists</label>
+        </node>
+        <node id="n46" color="#fcfcfc" type="concept">
+          <geometry y="63" width="110" height="50" x="-201"/>
+          <iri>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</iri>
+          <label y="63" width="110" size="12" height="36" x="-201" customSize="0"/>
+        </node>
+        <node id="n49" color="#fcfcfc" type="role">
+          <geometry y="215" width="70" height="50" x="-199"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableTrainingProgram</iri>
+          <label y="185" width="209" size="12" height="22" x="-199" customSize="0"/>
+        </node>
+        <node id="n5" color="#fcfcfc" type="domain-restriction">
+          <geometry y="146" width="20" height="20" x="188"/>
+          <label y="124" width="39" size="12" height="22" x="188" customSize="0">exists</label>
+        </node>
+        <node id="n52" color="#fcfcfc" type="role">
+          <geometry y="292" width="70" height="50" x="79"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/hasObtainedEducationalAttainment</iri>
+          <label y="263" width="161" size="12" height="22" x="107" customSize="0"/>
+        </node>
+        <node id="n53" color="#fcfcfc" type="concept">
+          <geometry y="406" width="110" height="50" x="87"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained</iri>
+          <label y="406" width="110" size="12" height="50" x="87" customSize="0"/>
+        </node>
+        <node id="n54" color="#fcfcfc" type="domain-restriction">
+          <geometry y="221" width="20" height="20" x="76"/>
+          <label y="199" width="39" size="12" height="22" x="76" customSize="0">exists</label>
+        </node>
+        <node id="n55" color="#000000" type="range-restriction">
+          <geometry y="347" width="20" height="20" x="80"/>
+          <label y="325" width="39" size="12" height="22" x="80" customSize="0">exists</label>
+        </node>
+        <node id="n56" color="#fcfcfc" type="attribute">
+          <geometry y="391" width="20" height="20" x="303"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/attainmentDate</iri>
+          <label y="369" width="151" size="12" height="22" x="292" customSize="0"/>
+        </node>
+        <node id="n57" color="#fcfcfc" type="domain-restriction">
+          <geometry y="393" width="20" height="20" x="190"/>
+          <label y="371" width="39" size="12" height="22" x="190" customSize="0">exists</label>
+        </node>
+        <node id="n58" color="#fcfcfc" type="attribute">
+          <geometry y="418" width="20" height="20" x="291"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/gradeAchieved</iri>
+          <label y="440" width="150" size="12" height="22" x="295" customSize="0"/>
+        </node>
+        <node id="n59" color="#fcfcfc" type="domain-restriction">
+          <geometry y="419" width="20" height="20" x="193"/>
+          <label y="445" width="39" size="12" height="22" x="197" customSize="0">exists</label>
+        </node>
+        <node id="n6" color="#000000" type="range-restriction">
+          <geometry y="144" width="20" height="20" x="424"/>
+          <label y="122" width="39" size="12" height="22" x="424" customSize="0">exists</label>
+        </node>
+        <node id="n60" color="#000000" type="range-restriction">
+          <geometry y="390" width="20" height="20" x="393"/>
+          <label y="368" width="39" size="12" height="22" x="393" customSize="0">exists</label>
+        </node>
+        <node id="n61" color="#fcfcfc" type="value-domain">
+          <geometry y="403" width="90" height="40" x="484"/>
+          <iri>http://www.w3.org/2001/XMLSchema#string</iri>
+          <label y="403" width="90" size="12" height="22" x="484" customSize="0"/>
+        </node>
+        <node id="n62" color="#000000" type="range-restriction">
+          <geometry y="418" width="20" height="20" x="397"/>
+          <label y="443" width="39" size="12" height="22" x="404" customSize="0">exists</label>
+        </node>
+        <node id="n63" color="#fcfcfc" type="domain-restriction">
+          <geometry y="70" width="20" height="20" x="-395"/>
+          <label y="48" width="39" size="12" height="22" x="-395" customSize="0">exists</label>
+        </node>
+        <node id="n68" color="#fcfcfc" type="role">
+          <geometry y="590" width="70" height="50" x="-126"/>
+          <iri>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</iri>
+          <label y="560" width="212" size="12" height="22" x="-126" customSize="0"/>
+        </node>
+        <node id="n71" color="#fcfcfc" type="domain-restriction">
+          <geometry y="590" width="20" height="20" x="560"/>
+          <label y="568" width="39" size="12" height="22" x="560" customSize="0">exists</label>
+        </node>
+        <node id="n72" color="#000000" type="range-restriction">
+          <geometry y="591" width="20" height="20" x="-541"/>
+          <label y="569" width="39" size="12" height="22" x="-541" customSize="0">exists</label>
+        </node>
+        <node id="n73" color="#fcfcfc" type="concept">
+          <geometry y="-40" width="130" height="50" x="-351"/>
+          <iri>https://w3id.org/italia/onto/TI/TimeIndexedEvent</iri>
+          <label y="-40" width="130" size="12" height="22" x="-351" customSize="0"/>
+        </node>
+        <node id="n78" color="#000000" type="range-restriction">
+          <geometry y="287" width="20" height="20" x="-196"/>
+          <label y="265" width="39" size="12" height="22" x="-196" customSize="0">exists</label>
+        </node>
+        <node id="n79" color="#fcfcfc" type="domain-restriction">
+          <geometry y="146" width="20" height="20" x="-201"/>
+          <label y="124" width="39" size="12" height="22" x="-201" customSize="0">exists</label>
+        </node>
+        <node id="n8" color="#fcfcfc" type="role">
+          <geometry y="-14" width="70" height="50" x="66"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus</iri>
+          <label y="-44" width="137" size="12" height="22" x="66" customSize="0"/>
+        </node>
+        <node id="n9" color="#fcfcfc" type="domain-restriction">
+          <geometry y="59" width="20" height="20" x="70"/>
+          <label y="37" width="39" size="12" height="22" x="70" customSize="0">exists</label>
+        </node>
+        <edge id="e1" type="input" target="n5" source="n3">
+          <point y="144" x="311"/>
+          <point y="146" x="188"/>
+        </edge>
+        <edge id="e10" type="input" target="n14" source="n13">
+          <point y="-181" x="-213"/>
+          <point y="-58" x="-210"/>
+        </edge>
+        <edge id="e11" type="input" target="n15" source="n13">
+          <point y="-181" x="-213"/>
+          <point y="-181" x="-110"/>
+        </edge>
+        <edge id="e13" type="inclusion" target="n0" source="n15">
+          <point y="-181" x="-110"/>
+          <point y="-181" x="64"/>
+        </edge>
+        <edge id="e14" type="input" target="n20" source="n16">
+          <point y="-328" x="-216"/>
+          <point y="-330" x="-134"/>
+        </edge>
+        <edge id="e15" type="input" target="n21" source="n16">
+          <point y="-328" x="-216"/>
+          <point y="-326" x="-298"/>
+        </edge>
+        <edge id="e18" type="inclusion" target="n0" source="n20">
+          <point y="-330" x="-134"/>
+          <point y="-328" x="64"/>
+          <point y="-181" x="64"/>
+        </edge>
+        <edge id="e2" type="input" target="n6" source="n3">
+          <point y="144" x="311"/>
+          <point y="144" x="424"/>
+        </edge>
+        <edge id="e26" type="inclusion" target="n27" source="n21">
+          <point y="-326" x="-298"/>
+          <point y="-324" x="-433"/>
+        </edge>
+        <edge id="e29" type="inclusion" target="n30" source="n0">
+          <point y="-181" x="64"/>
+          <point y="-179" x="319"/>
+        </edge>
+        <edge id="e3" type="inclusion" target="n1" source="n5">
+          <point y="146" x="188"/>
+          <point y="145" x="71"/>
+        </edge>
+        <edge id="e31" type="input" target="n40" source="n39">
+          <point y="211" x="-494"/>
+          <point y="211" x="-408"/>
+        </edge>
+        <edge id="e32" type="input" target="n41" source="n39">
+          <point y="211" x="-494"/>
+          <point y="210" x="-580"/>
+        </edge>
+        <edge id="e36" type="input" target="n44" source="n42">
+          <point y="70" x="-491"/>
+          <point y="72" x="-569"/>
+        </edge>
+        <edge id="e4" type="inclusion" target="n2" source="n6">
+          <point y="144" x="424"/>
+          <point y="141" x="547"/>
+        </edge>
+        <edge id="e40" type="inclusion" target="n34" source="n44">
+          <point y="72" x="-569"/>
+          <point y="70" x="-681"/>
+        </edge>
+        <edge id="e41" type="inclusion" target="n46" source="n79">
+          <point y="146" x="-201"/>
+          <point y="63" x="-201"/>
+        </edge>
+        <edge id="e43" type="input" target="n78" source="n49">
+          <point y="215" x="-199"/>
+          <point y="287" x="-196"/>
+        </edge>
+        <edge id="e47" type="input" target="n54" source="n52">
+          <point y="292" x="79"/>
+          <point y="221" x="76"/>
+        </edge>
+        <edge id="e48" type="input" target="n55" source="n52">
+          <point y="292" x="79"/>
+          <point y="347" x="80"/>
+        </edge>
+        <edge id="e49" type="inclusion" target="n53" source="n55">
+          <point y="347" x="80"/>
+          <point y="381" x="79"/>
+        </edge>
+        <edge id="e5" type="input" target="n9" source="n8">
+          <point y="-14" x="66"/>
+          <point y="59" x="70"/>
+        </edge>
+        <edge id="e50" type="inclusion" target="n1" source="n54">
+          <point y="221" x="76"/>
+          <point y="145" x="71"/>
+        </edge>
+        <edge id="e51" type="input" target="n57" source="n56">
+          <point y="391" x="303"/>
+          <point y="393" x="190"/>
+        </edge>
+        <edge id="e52" type="inclusion" target="n53" source="n57">
+          <point y="393" x="190"/>
+          <point y="393" x="141"/>
+        </edge>
+        <edge id="e53" type="input" target="n59" source="n58">
+          <point y="418" x="291"/>
+          <point y="419" x="193"/>
+        </edge>
+        <edge id="e54" type="inclusion" target="n53" source="n59">
+          <point y="419" x="193"/>
+          <point y="419" x="141"/>
+        </edge>
+        <edge id="e55" type="input" target="n60" source="n56">
+          <point y="391" x="303"/>
+          <point y="390" x="393"/>
+        </edge>
+        <edge id="e56" type="input" target="n62" source="n58">
+          <point y="418" x="291"/>
+          <point y="418" x="397"/>
+        </edge>
+        <edge id="e57" type="inclusion" target="n61" source="n60">
+          <point y="390" x="393"/>
+          <point y="403" x="484"/>
+        </edge>
+        <edge id="e59" type="inclusion" target="n61" source="n62">
+          <point y="418" x="397"/>
+          <point y="403" x="484"/>
+        </edge>
+        <edge id="e6" type="input" target="n10" source="n8">
+          <point y="-14" x="66"/>
+          <point y="-83" x="67"/>
+        </edge>
+        <edge id="e60" type="inclusion" target="n46" source="n14">
+          <point y="-58" x="-210"/>
+          <point y="38" x="-210"/>
+        </edge>
+        <edge id="e62" type="inclusion" target="n38" source="n41">
+          <point y="210" x="-580"/>
+          <point y="212" x="-688"/>
+        </edge>
+        <edge id="e63" type="input" target="n79" source="n49">
+          <point y="215" x="-199"/>
+          <point y="146" x="-201"/>
+        </edge>
+        <edge id="e64" type="inclusion" target="n12" source="n78">
+          <point y="287" x="-196"/>
+          <point y="366" x="-195"/>
+        </edge>
+        <edge id="e66" type="input" target="n63" source="n42">
+          <point y="70" x="-491"/>
+          <point y="69" x="-393"/>
+          <point y="70" x="-395"/>
+        </edge>
+        <edge id="e70" type="input" target="n72" source="n68">
+          <point y="590" x="-126"/>
+          <point y="591" x="-541"/>
+        </edge>
+        <edge id="e71" type="input" target="n71" source="n68">
+          <point y="590" x="-126"/>
+          <point y="590" x="560"/>
+        </edge>
+        <edge id="e73" type="inclusion" target="n2" source="n71">
+          <point y="590" x="560"/>
+          <point y="165" x="560"/>
+        </edge>
+        <edge id="e75" type="inclusion" target="n46" source="n63">
+          <point y="70" x="-395"/>
+          <point y="67" x="-256"/>
+        </edge>
+        <edge id="e76" type="inclusion" target="n73" source="n46">
+          <point y="63" x="-201"/>
+          <point y="-40" x="-351"/>
+        </edge>
+        <edge id="e77" type="inclusion" target="n46" source="n40">
+          <point y="211" x="-408"/>
+          <point y="87" x="-247"/>
+        </edge>
+        <edge id="e78" type="inclusion" target="n38" source="n72">
+          <point y="591" x="-541"/>
+          <point y="590" x="-690"/>
+          <point y="212" x="-688"/>
+        </edge>
+        <edge id="e8" type="inclusion" target="n1" source="n9">
+          <point y="59" x="70"/>
+          <point y="145" x="71"/>
+        </edge>
+        <edge id="e9" type="equivalence" target="n0" source="n10">
+          <point y="-83" x="67"/>
+          <point y="-181" x="64"/>
+        </edge>
+      </diagram>
+    </diagrams>
+  </project>
+</graphol>
