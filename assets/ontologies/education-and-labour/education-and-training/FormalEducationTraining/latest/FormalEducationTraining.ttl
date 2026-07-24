@@ -1,0 +1,341 @@
+@prefix : <https://w3id.org/italia/stat/onto/FormalEducationTraining/> .
+@prefix TI: <https://w3id.org/italia/onto/TI/> .
+@prefix l0: <https://w3id.org/italia/onto/l0/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix COV: <https://w3id.org/italia/onto/COV/> .
+@prefix CPV: <https://w3id.org/italia/onto/CPV/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix eat: <https://w3id.org/italia/stat/onto/FormalEducationTraining/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix admsapit: <https://w3id.org/italia/onto/ADMS/> .
+@prefix learning: <https://w3id.org/italia/onto/Learning/> .
+@prefix dcatapit: <http://dati.gov.it/onto/dcatapit#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@base <https://w3id.org/italia/stat/onto/FormalEducationTraining/> .
+
+
+
+#################################################################
+# inizio metadati
+#################################################################
+
+<https://w3id.org/italia/stat/onto/FormalEducationTraining> rdf:type owl:Ontology ;
+                                                                  owl:versionIRI <https://w3id.org/italia/stat/onto/FormalEducationTraining/1.0> ;
+                                                                  dc:description <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.png> ;
+                                                                  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+                                                                  dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ;
+                                                                  dct:description "Ontologia dell'Istruzione e Formazione Formale"@it ,
+																                  "Formal Education and Training Ontology"@en ;
+                                                                  dct:identifier "https://w3id.org/italia/stat/onto/FormalEducationTraining" ;
+                                                                  dct:issued "2026-07-24"^^xsd:date ;
+                                                                  dct:language <http://publications.europa.eu/resource/authority/language/ENG> ,
+                                                                               <http://publications.europa.eu/resource/authority/language/ITA> ;
+                                                                  dct:modified "2026-07-24"^^xsd:date ;
+                                                                  dct:publisher <https://w3id.org/italia/data/public-organization/ISTAT> ;
+                                                                  dct:rightsHolder <https://w3id.org/italia/data/public-organization/ISTAT> ;
+                                                                  dct:subject <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+                                                                  dct:temporal "Dal 2026" ;
+                                                                  dct:title "Ontologia dell'Istruzione e Formazione Formale"@it ,
+                                                                            "Formal Education and Training Ontology"@en ;
+                                                                  rdfs:comment "Modello concettuale standardizzato per la rappresentazione semantica e l'interoperabilità dei dati relativi alle carriere educative e formative in Italia. Il modello mappa l'esperienza dell'individuo descrivendo, tra le altre cose, il percorso di istruzione intrapreso, i titoli di studio conseguiti e il livello educativo raggiunto."@it ,
+																               "Standardized conceptual model for the semantic representation and data interoperability of educational and training careers in Italy. The model maps the individuals's experience by describing, among other things, the education programmes pursued, the educational attainment and the education level achieved."@en;
+                                                                  rdfs:label "Ontologia dell'Istruzione e Formazione Formale"@it ,
+                                                                             "Formal Education and Training Ontology"@en ;
+                                                                  owl:versionInfo "Version 1.0"@en ,
+                                                                                  "Versione 1.0"@it ;
+                                                                  dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;
+                                                                  dcat:keyword "Educazione"@it ,
+                                                                               "Education"@en ,
+                                                                               "Formazione"@it ,
+                                                                               "Training"@en ;
+                                                                  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+                                                                  admsapit:acronym "EAT" ;
+                                                                  admsapit:hasKeyClass eat:EducationStatus ;
+                                                                  admsapit:hasOntologyLanguage admsapit:OWL ;
+                                                                  admsapit:hasSemanticAssetDistribution <https://w3id.org/italia/data/distribution/EAT-JSON-LD> ,
+                                                                                                        <https://w3id.org/italia/data/distribution/EAT-RDF-TURTLE> ,
+                                                                                                        <https://w3id.org/italia/data/distribution/EAT-RDF-XML> ;
+                                                                  admsapit:hasTask admsapit:AnnotationTask ,
+                                                                                   admsapit:QueryFormulationTask ,
+                                                                                   admsapit:SearchTask ;
+                                                                  admsapit:last <https://w3id.org/italia/stat/onto/FormalEducationTraining/1.0> ;
+                                                                  admsapit:officialURI "https://w3id.org/italia/stat/onto/FormalEducationTraining"^^xsd:anyURI ;
+                                                                  admsapit:prefix "eat" ;
+                                                                  admsapit:semanticAssetInUse <https://w3id.org/italia/data/project/NDC> ;
+                                                                  admsapit:status "draft" ;
+                                                                  admsapit:target "Pubbliche Amministrazioni" ;
+                                                                  admsapit:type admsapit:DomainOntology .
+
+###  https://w3id.org/italia/data/distribution/EAT-JSON-LD
+<https://w3id.org/italia/data/distribution/EAT-JSON-LD> rdf:type owl:NamedIndividual ,
+                                                                admsapit:SemanticAssetDistribution ;
+                                                       dct:description "Questa è la distribuzione RDF/Turtle dell'ontologia Educazione e Formazione"@it ,
+                                                                       "This is the distribution in RDF/turtle of the ontology Education and Training"@en ;
+                                                       dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+                                                       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                       dct:title "Distribuzione JSON-LD dell'ontologia Educazione e Formazione"@it ,
+                                                                 "JSON-LD distribution of the Ontology Education and Training"@en ;
+													   dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.jsonld> .
+
+
+###  https://w3id.org/italia/data/distribution/EAT-RDF-TURTLE
+<https://w3id.org/italia/data/distribution/EAT-RDF-TURTLE> rdf:type owl:NamedIndividual ,
+                                                                   admsapit:SemanticAssetDistribution ;
+                                                          dct:description "Questa è la distribuzione RDF/Turtle dell'ontologia Educazione e Formazione"@it ,
+                                                                          "This is the distribution in RDF/turtle of the ontology Education and Training"@en ;
+                                                          dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+                                                          dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                          dct:title "Distribuzione RDF/Turtle dell' ontologia Educazione e Formazione"@it ,
+                                                                    "RDF/Turtle distribution of the ontology Education and Training"@en ;
+														  dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest> ;
+														  dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.ttl> .
+
+
+###  https://w3id.org/italia/data/distribution/EAT-RDF-XML
+<https://w3id.org/italia/data/distribution/EAT-RDF-XML> rdf:type owl:NamedIndividual ,
+                                                                admsapit:SemanticAssetDistribution ;
+                                                       dct:description "Questa è la distribuzione RDF/XML dell'ontologia Educazione e Formazione"@it ,
+                                                                       "This is the distribution in RDF/XML of the Education and Training"@en ;
+                                                       dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_XML> ;
+                                                       dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+                                                       dct:title "Distribuzione RDF/XML dell' ontologia Educazione e Formazione"@it ,
+                                                                 "RDF/XML distribution of the ontology Education and Training"@en ;
+													   dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.rdf> .
+
+
+<https://w3id.org/italia/data/project/NDC>
+	a dcatapit:Agent , foaf:Agent ;
+		dct:identifier "NDC" ;
+		l0:name "National Data Catalog - schema.gov.it  @it" ;
+		foaf:name "Catalogo Nazionale per la semantica dei Dati - NDC"@it ,
+				  "National Data Catalog - NDC"@en .
+			  
+			  
+<https://w3id.org/italia/data/public-organization/ISTAT>
+    a dcatapit:Agent , foaf:Agent ;
+    dct:identifier "ISTAT" ;
+    foaf:name "Istituto Nazionale di Statistica - ISTAT"@it ,
+              "Italian National Institute of Statistics - ISTAT"@en .
+
+<https://w3id.org/italia/data/contact-point/ISTAT-NDC>
+    a dcatapit:Organization , vcard:Organization , vcard:Kind ;
+    vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
+    vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
+
+<https://w3id.org/italia/data/standard/SKOS>
+    a dcatapit:Standard , dct:Standard ;
+    dct:identifier "SKOS" ;
+    foaf:name "Simple Knowledge Organization System (SKOS)"@en ;
+    dct:title "Simple Knowledge Organization System - SKOS" ;
+    dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" .
+	
+
+
+#################################################################
+# fine metadati
+#################################################################
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+###  http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+vs:term_status rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#string
+xsd:string rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/italia/onto/CPV/hasLevelOfEducation
+CPV:hasLevelOfEducation rdf:type owl:ObjectProperty ,
+                                 owl:FunctionalProperty ;
+                        rdfs:domain CPV:Person ;
+                        rdfs:range CPV:EducationLevel .
+
+
+###  https://w3id.org/italia/stat/onto/EducationTraining/isHighest
+eat:isHighest rdf:type owl:ObjectProperty ;
+              rdfs:domain CPV:EducationLevel ;
+              rdfs:range :EducationalAttainment ;
+              rdfs:label "Highest educational attainment"@en ,
+                         "è massimo titolo di studio conseguito"@it .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/assignedToEducationStatus
+:assignedToEducationStatus rdf:type owl:ObjectProperty ,
+                                    owl:InverseFunctionalProperty ;
+                           rdfs:domain eat:EstabilishedEducationTrainingProgramme ;
+                           rdfs:range :EducationStatus ;
+                           rdfs:label "assegnato a Posizione Formativa"@it ,
+                                      "assigned to Educational Status"@en .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/enableAchievement
+:enableAchievement rdf:type owl:ObjectProperty ;
+                   rdfs:domain eat:EstabilishedEducationTrainingProgramme ;
+                   rdfs:range :EducationalAttainment ;
+                   rdfs:label "ablita conseguimento"@it ,
+                              "enables achievement"@en .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/enableTrainingProgram
+:enableTrainingProgram rdf:type owl:ObjectProperty ;
+                       rdfs:domain eat:EstabilishedEducationTrainingProgramme ;
+                       rdfs:range eat:EducationProgramme ;
+                       rdfs:label "Referred to Training Program"@en ,
+                                  "si riferisce a programma di istruzione"@it .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/establishes
+:establishes rdf:type owl:ObjectProperty ;
+             rdfs:domain eat:EstabilishedEducationTrainingProgramme ;
+             rdfs:range :Ordinamento ;
+             rdfs:label "establish"@en ,
+                        "è regolamentato"@it .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/hasObtainedEducationalAttainment
+:hasObtainedEducationalAttainment rdf:type owl:ObjectProperty ;
+                                  rdfs:domain CPV:Person ;
+                                  rdfs:range :EducationalAttainmentObtained ;
+                                  rdfs:label "haConseguitoTitoloDiStudio"@it .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo
+:relatedTo rdf:type owl:ObjectProperty ,
+                    owl:InverseFunctionalProperty ;
+           rdfs:domain :EducationStatus ;
+           rdfs:range learning:Institute ;
+           rdfs:label "relatedTo"@en ,
+                      "relativo a"@it .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus
+:studentInEducationStatus rdf:type owl:ObjectProperty ,
+                                   owl:InverseFunctionalProperty ;
+                          rdfs:domain CPV:Person ;
+                          rdfs:range :EducationStatus ;
+                          rdfs:label "ha Posizione Formativa"@it ,
+                                     "has Educational Status"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/attainmentDate
+:attainmentDate rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :EducationalAttainmentObtained ;
+                rdfs:range xsd:string ;
+                rdfs:label "data conseguimento titolo"@it .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/gradeAchieved
+:gradeAchieved rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
+               rdfs:domain :EducationalAttainmentObtained ;
+               rdfs:range xsd:string ;
+               rdfs:label "grade"@en ,
+                          "voto conseguimento titolo"@it .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/italia/onto/CPV/EducationLevel
+CPV:EducationLevel rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/CPV/Person
+CPV:Person rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/Learning/Institute
+learning:Institute rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/onto/TI/TimeIndexedEvent
+TI:TimeIndexedEvent rdf:type owl:Class .
+
+
+###  https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme
+eat:EducationProgramme rdf:type owl:Class ;
+                       rdfs:comment "General Education and training programmes, regulated by legislation, structured into sequential cycles, and designed to achieve specific and clearly identifiable learning outcomes."@en ,
+                                    "Programmi generali di istruzione e formazione, disciplinati dal legislatore, strutturati in cicli sequenziali e finalizzati al conseguimento di specifici e riconoscibili obiettivi di apprendimento."@it ;
+                       rdfs:label "General Education and Training Programme"@en ,
+                                  "Programma generale di istruzione e formazione"@it .
+
+
+###  https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme
+eat:EstabilishedEducationTrainingProgramme rdf:type owl:Class ;
+                                           rdfs:subClassOf TI:TimeIndexedEvent ;
+                                           rdfs:comment "An education and training programme regulated within a specific legislative framework. Each programme is defined by the combination of a general education and training programme and a specific set of regulations."@en ,
+                                                        "Percorso di  istruzione e formazione,  disciplinato nell'ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Programma generale di istruzione e formazione e uno specifico Ordinamento."@it ;
+                                           rdfs:label "Legally-Specific Education and Training Programme"@en ,
+                                                      "Percorso di istruzione"@it ;
+                                           vs:term_status "unstable" .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus
+:EducationStatus rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty [ owl:inverseOf :studentInEducationStatus
+                                                      ] ;
+                                       owl:someValuesFrom owl:Thing
+                                     ] ;
+                 rdfs:subClassOf TI:TimeIndexedEvent ;
+                 rdfs:comment "A relationship between an individual, an education and training institution, and an education and training programme over a given period of time."@en ,
+                              "Relazione che si instaura tra una persona, un’istituzione che eroga istruzione e formazione e un programma di istruzione e formazione in un periodo di tempo."@it ;
+                 rdfs:label "Educational Position"@en ,
+                            "Posizione Formativa"@it ;
+                 vs:term_status "unstable" .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment
+:EducationalAttainment rdf:type owl:Class ;
+                       rdfs:comment "An official document with legal and functional validity, issued upon the successful completion of a legally regulated education or training programme. This document formally certifies the completion of a specific cycle of education and attests to the knowledge, skills, and competences acquired, typically following the successful completion of a State examination or a final assessment. Its primary purpose is to qualify the holder for access to higher levels of education or entry into the labour market, based on legal provisions governing its equivalence and recognition for administrative and competitive recruitment purposes."@en ,
+                                    "Documento ufficiale dotato di valore legale e funzionale che viene rilasciato al completamento di un percorso d’istruzione o formazione regolamentato dalla legge. Tale atto attesta formalmente la conclusione di un determinato ciclo di studi e certifica le conoscenze e le competenze acquisite, solitamente in seguito al superamento di un esame di Stato o di una prova di verifica finale. La sua funzione principale consiste nel qualificare il possessore per l'accesso ai livelli di istruzione superiori o per l'inserimento nel mercato del lavoro, sulla base di fonti normative che ne disciplinano l’equipollenza e l’equiparazione ai fini amministrativi e concorsuali."@it ;
+                       rdfs:label "Educational Attainment"@en ,
+                                  "Titolo di Studio"@it .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained
+:EducationalAttainmentObtained rdf:type owl:Class ;
+                               rdfs:label "Denominazione titolo di studio ottenuto"@it ,
+                                          "Educational Attainment Obtained"@en ;
+                               vs:term_status "unstable" .
+
+
+###  https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento
+:Ordinamento rdf:type owl:Class ;
+             rdfs:comment "Insieme delle disposizioni normative, organizzative e didattiche che disciplinano la struttura del sistema educativo, definendone i percorsi, i livelli, i titoli rilasciati, le modalità di accesso, i requisiti di frequenza e di valutazione, nonché i criteri per il conseguimento delle qualificazioni in un quadro di  coerenza,  validità giuridica e riconoscimento istituzionale."@it ,
+                          "The set of legal, organisational, and educational provisions governing the structure of the education system, defining its programmes, levels, qualifications awarded, admission requirements, attendance and assessment requirements, as well as the criteria for the award of qualifications, within a framework that ensures coherence, legal validity, and institutional recognition."@en ;
+             rdfs:label "Ordinamento"@it ,
+                        "Regulatory Framework"@en ;
+             vs:term_status "unstable" .
+
+
+###  Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi

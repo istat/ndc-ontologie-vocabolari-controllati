@@ -1,0 +1,730 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus"
+  } ]
+}, {
+  "@id" : "http://dati.gov.it/onto/dcatapit#Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dati.gov.it/onto/dcatapit#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dati.gov.it/onto/dcatapit#Standard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/Standard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/accrualPeriodicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rightsHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/subject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/temporal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#Kind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#fn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#accessURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#keyword",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#theme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/data/contact-point/ISTAT-NDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Organization", "http://www.w3.org/2006/vcard/ns#Kind", "http://www.w3.org/2006/vcard/ns#Organization" ],
+  "http://www.w3.org/2006/vcard/ns#fn" : [ {
+    "@value" : "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog"
+  } ],
+  "http://www.w3.org/2006/vcard/ns#hasEmail" : [ {
+    "@id" : "mailto:ndc-segr-tec@istat.it"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/EAT-JSON-LD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/Turtle dell'ontologia Educazione e Formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/turtle of the ontology Education and Training"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione JSON-LD dell'ontologia Educazione e Formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "JSON-LD distribution of the Ontology Education and Training"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.jsonld"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/EAT-RDF-TURTLE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/Turtle dell'ontologia Educazione e Formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/turtle of the ontology Education and Training"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/Turtle dell' ontologia Educazione e Formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/Turtle distribution of the ontology Education and Training"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.ttl"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/distribution/EAT-RDF-XML",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "it",
+    "@value" : "Questa è la distribuzione RDF/XML dell'ontologia Educazione e Formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "This is the distribution in RDF/XML of the Education and Training"
+  } ],
+  "http://purl.org/dc/terms/format" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "it",
+    "@value" : "Distribuzione RDF/XML dell' ontologia Educazione e Formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "RDF/XML distribution of the ontology Education and Training"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.rdf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/project/NDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "NDC"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Catalogo Nazionale per la semantica dei Dati - NDC"
+  }, {
+    "@language" : "en",
+    "@value" : "National Data Catalog - NDC"
+  } ],
+  "https://w3id.org/italia/onto/l0/name" : [ {
+    "@value" : "National Data Catalog - schema.gov.it  @it"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/public-organization/ISTAT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Agent", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "ISTAT"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "it",
+    "@value" : "Istituto Nazionale di Statistica - ISTAT"
+  }, {
+    "@language" : "en",
+    "@value" : "Italian National Institute of Statistics - ISTAT"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/data/standard/SKOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://dati.gov.it/onto/dcatapit#Standard", "http://purl.org/dc/terms/Standard" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "SKOS"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Simple Knowledge Organization System - SKOS"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "en",
+    "@value" : "Simple Knowledge Organization System (SKOS)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/acronym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasKeyClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/hasTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/last",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/officialURI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/prefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/semanticAssetInUse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/ADMS/type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/EducationLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/CPV/hasLevelOfEducation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/EducationLevel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/Learning/Institute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/italia/onto/l0/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.png"
+  } ],
+  "http://purl.org/dc/terms/accrualPeriodicity" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/ISTAT"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Formal Education and Training Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia dell'Istruzione e Formazione Formale"
+  } ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "https://w3id.org/italia/stat/onto/FormalEducationTraining"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-07-24"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/language/ENG"
+  }, {
+    "@id" : "http://publications.europa.eu/resource/authority/language/ITA"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-07-24"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/ISTAT"
+  } ],
+  "http://purl.org/dc/terms/rightsHolder" : [ {
+    "@id" : "https://w3id.org/italia/data/public-organization/ISTAT"
+  } ],
+  "http://purl.org/dc/terms/subject" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+  } ],
+  "http://purl.org/dc/terms/temporal" : [ {
+    "@value" : "Dal 2026"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Formal Education and Training Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia dell'Istruzione e Formazione Formale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Modello concettuale standardizzato per la rappresentazione semantica e l'interoperabilità dei dati relativi alle carriere educative e formative in Italia. Il modello mappa l'esperienza dell'individuo descrivendo, tra le altre cose, il percorso di istruzione intrapreso, i titoli di studio conseguiti e il livello educativo raggiunto."
+  }, {
+    "@language" : "en",
+    "@value" : "Standardized conceptual model for the semantic representation and data interoperability of educational and training careers in Italy. The model maps the individuals's experience by describing, among other things, the education programmes pursued, the educational attainment and the education level achieved."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Formal Education and Training Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia dell'Istruzione e Formazione Formale"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1.0"
+  }, {
+    "@language" : "it",
+    "@value" : "Versione 1.0"
+  } ],
+  "http://www.w3.org/ns/dcat#contactPoint" : [ {
+    "@id" : "https://w3id.org/italia/data/contact-point/ISTAT-NDC"
+  } ],
+  "http://www.w3.org/ns/dcat#keyword" : [ {
+    "@language" : "en",
+    "@value" : "Education"
+  }, {
+    "@language" : "it",
+    "@value" : "Educazione"
+  }, {
+    "@language" : "it",
+    "@value" : "Formazione"
+  }, {
+    "@language" : "en",
+    "@value" : "Training"
+  } ],
+  "http://www.w3.org/ns/dcat#theme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/acronym" : [ {
+    "@value" : "EAT"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasKeyClass" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasOntologyLanguage" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/OWL"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasSemanticAssetDistribution" : [ {
+    "@id" : "https://w3id.org/italia/data/distribution/EAT-JSON-LD"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/EAT-RDF-TURTLE"
+  }, {
+    "@id" : "https://w3id.org/italia/data/distribution/EAT-RDF-XML"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/hasTask" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/AnnotationTask"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/ADMS/QueryFormulationTask"
+  }, {
+    "@id" : "https://w3id.org/italia/onto/ADMS/SearchTask"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/last" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/1.0"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/officialURI" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://w3id.org/italia/stat/onto/FormalEducationTraining"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/prefix" : [ {
+    "@value" : "eat"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/semanticAssetInUse" : [ {
+    "@id" : "https://w3id.org/italia/data/project/NDC"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/status" : [ {
+    "@value" : "draft"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/target" : [ {
+    "@value" : "Pubbliche Amministrazioni"
+  } ],
+  "https://w3id.org/italia/onto/ADMS/type" : [ {
+    "@id" : "https://w3id.org/italia/onto/ADMS/DomainOntology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "General Education and training programmes, regulated by legislation, structured into sequential cycles, and designed to achieve specific and clearly identifiable learning outcomes."
+  }, {
+    "@language" : "it",
+    "@value" : "Programmi generali di istruzione e formazione, disciplinati dal legislatore, strutturati in cicli sequenziali e finalizzati al conseguimento di specifici e riconoscibili obiettivi di apprendimento."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "General Education and Training Programme"
+  }, {
+    "@language" : "it",
+    "@value" : "Programma generale di istruzione e formazione"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relationship between an individual, an education and training institution, and an education and training programme over a given period of time."
+  }, {
+    "@language" : "it",
+    "@value" : "Relazione che si instaura tra una persona, un’istituzione che eroga istruzione e formazione e un programma di istruzione e formazione in un periodo di tempo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Educational Position"
+  }, {
+    "@language" : "it",
+    "@value" : "Posizione Formativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An official document with legal and functional validity, issued upon the successful completion of a legally regulated education or training programme. This document formally certifies the completion of a specific cycle of education and attests to the knowledge, skills, and competences acquired, typically following the successful completion of a State examination or a final assessment. Its primary purpose is to qualify the holder for access to higher levels of education or entry into the labour market, based on legal provisions governing its equivalence and recognition for administrative and competitive recruitment purposes."
+  }, {
+    "@language" : "it",
+    "@value" : "Documento ufficiale dotato di valore legale e funzionale che viene rilasciato al completamento di un percorso d’istruzione o formazione regolamentato dalla legge. Tale atto attesta formalmente la conclusione di un determinato ciclo di studi e certifica le conoscenze e le competenze acquisite, solitamente in seguito al superamento di un esame di Stato o di una prova di verifica finale. La sua funzione principale consiste nel qualificare il possessore per l'accesso ai livelli di istruzione superiori o per l'inserimento nel mercato del lavoro, sulla base di fonti normative che ne disciplinano l’equipollenza e l’equiparazione ai fini amministrativi e concorsuali."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Educational Attainment"
+  }, {
+    "@language" : "it",
+    "@value" : "Titolo di Studio"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Denominazione titolo di studio ottenuto"
+  }, {
+    "@language" : "en",
+    "@value" : "Educational Attainment Obtained"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An education and training programme regulated within a specific legislative framework. Each programme is defined by the combination of a general education and training programme and a specific set of regulations."
+  }, {
+    "@language" : "it",
+    "@value" : "Percorso di  istruzione e formazione,  disciplinato nell'ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Programma generale di istruzione e formazione e uno specifico Ordinamento."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Legally-Specific Education and Training Programme"
+  }, {
+    "@language" : "it",
+    "@value" : "Percorso di istruzione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/italia/onto/TI/TimeIndexedEvent"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Insieme delle disposizioni normative, organizzative e didattiche che disciplinano la struttura del sistema educativo, definendone i percorsi, i livelli, i titoli rilasciati, le modalità di accesso, i requisiti di frequenza e di valutazione, nonché i criteri per il conseguimento delle qualificazioni in un quadro di  coerenza,  validità giuridica e riconoscimento istituzionale."
+  }, {
+    "@language" : "en",
+    "@value" : "The set of legal, organisational, and educational provisions governing the structure of the education system, defining its programmes, levels, qualifications awarded, admission requirements, attendance and assessment requirements, as well as the criteria for the award of qualifications, within a framework that ensures coherence, legal validity, and institutional recognition."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Ordinamento"
+  }, {
+    "@language" : "en",
+    "@value" : "Regulatory Framework"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "unstable"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/assignedToEducationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "assegnato a Posizione Formativa"
+  }, {
+    "@language" : "en",
+    "@value" : "assigned to Educational Status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/attainmentDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "data conseguimento titolo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/enableAchievement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ablita conseguimento"
+  }, {
+    "@language" : "en",
+    "@value" : "enables achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/enableTrainingProgram",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Referred to Training Program"
+  }, {
+    "@language" : "it",
+    "@value" : "si riferisce a programma di istruzione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/establishes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "establish"
+  }, {
+    "@language" : "it",
+    "@value" : "è regolamentato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/gradeAchieved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "grade"
+  }, {
+    "@language" : "it",
+    "@value" : "voto conseguimento titolo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/hasObtainedEducationalAttainment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "haConseguitoTitoloDiStudio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/isHighest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/EducationLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Highest educational attainment"
+  }, {
+    "@language" : "it",
+    "@value" : "è massimo titolo di studio conseguito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relatedTo"
+  }, {
+    "@language" : "it",
+    "@value" : "relativo a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/onto/Learning/Institute"
+  } ]
+}, {
+  "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/italia/onto/CPV/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "ha Posizione Formativa"
+  }, {
+    "@language" : "en",
+    "@value" : "has Educational Status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus"
+  } ]
+} ]
