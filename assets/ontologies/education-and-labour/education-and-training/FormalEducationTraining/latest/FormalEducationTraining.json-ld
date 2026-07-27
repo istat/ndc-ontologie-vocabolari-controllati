@@ -147,7 +147,7 @@
     "@id" : "https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.jsonld"
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.jsonld"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/EAT-RDF-TURTLE",
@@ -176,7 +176,7 @@
     "@id" : "https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.ttl"
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.ttl"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/distribution/EAT-RDF-XML",
@@ -205,7 +205,7 @@
     "@id" : "https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"
   } ],
   "http://www.w3.org/ns/dcat#downloadURL" : [ {
-    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.rdf"
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.rdf"
   } ]
 }, {
   "@id" : "https://w3id.org/italia/data/project/NDC",
@@ -319,7 +319,7 @@
   "@id" : "https://w3id.org/italia/stat/onto/FormalEducationTraining",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
-    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.png"
+    "@id" : "https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.png"
   } ],
   "http://purl.org/dc/terms/accrualPeriodicity" : [ {
     "@id" : "http://publications.europa.eu/resource/authority/frequency/IRREG"
