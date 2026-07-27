@@ -23,7 +23,7 @@
      xmlns:learning="https://w3id.org/italia/onto/Learning/">
     <owl:Ontology rdf:about="https://w3id.org/italia/stat/onto/FormalEducationTraining">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/stat/onto/FormalEducationTraining/1.0"/>
-        <dc:description rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.png"/>
+        <dc:description rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.png"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
         <dct:description xml:lang="en">Formal Education and Training Ontology</dct:description>
@@ -669,7 +669,7 @@
         <dct:title xml:lang="it">Distribuzione JSON-LD dell&apos;ontologia Educazione e Formazione</dct:title>
         <dct:title xml:lang="en">JSON-LD distribution of the Ontology Education and Training</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.jsonld"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.jsonld"/>
     </owl:NamedIndividual>
     
 
@@ -685,7 +685,7 @@
         <dct:title xml:lang="it">Distribuzione RDF/Turtle dell&apos; ontologia Educazione e Formazione</dct:title>
         <dct:title xml:lang="en">RDF/Turtle distribution of the ontology Education and Training</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.ttl"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.ttl"/>
     </owl:NamedIndividual>
     
 
@@ -701,7 +701,7 @@
         <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos; ontologia Educazione e Formazione</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of the ontology Education and Training</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.rdf"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.rdf"/>
     </owl:NamedIndividual>
     
 
