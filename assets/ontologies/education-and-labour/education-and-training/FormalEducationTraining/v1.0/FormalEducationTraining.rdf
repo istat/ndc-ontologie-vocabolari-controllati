@@ -32,7 +32,7 @@
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-24</dct:issued>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-24</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-28</dct:modified>
         <dct:publisher rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
         <dct:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
         <dct:subject rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
@@ -615,7 +615,7 @@
     <owl:Class rdf:about="https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme">
         <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/TI/TimeIndexedEvent"/>
         <rdfs:comment xml:lang="en">An education and training programme regulated within a specific legislative framework. Each programme is defined by the combination of a general education and training programme and a specific set of regulations.</rdfs:comment>
-        <rdfs:comment xml:lang="it">Percorso di  istruzione e formazione,  disciplinato nell&apos;ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Programma generale di istruzione e formazione e uno specifico Ordinamento.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Percorso di  istruzione e formazione,  disciplinato nell&apos;ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Percorso generale di istruzione e formazione e uno specifico Ordinamento.</rdfs:comment>
         <rdfs:label xml:lang="en">Legally-Specific Education and Training Programme</rdfs:label>
         <rdfs:label xml:lang="it">Percorso di istruzione</rdfs:label>
         <vs:term_status>unstable</vs:term_status>
