@@ -348,7 +348,7 @@
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2026-07-24"
+    "@value" : "2026-07-28"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@id" : "https://w3id.org/italia/data/public-organization/ISTAT"
@@ -538,7 +538,7 @@
     "@value" : "An education and training programme regulated within a specific legislative framework. Each programme is defined by the combination of a general education and training programme and a specific set of regulations."
   }, {
     "@language" : "it",
-    "@value" : "Percorso di  istruzione e formazione,  disciplinato nell'ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Programma generale di istruzione e formazione e uno specifico Ordinamento."
+    "@value" : "Percorso di  istruzione e formazione,  disciplinato nell'ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Percorso generale di istruzione e formazione e uno specifico Ordinamento."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",

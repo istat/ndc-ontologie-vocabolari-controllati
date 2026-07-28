@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <graphol version="3">
-  <project version="1.0" name="EducationTraining">
-    <ontology lang="en" prefix="eat" addLabelFromSimpleName="0" addLabelFromUserInput="0" iri="https://w3id.org/italia/stat/onto/FormalEducationTraining/">
+  <project name="EducationTraining" version="1.0">
+    <ontology addLabelFromSimpleName="0" addLabelFromUserInput="0" iri="https://w3id.org/italia/stat/onto/FormalEducationTraining/" prefix="eat" lang="en">
       <imports>
-        <import isLocal="0" version="https://w3id.org/italia/onto/CLV" iri="https://w3id.org/italia/onto/CLV" location="https://w3id.org/italia/onto/CLV"/>
-        <import isLocal="0" version="https://w3id.org/italia/onto/l0" iri="https://w3id.org/italia/onto/l0" location="https://w3id.org/italia/onto/l0"/>
-        <import isLocal="0" version="https://w3id.org/italia/onto/l0" iri="https://w3id.org/italia/onto/l0" location="https://w3id.org/italia/onto/l0"/>
+        <import iri="https://w3id.org/italia/onto/CLV" version="https://w3id.org/italia/onto/CLV" isLocal="0" location="https://w3id.org/italia/onto/CLV"/>
+        <import iri="https://w3id.org/italia/onto/l0" version="https://w3id.org/italia/onto/l0" isLocal="0" location="https://w3id.org/italia/onto/l0"/>
+        <import iri="https://w3id.org/italia/onto/l0" version="https://w3id.org/italia/onto/l0" isLocal="0" location="https://w3id.org/italia/onto/l0"/>
       </imports>
       <prefixes>
         <prefix>
@@ -42,7 +42,7 @@
         </prefix>
         <prefix>
           <value>eat</value>
-          <namespace>https://w3id.org/italia/stat/onto/EducationTraining/</namespace>
+          <namespace>https://w3id.org/italia/stat/onto/FormalEducationTraining/</namespace>
         </prefix>
         <prefix>
           <value>foaf</value>
@@ -194,6 +194,12 @@
         <annotationProperty>https://w3id.org/italia/onto/l0/controlledVocabulary</annotationProperty>
       </annotationProperties>
       <iris>
+        <iri>
+          <value>http://dati.gov.it/onto/dcatapit#Agent</value>
+        </iri>
+        <iri>
+          <value>http://dati.gov.it/onto/dcatapit#Organization</value>
+        </iri>
         <iri>
           <value>http://purl.org/dc/terms/accrualPeriodicity</value>
         </iri>
@@ -423,6 +429,12 @@
           <value>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</value>
         </iri>
         <iri>
+          <value>http://www.w3.org/2006/vcard/ns#Kind</value>
+        </iri>
+        <iri>
+          <value>http://www.w3.org/2006/vcard/ns#Organization</value>
+        </iri>
+        <iri>
           <value>http://www.w3.org/2006/vcard/ns#fn</value>
         </iri>
         <iri>
@@ -447,7 +459,13 @@
           <value>http://www.w3.org/ns/prov#wasDerivedFrom</value>
         </iri>
         <iri>
+          <value>http://xmlns.com/foaf/0.1/Agent</value>
+        </iri>
+        <iri>
           <value>http://xmlns.com/foaf/0.1/name</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/contact-point/onto-agid</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/data/distribution/CLVAPIT-JSON-LD</value>
@@ -471,7 +489,25 @@
           <value>https://w3id.org/italia/data/organization/public-organization/td</value>
         </iri>
         <iri>
+          <value>https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab</value>
+        </iri>
+        <iri>
           <value>https://w3id.org/italia/data/project/ANNCSU</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/project/DAF</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/data/project/OntoPiA</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/Project</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/SemanticAsset</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/ADMS/SemanticAssetDistribution</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/ADMS/acronym</value>
@@ -520,6 +556,9 @@
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/CLV</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/Address</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/CLV/AddressArea</value>
@@ -616,6 +655,9 @@
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/CLV/fullAddress</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/CLV/hasAddress</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/CLV/hasAddressArea</value>
@@ -756,6 +798,9 @@
           <value>https://w3id.org/italia/onto/CLV/yard</value>
         </iri>
         <iri>
+          <value>https://w3id.org/italia/onto/COV/Organization</value>
+        </iri>
+        <iri>
           <value>https://w3id.org/italia/onto/CPV/EducationLevel</value>
         </iri>
         <iri>
@@ -787,16 +832,28 @@
           <value>https://w3id.org/italia/onto/l0/Activity</value>
         </iri>
         <iri>
+          <value>https://w3id.org/italia/onto/l0/Agent</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Characteristic</value>
+        </iri>
+        <iri>
           <value>https://w3id.org/italia/onto/l0/Collection</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/l0/Concept</value>
         </iri>
         <iri>
+          <value>https://w3id.org/italia/onto/l0/Description</value>
+        </iri>
+        <iri>
           <value>https://w3id.org/italia/onto/l0/Entity</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/l0/EventOrSituation</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/Location</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/l0/Object</value>
@@ -812,6 +869,9 @@
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/l0/controlledVocabulary</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/onto/l0/description</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/l0/directlyFollows</value>
@@ -838,6 +898,9 @@
           <value>https://w3id.org/italia/onto/l0/hasTopic</value>
         </iri>
         <iri>
+          <value>https://w3id.org/italia/onto/l0/identifier</value>
+        </iri>
+        <iri>
           <value>https://w3id.org/italia/onto/l0/isDescriptionOf</value>
         </iri>
         <iri>
@@ -853,25 +916,22 @@
           <value>https://w3id.org/italia/onto/l0/isTopicOf</value>
         </iri>
         <iri>
+          <value>https://w3id.org/italia/onto/l0/name</value>
+        </iri>
+        <iri>
           <value>https://w3id.org/italia/onto/l0/positionInSequence</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/onto/l0/precedes</value>
         </iri>
         <iri>
-          <value>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</value>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/</value>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme</value>
           <annotations>
             <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
-              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
-              <object>
-                <lexicalForm>Programma generale di istruzione e formazione</lexicalForm>
-                <datatype/>
-                <language>it</language>
-              </object>
-            </annotation>
-            <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme</subject>
               <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
               <object>
                 <lexicalForm>Programmi generali di istruzione e formazione, disciplinati dal legislatore, strutturati in cicli sequenziali e finalizzati al conseguimento di specifici e riconoscibili obiettivi di apprendimento.</lexicalForm>
@@ -880,7 +940,7 @@
               </object>
             </annotation>
             <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme</subject>
               <property>http://www.w3.org/2000/01/rdf-schema#label</property>
               <object>
                 <lexicalForm>General Education and Training Programme</lexicalForm>
@@ -889,7 +949,7 @@
               </object>
             </annotation>
             <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</subject>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme</subject>
               <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
               <object>
                 <lexicalForm>General Education and training programmes, regulated by legislation, structured into sequential cycles, and designed to achieve specific and clearly identifiable learning outcomes.</lexicalForm>
@@ -897,83 +957,16 @@
                 <language>en</language>
               </object>
             </annotation>
-          </annotations>
-        </iri>
-        <iri>
-          <value>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</value>
-          <annotations>
             <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme</subject>
               <property>http://www.w3.org/2000/01/rdf-schema#label</property>
               <object>
-                <lexicalForm>Percorso di istruzione</lexicalForm>
+                <lexicalForm>Programma generale di istruzione e formazione</lexicalForm>
                 <datatype/>
                 <language>it</language>
               </object>
             </annotation>
-            <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
-              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
-              <object>
-                <lexicalForm>Legally-Specific Education and Training Programme</lexicalForm>
-                <datatype/>
-                <language>en</language>
-              </object>
-            </annotation>
-            <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
-              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
-              <object>
-                <lexicalForm>Percorso di  istruzione e formazione,  disciplinato nell'ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Programma generale di istruzione e formazione e uno specifico Ordinamento.</lexicalForm>
-                <datatype/>
-                <language>it</language>
-              </object>
-            </annotation>
-            <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
-              <property>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</property>
-              <object>
-                <lexicalForm>unstable</lexicalForm>
-                <datatype/>
-                <language/>
-              </object>
-            </annotation>
-            <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</subject>
-              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
-              <object>
-                <lexicalForm>An education and training programme regulated within a specific legislative framework. Each programme is defined by the combination of a general education and training programme and a specific set of regulations.</lexicalForm>
-                <datatype/>
-                <language>en</language>
-              </object>
-            </annotation>
           </annotations>
-        </iri>
-        <iri>
-          <value>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</value>
-          <annotations>
-            <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</subject>
-              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
-              <object>
-                <lexicalForm>è massimo titolo di studio conseguito</lexicalForm>
-                <datatype/>
-                <language>it</language>
-              </object>
-            </annotation>
-            <annotation>
-              <subject>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</subject>
-              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
-              <object>
-                <lexicalForm>Highest educational attainment</lexicalForm>
-                <datatype/>
-                <language>en</language>
-              </object>
-            </annotation>
-          </annotations>
-        </iri>
-        <iri>
-          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/</value>
         </iri>
         <iri>
           <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</value>
@@ -1094,6 +1087,56 @@
                 <lexicalForm>unstable</lexicalForm>
                 <datatype/>
                 <language/>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Percorso di istruzione</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Legally-Specific Education and Training Programme</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>Percorso di  istruzione e formazione,  disciplinato nell'ambito di uno specifico quadro legislativo. Ciascun percorso è definito dalla combinazione tra un Percorso generale di istruzione e formazione e uno specifico Ordinamento.</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</property>
+              <object>
+                <lexicalForm>unstable</lexicalForm>
+                <datatype/>
+                <language/>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#comment</property>
+              <object>
+                <lexicalForm>An education and training programme regulated within a specific legislative framework. Each programme is defined by the combination of a general education and training programme and a specific set of regulations.</lexicalForm>
+                <datatype/>
+                <language>en</language>
               </object>
             </annotation>
           </annotations>
@@ -1295,6 +1338,29 @@
           </annotations>
         </iri>
         <iri>
+          <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/isHighest</value>
+          <annotations>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/isHighest</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>è massimo titolo di studio conseguito</lexicalForm>
+                <datatype/>
+                <language>it</language>
+              </object>
+            </annotation>
+            <annotation>
+              <subject>https://w3id.org/italia/stat/onto/FormalEducationTraining/isHighest</subject>
+              <property>http://www.w3.org/2000/01/rdf-schema#label</property>
+              <object>
+                <lexicalForm>Highest educational attainment</lexicalForm>
+                <datatype/>
+                <language>en</language>
+              </object>
+            </annotation>
+          </annotations>
+        </iri>
+        <iri>
           <value>https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo</value>
           <inverseFunctional/>
           <annotations>
@@ -1351,396 +1417,397 @@
       </iris>
     </ontology>
     <diagrams>
-      <diagram width="5000" name="EducationStatus" height="5000">
-        <node id="n0" color="#fcfcfc" type="concept">
-          <geometry y="-181" width="110" height="50" x="64"/>
+      <diagram name="EducationStatus" height="5000" width="5000">
+        <node type="concept" color="#fcfcfc" id="n0">
+          <geometry x="80" height="50" y="-180" width="110"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationStatus</iri>
-          <label y="-181" width="110" size="12" height="36" x="64" customSize="0"/>
+          <label x="80" height="36" customSize="0" size="12" y="-180" width="110"/>
         </node>
-        <node id="n1" color="#fcfcfc" type="concept">
-          <geometry y="145" width="110" height="50" x="71"/>
+        <node type="concept" color="#fcfcfc" id="n1">
+          <geometry x="80" height="50" y="130" width="110"/>
           <iri>https://w3id.org/italia/onto/CPV/Person</iri>
-          <label y="145" width="110" size="12" height="22" x="71" customSize="0"/>
+          <label x="80" height="22" customSize="0" size="12" y="130" width="110"/>
         </node>
-        <node id="n10" color="#000000" type="range-restriction">
-          <geometry y="-83" width="20" height="20" x="67"/>
-          <label y="-105" width="39" size="12" height="22" x="67" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n10">
+          <geometry x="80" height="20" y="-80" width="20"/>
+          <label x="80" height="22" customSize="0" size="12" y="-102" width="39">exists</label>
         </node>
-        <node id="n12" color="#f0e50c" type="concept">
-          <geometry y="366" width="116" height="50" x="-195"/>
-          <iri>https://w3id.org/italia/stat/onto/EducationTraining/EducationProgramme</iri>
-          <label y="366" width="116" size="12" height="64" x="-195" customSize="0"/>
+        <node type="concept" color="#f0e50c" id="n12">
+          <geometry x="-200" height="50" y="460" width="116"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationProgramme</iri>
+          <label x="-200" height="50" customSize="0" size="12" y="460" width="116"/>
         </node>
-        <node id="n13" color="#fcfcfc" type="role">
-          <geometry y="-181" width="70" height="50" x="-213"/>
+        <node type="role" color="#fcfcfc" id="n13">
+          <geometry x="-200" height="50" y="-180" width="70"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/assignedToEducationStatus</iri>
-          <label y="-211" width="190" size="12" height="22" x="-213" customSize="0"/>
+          <label x="-200" height="22" customSize="0" size="12" y="-210" width="177"/>
         </node>
-        <node id="n14" color="#fcfcfc" type="domain-restriction">
-          <geometry y="-58" width="20" height="20" x="-210"/>
-          <label y="-80" width="39" size="12" height="22" x="-210" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n14">
+          <geometry x="-200" height="20" y="-60" width="20"/>
+          <label x="-200" height="22" customSize="0" size="12" y="-82" width="39">exists</label>
         </node>
-        <node id="n15" color="#000000" type="range-restriction">
-          <geometry y="-181" width="20" height="20" x="-110"/>
-          <label y="-203" width="39" size="12" height="22" x="-110" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n15">
+          <geometry x="-110" height="20" y="-181" width="20"/>
+          <label x="-110" height="22" customSize="0" size="12" y="-203" width="39">exists</label>
         </node>
-        <node id="n16" color="#fcfcfc" type="role">
-          <geometry y="-328" width="70" height="50" x="-216"/>
+        <node type="role" color="#fcfcfc" id="n16">
+          <geometry x="-216" height="50" y="-328" width="70"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/relatedTo</iri>
-          <label y="-358" width="58" size="12" height="22" x="-216" customSize="0"/>
+          <label x="-216" height="22" customSize="0" size="12" y="-358" width="58"/>
         </node>
-        <node id="n2" color="#f0e50c" type="concept">
-          <geometry y="141" width="119" height="50" x="548"/>
+        <node type="concept" color="#f0e50c" id="n2">
+          <geometry x="550" height="50" y="130" width="119"/>
           <iri>https://w3id.org/italia/onto/CPV/EducationLevel</iri>
-          <label y="134" width="119" size="12" height="22" x="548" customSize="0"/>
+          <label x="550" height="22" customSize="0" size="12" y="123" width="119"/>
         </node>
-        <node id="n20" color="#fcfcfc" type="domain-restriction">
-          <geometry y="-330" width="20" height="20" x="-134"/>
-          <label y="-352" width="39" size="12" height="22" x="-134" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n20">
+          <geometry x="-134" height="20" y="-330" width="20"/>
+          <label x="-134" height="22" customSize="0" size="12" y="-352" width="39">exists</label>
         </node>
-        <node id="n21" color="#000000" type="range-restriction">
-          <geometry y="-326" width="20" height="20" x="-298"/>
-          <label y="-348" width="39" size="12" height="22" x="-298" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n21">
+          <geometry x="-298" height="20" y="-326" width="20"/>
+          <label x="-298" height="22" customSize="0" size="12" y="-348" width="39">exists</label>
         </node>
-        <node id="n27" color="#fcfcfc" type="concept">
-          <geometry y="-324" width="110" height="50" x="-433"/>
+        <node type="concept" color="#fcfcfc" id="n27">
+          <geometry x="-433" height="50" y="-324" width="110"/>
           <iri>https://w3id.org/italia/onto/Learning/Institute</iri>
-          <label y="-324" width="110" size="12" height="22" x="-433" customSize="0"/>
+          <label x="-433" height="22" customSize="0" size="12" y="-324" width="110"/>
         </node>
-        <node id="n3" color="#fcfcfc" type="role">
-          <geometry y="144" width="70" height="50" x="311"/>
+        <node type="role" color="#fcfcfc" id="n3">
+          <geometry x="310" height="50" y="130" width="70"/>
           <iri>https://w3id.org/italia/onto/CPV/hasLevelOfEducation</iri>
-          <label y="114" width="149" size="12" height="22" x="311" customSize="0"/>
+          <label x="310" height="22" customSize="0" size="12" y="100" width="149"/>
         </node>
-        <node id="n30" color="#fcfcfc" type="concept">
-          <geometry y="-179" width="130" height="50" x="319"/>
+        <node type="concept" color="#fcfcfc" id="n30">
+          <geometry x="319" height="50" y="-179" width="130"/>
           <iri>https://w3id.org/italia/onto/TI/TimeIndexedEvent</iri>
-          <label y="-179" width="130" size="12" height="22" x="319" customSize="0"/>
+          <label x="319" height="22" customSize="0" size="12" y="-179" width="130"/>
         </node>
-        <node id="n34" color="#fcfcfc" type="concept">
-          <geometry y="70" width="110" height="50" x="-681"/>
+        <node type="concept" color="#fcfcfc" id="n34">
+          <geometry x="-700" height="50" y="70" width="110"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/Ordinamento</iri>
-          <label y="70" width="110" size="12" height="22" x="-681" customSize="0"/>
+          <label x="-700" height="36" customSize="0" size="12" y="70" width="110"/>
         </node>
-        <node id="n38" color="#f0e50c" type="concept">
-          <geometry y="212" width="110" height="50" x="-688"/>
+        <node type="concept" color="#f0e50c" id="n38">
+          <geometry x="-690" height="50" y="190" width="110"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainment</iri>
-          <label y="212" width="110" size="12" height="22" x="-688" customSize="0"/>
+          <label x="-690" height="36" customSize="0" size="12" y="190" width="110"/>
         </node>
-        <node id="n39" color="#fcfcfc" type="role">
-          <geometry y="211" width="70" height="50" x="-494"/>
+        <node type="role" color="#fcfcfc" id="n39">
+          <geometry x="-470" height="50" y="190" width="70"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableAchievement</iri>
-          <label y="181" width="126" size="12" height="22" x="-494" customSize="0"/>
+          <label x="-470" height="22" customSize="0" size="12" y="160" width="122"/>
         </node>
-        <node id="n40" color="#fcfcfc" type="domain-restriction">
-          <geometry y="211" width="20" height="20" x="-408"/>
-          <label y="189" width="39" size="12" height="22" x="-408" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n40">
+          <geometry x="-360" height="20" y="190" width="20"/>
+          <label x="-360" height="22" customSize="0" size="12" y="168" width="39">exists</label>
         </node>
-        <node id="n41" color="#000000" type="range-restriction">
-          <geometry y="210" width="20" height="20" x="-580"/>
-          <label y="188" width="39" size="12" height="22" x="-580" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n41">
+          <geometry x="-570" height="20" y="190" width="20"/>
+          <label x="-570" height="22" customSize="0" size="12" y="168" width="39">exists</label>
         </node>
-        <node id="n42" color="#fcfcfc" type="role">
-          <geometry y="70" width="70" height="50" x="-491"/>
+        <node type="role" color="#fcfcfc" id="n42">
+          <geometry x="-470" height="50" y="70" width="70"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/establishes</iri>
-          <label y="40" width="97" size="12" height="22" x="-491" customSize="0"/>
+          <label x="-470" height="22" customSize="0" size="12" y="40" width="57"/>
         </node>
-        <node id="n44" color="#000000" type="range-restriction">
-          <geometry y="72" width="20" height="20" x="-569"/>
-          <label y="50" width="39" size="12" height="22" x="-569" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n44">
+          <geometry x="-590" height="20" y="70" width="20"/>
+          <label x="-590" height="22" customSize="0" size="12" y="48" width="39">exists</label>
         </node>
-        <node id="n46" color="#fcfcfc" type="concept">
-          <geometry y="63" width="110" height="50" x="-201"/>
-          <iri>https://w3id.org/italia/stat/onto/EducationTraining/EstabilishedEducationTrainingProgramme</iri>
-          <label y="63" width="110" size="12" height="36" x="-201" customSize="0"/>
+        <node type="concept" color="#fcfcfc" id="n46">
+          <geometry x="-200" height="50" y="70" width="110"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EstabilishedEducationTrainingProgramme</iri>
+          <label x="-200" height="64" customSize="0" size="12" y="70" width="110"/>
         </node>
-        <node id="n49" color="#fcfcfc" type="role">
-          <geometry y="215" width="70" height="50" x="-199"/>
+        <node type="role" color="#fcfcfc" id="n49">
+          <geometry x="-200" height="50" y="260" width="70"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/enableTrainingProgram</iri>
-          <label y="185" width="209" size="12" height="22" x="-199" customSize="0"/>
+          <label x="-200" height="22" customSize="0" size="12" y="230" width="165"/>
         </node>
-        <node id="n5" color="#fcfcfc" type="domain-restriction">
-          <geometry y="146" width="20" height="20" x="188"/>
-          <label y="124" width="39" size="12" height="22" x="188" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n5">
+          <geometry x="190" height="20" y="130" width="20"/>
+          <label x="190" height="22" customSize="0" size="12" y="108" width="39">exists</label>
         </node>
-        <node id="n52" color="#fcfcfc" type="role">
-          <geometry y="292" width="70" height="50" x="79"/>
+        <node type="role" color="#fcfcfc" id="n52">
+          <geometry x="80" height="50" y="310" width="70"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/hasObtainedEducationalAttainment</iri>
-          <label y="263" width="161" size="12" height="22" x="107" customSize="0"/>
+          <label x="108" height="22" customSize="0" size="12" y="281" width="161"/>
         </node>
-        <node id="n53" color="#fcfcfc" type="concept">
-          <geometry y="406" width="110" height="50" x="87"/>
+        <node type="concept" color="#fcfcfc" id="n53">
+          <geometry x="90" height="50" y="470" width="110"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/EducationalAttainmentObtained</iri>
-          <label y="406" width="110" size="12" height="50" x="87" customSize="0"/>
+          <label x="90" height="50" customSize="0" size="12" y="470" width="110"/>
         </node>
-        <node id="n54" color="#fcfcfc" type="domain-restriction">
-          <geometry y="221" width="20" height="20" x="76"/>
-          <label y="199" width="39" size="12" height="22" x="76" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n54">
+          <geometry x="80" height="20" y="220" width="20"/>
+          <label x="80" height="22" customSize="0" size="12" y="198" width="39">exists</label>
         </node>
-        <node id="n55" color="#000000" type="range-restriction">
-          <geometry y="347" width="20" height="20" x="80"/>
-          <label y="325" width="39" size="12" height="22" x="80" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n55">
+          <geometry x="80" height="20" y="390" width="20"/>
+          <label x="80" height="22" customSize="0" size="12" y="368" width="39">exists</label>
         </node>
-        <node id="n56" color="#fcfcfc" type="attribute">
-          <geometry y="391" width="20" height="20" x="303"/>
+        <node type="attribute" color="#fcfcfc" id="n56">
+          <geometry x="310" height="20" y="450" width="20"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/attainmentDate</iri>
-          <label y="369" width="151" size="12" height="22" x="292" customSize="0"/>
+          <label x="299" height="22" customSize="0" size="12" y="428" width="151"/>
         </node>
-        <node id="n57" color="#fcfcfc" type="domain-restriction">
-          <geometry y="393" width="20" height="20" x="190"/>
-          <label y="371" width="39" size="12" height="22" x="190" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n57">
+          <geometry x="210" height="20" y="450" width="20"/>
+          <label x="210" height="22" customSize="0" size="12" y="428" width="39">exists</label>
         </node>
-        <node id="n58" color="#fcfcfc" type="attribute">
-          <geometry y="418" width="20" height="20" x="291"/>
+        <node type="attribute" color="#fcfcfc" id="n58">
+          <geometry x="310" height="20" y="490" width="20"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/gradeAchieved</iri>
-          <label y="440" width="150" size="12" height="22" x="295" customSize="0"/>
+          <label x="314" height="22" customSize="0" size="12" y="512" width="39"/>
         </node>
-        <node id="n59" color="#fcfcfc" type="domain-restriction">
-          <geometry y="419" width="20" height="20" x="193"/>
-          <label y="445" width="39" size="12" height="22" x="197" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n59">
+          <geometry x="210" height="20" y="490" width="20"/>
+          <label x="214" height="22" customSize="0" size="12" y="516" width="39">exists</label>
         </node>
-        <node id="n6" color="#000000" type="range-restriction">
-          <geometry y="144" width="20" height="20" x="424"/>
-          <label y="122" width="39" size="12" height="22" x="424" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n6">
+          <geometry x="420" height="20" y="130" width="20"/>
+          <label x="420" height="22" customSize="0" size="12" y="108" width="39">exists</label>
         </node>
-        <node id="n60" color="#000000" type="range-restriction">
-          <geometry y="390" width="20" height="20" x="393"/>
-          <label y="368" width="39" size="12" height="22" x="393" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n60">
+          <geometry x="380" height="20" y="450" width="20"/>
+          <label x="380" height="22" customSize="0" size="12" y="428" width="39">exists</label>
         </node>
-        <node id="n61" color="#fcfcfc" type="value-domain">
-          <geometry y="403" width="90" height="40" x="484"/>
+        <node type="value-domain" color="#fcfcfc" id="n61">
+          <geometry x="500" height="40" y="470" width="90"/>
           <iri>http://www.w3.org/2001/XMLSchema#string</iri>
-          <label y="403" width="90" size="12" height="22" x="484" customSize="0"/>
+          <label x="500" height="22" customSize="0" size="12" y="470" width="90"/>
         </node>
-        <node id="n62" color="#000000" type="range-restriction">
-          <geometry y="418" width="20" height="20" x="397"/>
-          <label y="443" width="39" size="12" height="22" x="404" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n62">
+          <geometry x="380" height="20" y="490" width="20"/>
+          <label x="387" height="22" customSize="0" size="12" y="515" width="39">exists</label>
         </node>
-        <node id="n63" color="#fcfcfc" type="domain-restriction">
-          <geometry y="70" width="20" height="20" x="-395"/>
-          <label y="48" width="39" size="12" height="22" x="-395" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n63">
+          <geometry x="-360" height="20" y="70" width="20"/>
+          <label x="-360" height="22" customSize="0" size="12" y="48" width="39">exists</label>
         </node>
-        <node id="n68" color="#fcfcfc" type="role">
-          <geometry y="590" width="70" height="50" x="-126"/>
-          <iri>https://w3id.org/italia/stat/onto/EducationTraining/isHighest</iri>
-          <label y="560" width="212" size="12" height="22" x="-126" customSize="0"/>
+        <node type="role" color="#fcfcfc" id="n68">
+          <geometry x="-126" height="50" y="590" width="70"/>
+          <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/isHighest</iri>
+          <label x="-126" height="22" customSize="0" size="12" y="560" width="180"/>
         </node>
-        <node id="n71" color="#fcfcfc" type="domain-restriction">
-          <geometry y="590" width="20" height="20" x="560"/>
-          <label y="568" width="39" size="12" height="22" x="560" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n71">
+          <geometry x="560" height="20" y="590" width="20"/>
+          <label x="560" height="22" customSize="0" size="12" y="568" width="39">exists</label>
         </node>
-        <node id="n72" color="#000000" type="range-restriction">
-          <geometry y="591" width="20" height="20" x="-541"/>
-          <label y="569" width="39" size="12" height="22" x="-541" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n72">
+          <geometry x="-541" height="20" y="591" width="20"/>
+          <label x="-541" height="22" customSize="0" size="12" y="569" width="39">exists</label>
         </node>
-        <node id="n73" color="#fcfcfc" type="concept">
-          <geometry y="-40" width="130" height="50" x="-351"/>
+        <node type="concept" color="#fcfcfc" id="n73">
+          <geometry x="-380" height="50" y="-40" width="130"/>
           <iri>https://w3id.org/italia/onto/TI/TimeIndexedEvent</iri>
-          <label y="-40" width="130" size="12" height="22" x="-351" customSize="0"/>
+          <label x="-380" height="22" customSize="0" size="12" y="-40" width="130"/>
         </node>
-        <node id="n78" color="#000000" type="range-restriction">
-          <geometry y="287" width="20" height="20" x="-196"/>
-          <label y="265" width="39" size="12" height="22" x="-196" customSize="0">exists</label>
+        <node type="range-restriction" color="#000000" id="n78">
+          <geometry x="-200" height="20" y="340" width="20"/>
+          <label x="-200" height="22" customSize="0" size="12" y="318" width="39">exists</label>
         </node>
-        <node id="n79" color="#fcfcfc" type="domain-restriction">
-          <geometry y="146" width="20" height="20" x="-201"/>
-          <label y="124" width="39" size="12" height="22" x="-201" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n79">
+          <geometry x="-200" height="20" y="170" width="20"/>
+          <label x="-200" height="22" customSize="0" size="12" y="148" width="39">exists</label>
         </node>
-        <node id="n8" color="#fcfcfc" type="role">
-          <geometry y="-14" width="70" height="50" x="66"/>
+        <node type="role" color="#fcfcfc" id="n8">
+          <geometry x="80" height="50" y="-10" width="70"/>
           <iri>https://w3id.org/italia/stat/onto/FormalEducationTraining/studentInEducationStatus</iri>
-          <label y="-44" width="137" size="12" height="22" x="66" customSize="0"/>
+          <label x="80" height="22" customSize="0" size="12" y="-40" width="134"/>
         </node>
-        <node id="n9" color="#fcfcfc" type="domain-restriction">
-          <geometry y="59" width="20" height="20" x="70"/>
-          <label y="37" width="39" size="12" height="22" x="70" customSize="0">exists</label>
+        <node type="domain-restriction" color="#fcfcfc" id="n9">
+          <geometry x="80" height="20" y="60" width="20"/>
+          <label x="80" height="22" customSize="0" size="12" y="38" width="39">exists</label>
         </node>
-        <edge id="e1" type="input" target="n5" source="n3">
-          <point y="144" x="311"/>
-          <point y="146" x="188"/>
+        <edge target="n5" type="input" source="n3" id="e1">
+          <point x="310" y="130"/>
+          <point x="190" y="130"/>
         </edge>
-        <edge id="e10" type="input" target="n14" source="n13">
-          <point y="-181" x="-213"/>
-          <point y="-58" x="-210"/>
+        <edge target="n14" type="input" source="n13" id="e10">
+          <point x="-200" y="-180"/>
+          <point x="-200" y="-60"/>
         </edge>
-        <edge id="e11" type="input" target="n15" source="n13">
-          <point y="-181" x="-213"/>
-          <point y="-181" x="-110"/>
+        <edge target="n15" type="input" source="n13" id="e11">
+          <point x="-200" y="-180"/>
+          <point x="-110" y="-181"/>
         </edge>
-        <edge id="e13" type="inclusion" target="n0" source="n15">
-          <point y="-181" x="-110"/>
-          <point y="-181" x="64"/>
+        <edge target="n0" type="inclusion" source="n15" id="e13">
+          <point x="-110" y="-181"/>
+          <point x="80" y="-180"/>
         </edge>
-        <edge id="e14" type="input" target="n20" source="n16">
-          <point y="-328" x="-216"/>
-          <point y="-330" x="-134"/>
+        <edge target="n20" type="input" source="n16" id="e14">
+          <point x="-216" y="-328"/>
+          <point x="-134" y="-330"/>
         </edge>
-        <edge id="e15" type="input" target="n21" source="n16">
-          <point y="-328" x="-216"/>
-          <point y="-326" x="-298"/>
+        <edge target="n21" type="input" source="n16" id="e15">
+          <point x="-216" y="-328"/>
+          <point x="-298" y="-326"/>
         </edge>
-        <edge id="e18" type="inclusion" target="n0" source="n20">
-          <point y="-330" x="-134"/>
-          <point y="-328" x="64"/>
-          <point y="-181" x="64"/>
+        <edge target="n0" type="inclusion" source="n20" id="e18">
+          <point x="-134" y="-330"/>
+          <point x="80" y="-330"/>
+          <point x="80" y="-180"/>
         </edge>
-        <edge id="e2" type="input" target="n6" source="n3">
-          <point y="144" x="311"/>
-          <point y="144" x="424"/>
+        <edge target="n6" type="input" source="n3" id="e2">
+          <point x="310" y="130"/>
+          <point x="420" y="130"/>
         </edge>
-        <edge id="e26" type="inclusion" target="n27" source="n21">
-          <point y="-326" x="-298"/>
-          <point y="-324" x="-433"/>
+        <edge target="n27" type="inclusion" source="n21" id="e26">
+          <point x="-298" y="-326"/>
+          <point x="-433" y="-324"/>
         </edge>
-        <edge id="e29" type="inclusion" target="n30" source="n0">
-          <point y="-181" x="64"/>
-          <point y="-179" x="319"/>
+        <edge target="n30" type="inclusion" source="n0" id="e29">
+          <point x="80" y="-180"/>
+          <point x="319" y="-179"/>
         </edge>
-        <edge id="e3" type="inclusion" target="n1" source="n5">
-          <point y="146" x="188"/>
-          <point y="145" x="71"/>
+        <edge target="n1" type="inclusion" source="n5" id="e3">
+          <point x="190" y="130"/>
+          <point x="80" y="130"/>
         </edge>
-        <edge id="e31" type="input" target="n40" source="n39">
-          <point y="211" x="-494"/>
-          <point y="211" x="-408"/>
+        <edge target="n40" type="input" source="n39" id="e31">
+          <point x="-470" y="190"/>
+          <point x="-360" y="190"/>
         </edge>
-        <edge id="e32" type="input" target="n41" source="n39">
-          <point y="211" x="-494"/>
-          <point y="210" x="-580"/>
+        <edge target="n41" type="input" source="n39" id="e32">
+          <point x="-470" y="190"/>
+          <point x="-570" y="190"/>
         </edge>
-        <edge id="e36" type="input" target="n44" source="n42">
-          <point y="70" x="-491"/>
-          <point y="72" x="-569"/>
+        <edge target="n44" type="input" source="n42" id="e36">
+          <point x="-470" y="70"/>
+          <point x="-590" y="70"/>
         </edge>
-        <edge id="e4" type="inclusion" target="n2" source="n6">
-          <point y="144" x="424"/>
-          <point y="141" x="547"/>
+        <edge target="n2" type="inclusion" source="n6" id="e4">
+          <point x="420" y="130"/>
+          <point x="549" y="130"/>
         </edge>
-        <edge id="e40" type="inclusion" target="n34" source="n44">
-          <point y="72" x="-569"/>
-          <point y="70" x="-681"/>
+        <edge target="n34" type="inclusion" source="n44" id="e40">
+          <point x="-590" y="70"/>
+          <point x="-700" y="70"/>
         </edge>
-        <edge id="e41" type="inclusion" target="n46" source="n79">
-          <point y="146" x="-201"/>
-          <point y="63" x="-201"/>
+        <edge target="n46" type="inclusion" source="n79" id="e41">
+          <point x="-200" y="170"/>
+          <point x="-200" y="94"/>
         </edge>
-        <edge id="e43" type="input" target="n78" source="n49">
-          <point y="215" x="-199"/>
-          <point y="287" x="-196"/>
+        <edge target="n78" type="input" source="n49" id="e43">
+          <point x="-200" y="260"/>
+          <point x="-200" y="340"/>
         </edge>
-        <edge id="e47" type="input" target="n54" source="n52">
-          <point y="292" x="79"/>
-          <point y="221" x="76"/>
+        <edge target="n54" type="input" source="n52" id="e47">
+          <point x="80" y="310"/>
+          <point x="80" y="220"/>
         </edge>
-        <edge id="e48" type="input" target="n55" source="n52">
-          <point y="292" x="79"/>
-          <point y="347" x="80"/>
+        <edge target="n55" type="input" source="n52" id="e48">
+          <point x="80" y="310"/>
+          <point x="80" y="390"/>
         </edge>
-        <edge id="e49" type="inclusion" target="n53" source="n55">
-          <point y="347" x="80"/>
-          <point y="381" x="79"/>
+        <edge target="n53" type="inclusion" source="n55" id="e49">
+          <point x="80" y="390"/>
+          <point x="82" y="445"/>
         </edge>
-        <edge id="e5" type="input" target="n9" source="n8">
-          <point y="-14" x="66"/>
-          <point y="59" x="70"/>
+        <edge target="n9" type="input" source="n8" id="e5">
+          <point x="80" y="-10"/>
+          <point x="80" y="60"/>
         </edge>
-        <edge id="e50" type="inclusion" target="n1" source="n54">
-          <point y="221" x="76"/>
-          <point y="145" x="71"/>
+        <edge target="n1" type="inclusion" source="n54" id="e50">
+          <point x="80" y="220"/>
+          <point x="80" y="154"/>
         </edge>
-        <edge id="e51" type="input" target="n57" source="n56">
-          <point y="391" x="303"/>
-          <point y="393" x="190"/>
+        <edge target="n57" type="input" source="n56" id="e51">
+          <point x="310" y="450"/>
+          <point x="210" y="450"/>
         </edge>
-        <edge id="e52" type="inclusion" target="n53" source="n57">
-          <point y="393" x="190"/>
-          <point y="393" x="141"/>
+        <edge target="n53" type="inclusion" source="n57" id="e52">
+          <point x="210" y="450"/>
+          <point x="144" y="450"/>
         </edge>
-        <edge id="e53" type="input" target="n59" source="n58">
-          <point y="418" x="291"/>
-          <point y="419" x="193"/>
+        <edge target="n59" type="input" source="n58" id="e53">
+          <point x="310" y="490"/>
+          <point x="210" y="490"/>
         </edge>
-        <edge id="e54" type="inclusion" target="n53" source="n59">
-          <point y="419" x="193"/>
-          <point y="419" x="141"/>
+        <edge target="n53" type="inclusion" source="n59" id="e54">
+          <point x="210" y="490"/>
+          <point x="144" y="490"/>
         </edge>
-        <edge id="e55" type="input" target="n60" source="n56">
-          <point y="391" x="303"/>
-          <point y="390" x="393"/>
+        <edge target="n60" type="input" source="n56" id="e55">
+          <point x="310" y="450"/>
+          <point x="380" y="450"/>
         </edge>
-        <edge id="e56" type="input" target="n62" source="n58">
-          <point y="418" x="291"/>
-          <point y="418" x="397"/>
+        <edge target="n62" type="input" source="n58" id="e56">
+          <point x="310" y="490"/>
+          <point x="380" y="490"/>
         </edge>
-        <edge id="e57" type="inclusion" target="n61" source="n60">
-          <point y="390" x="393"/>
-          <point y="403" x="484"/>
+        <edge target="n61" type="inclusion" source="n60" id="e57">
+          <point x="380" y="450"/>
+          <point x="430" y="450"/>
+          <point x="500" y="470"/>
         </edge>
-        <edge id="e59" type="inclusion" target="n61" source="n62">
-          <point y="418" x="397"/>
-          <point y="403" x="484"/>
+        <edge target="n61" type="inclusion" source="n62" id="e59">
+          <point x="380" y="490"/>
+          <point x="430" y="490"/>
+          <point x="500" y="470"/>
         </edge>
-        <edge id="e6" type="input" target="n10" source="n8">
-          <point y="-14" x="66"/>
-          <point y="-83" x="67"/>
+        <edge target="n10" type="input" source="n8" id="e6">
+          <point x="80" y="-10"/>
+          <point x="80" y="-80"/>
         </edge>
-        <edge id="e60" type="inclusion" target="n46" source="n14">
-          <point y="-58" x="-210"/>
-          <point y="38" x="-210"/>
+        <edge target="n46" type="inclusion" source="n14" id="e60">
+          <point x="-200" y="-60"/>
+          <point x="-200" y="45"/>
         </edge>
-        <edge id="e62" type="inclusion" target="n38" source="n41">
-          <point y="210" x="-580"/>
-          <point y="212" x="-688"/>
+        <edge target="n38" type="inclusion" source="n41" id="e62">
+          <point x="-570" y="190"/>
+          <point x="-636" y="190"/>
         </edge>
-        <edge id="e63" type="input" target="n79" source="n49">
-          <point y="215" x="-199"/>
-          <point y="146" x="-201"/>
+        <edge target="n79" type="input" source="n49" id="e63">
+          <point x="-200" y="260"/>
+          <point x="-200" y="170"/>
         </edge>
-        <edge id="e64" type="inclusion" target="n12" source="n78">
-          <point y="287" x="-196"/>
-          <point y="366" x="-195"/>
+        <edge target="n12" type="inclusion" source="n78" id="e64">
+          <point x="-200" y="340"/>
+          <point x="-200" y="460"/>
         </edge>
-        <edge id="e66" type="input" target="n63" source="n42">
-          <point y="70" x="-491"/>
-          <point y="69" x="-393"/>
-          <point y="70" x="-395"/>
+        <edge target="n63" type="input" source="n42" id="e66">
+          <point x="-470" y="70"/>
+          <point x="-360" y="70"/>
         </edge>
-        <edge id="e70" type="input" target="n72" source="n68">
-          <point y="590" x="-126"/>
-          <point y="591" x="-541"/>
+        <edge target="n72" type="input" source="n68" id="e70">
+          <point x="-126" y="590"/>
+          <point x="-541" y="591"/>
         </edge>
-        <edge id="e71" type="input" target="n71" source="n68">
-          <point y="590" x="-126"/>
-          <point y="590" x="560"/>
+        <edge target="n71" type="input" source="n68" id="e71">
+          <point x="-126" y="590"/>
+          <point x="560" y="590"/>
         </edge>
-        <edge id="e73" type="inclusion" target="n2" source="n71">
-          <point y="590" x="560"/>
-          <point y="165" x="560"/>
+        <edge target="n2" type="inclusion" source="n71" id="e73">
+          <point x="560" y="590"/>
+          <point x="562" y="154"/>
         </edge>
-        <edge id="e75" type="inclusion" target="n46" source="n63">
-          <point y="70" x="-395"/>
-          <point y="67" x="-256"/>
+        <edge target="n46" type="inclusion" source="n63" id="e75">
+          <point x="-360" y="70"/>
+          <point x="-255" y="70"/>
         </edge>
-        <edge id="e76" type="inclusion" target="n73" source="n46">
-          <point y="63" x="-201"/>
-          <point y="-40" x="-351"/>
+        <edge target="n73" type="inclusion" source="n46" id="e76">
+          <point x="-200" y="70"/>
+          <point x="-380" y="-40"/>
         </edge>
-        <edge id="e77" type="inclusion" target="n46" source="n40">
-          <point y="211" x="-408"/>
-          <point y="87" x="-247"/>
+        <edge target="n46" type="inclusion" source="n40" id="e77">
+          <point x="-360" y="190"/>
+          <point x="-246" y="94"/>
         </edge>
-        <edge id="e78" type="inclusion" target="n38" source="n72">
-          <point y="591" x="-541"/>
-          <point y="590" x="-690"/>
-          <point y="212" x="-688"/>
+        <edge target="n38" type="inclusion" source="n72" id="e78">
+          <point x="-541" y="591"/>
+          <point x="-690" y="590"/>
+          <point x="-690" y="190"/>
         </edge>
-        <edge id="e8" type="inclusion" target="n1" source="n9">
-          <point y="59" x="70"/>
-          <point y="145" x="71"/>
+        <edge target="n1" type="inclusion" source="n9" id="e8">
+          <point x="80" y="60"/>
+          <point x="80" y="130"/>
         </edge>
-        <edge id="e9" type="equivalence" target="n0" source="n10">
-          <point y="-83" x="67"/>
-          <point y="-181" x="64"/>
+        <edge target="n0" type="equivalence" source="n10" id="e9">
+          <point x="80" y="-80"/>
+          <point x="80" y="-180"/>
         </edge>
       </diagram>
     </diagrams>
