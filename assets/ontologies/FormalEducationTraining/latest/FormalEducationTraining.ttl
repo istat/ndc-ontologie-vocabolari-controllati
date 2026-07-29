@@ -29,7 +29,7 @@
 
 <https://w3id.org/italia/stat/onto/FormalEducationTraining> rdf:type owl:Ontology ;
                                                                   owl:versionIRI <https://w3id.org/italia/stat/onto/FormalEducationTraining/1.0> ;
-                                                                  dc:description <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.png> ;
+                                                                  dc:description <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/FormalEducationTraining/latest/FormalEducationTraining.png> ;
                                                                   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
                                                                   dct:creator <https://w3id.org/italia/data/public-organization/ISTAT> ;
                                                                   dct:description "Ontologia dell'Istruzione e Formazione Formale"@it ,
@@ -83,8 +83,8 @@
                                                        dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                        dct:title "Distribuzione JSON-LD dell'ontologia Educazione e Formazione"@it ,
                                                                  "JSON-LD distribution of the Ontology Education and Training"@en ;
-													   dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest> ;
-                                                       dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.jsonld> .
+													   dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/FormalEducationTraining/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/FormalEducationTraining/latest/FormalEducationTraining.jsonld> .
 
 
 ###  https://w3id.org/italia/data/distribution/EAT-RDF-TURTLE
@@ -96,8 +96,8 @@
                                                           dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                           dct:title "Distribuzione RDF/Turtle dell' ontologia Educazione e Formazione"@it ,
                                                                     "RDF/Turtle distribution of the ontology Education and Training"@en ;
-														  dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest> ;
-														  dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.ttl> .
+														  dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/FormalEducationTraining/latest> ;
+														  dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/FormalEducationTraining/latest/FormalEducationTraining.ttl> .
 
 
 ###  https://w3id.org/italia/data/distribution/EAT-RDF-XML
@@ -109,8 +109,8 @@
                                                        dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                                        dct:title "Distribuzione RDF/XML dell' ontologia Educazione e Formazione"@it ,
                                                                  "RDF/XML distribution of the ontology Education and Training"@en ;
-													   dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest> ;
-                                                       dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/education-and-labour/education-and-training/FormalEducationTraining/latest/FormalEducationTraining.rdf> .
+													   dcat:accessURL <https://github.com/istat/ndc-ontologie-vocabolari-controllati/tree/main/assets/ontologies/FormalEducationTraining/latest> ;
+                                                       dcat:downloadURL <https://raw.githubusercontent.com/istat/ndc-ontologie-vocabolari-controllati/main/assets/ontologies/FormalEducationTraining/latest/FormalEducationTraining.rdf> .
 
 
 <https://w3id.org/italia/data/project/NDC>
