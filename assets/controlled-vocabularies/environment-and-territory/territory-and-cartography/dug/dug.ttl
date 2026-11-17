@@ -52,7 +52,7 @@
                       <https://w3id.org/italia/data/distribution/dug_XLSX> ;
     dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;
     dct:issued "2026-09-30"^^xsd:date ;
-    dct:modified "2026-09-30"^^xsd:date ;
+    dct:modified "2026-11-17"^^xsd:date ;
     owl:versionInfo "Version 1.0"@it ;
     dct:temporal "Da Settembre 2026" ;
     ndc:keyConcept "dug" ;
