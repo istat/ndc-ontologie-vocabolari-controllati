@@ -50,7 +50,7 @@
   dcat:distribution <https://w3id.org/italia/data/distribution/uts_costituite_RDF_Turtle>, <https://w3id.org/italia/data/distribution/uts_costituite_CSV>, <https://w3id.org/italia/data/distribution/uts_costituite_XLSX>  ;                             
   dcat:contactPoint <https://w3id.org/italia/data/contact-point/ISTAT-NDC> ;                                                                                                                                                               
   dct:issued "2026-01-01"^^xsd:date ;
-  dct:modified "2026-09-01"^^xsd:date ;
+  dct:modified "2026-11-17"^^xsd:date ;
   owl:versionInfo "Versione 1.0 - Dati aggiornati al 01 gennaio 2026"@it ;  
   dct:temporal "Dal 1861" ;
   ndc:keyConcept "Established-UTS" ;
@@ -63,9 +63,8 @@
     dct:subject <https://w3id.org/italia/controlled-vocabulary/themes/territorial-classifications> .
 
 <https://w3id.org/italia/controlled-vocabulary/themes/territorial-classifications>
-    a skos:Concept ;
-    skos:prefLabel "Classificazioni territoriali"@it ;
-    skos:prefLabel "Territorial classifications"@en . 
+    skos:prefLabel "Classificazioni territoriali"@it ,
+                   "Territorial classifications"@en . 
  
   <https://w3id.org/italia/data/public-organization/ISTAT>
   a dcatapit:Agent, foaf:Agent ;
